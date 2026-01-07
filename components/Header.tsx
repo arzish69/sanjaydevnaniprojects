@@ -5,9 +5,9 @@ export default function Header() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-gray-900">
-              Sanjay Devnani Projects
+          <Link href="/" className="flex items-center group transition-all">
+            <span className="text-2xl font-bold tracking-tight text-[#1D427A] group-hover:text-[#A6192E] transition-colors">
+              Sanjay Devnani Projects{" "}
             </span>
           </Link>
 
@@ -19,10 +19,10 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="/projects"
+              href="/connect"
               className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
             >
-              Projects
+              Connect
             </Link>
             <Link
               href="/flats-in-chembur"
