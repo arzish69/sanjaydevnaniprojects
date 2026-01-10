@@ -21,30 +21,30 @@ export default function Header() {
 
     {/* Desktop Nav */}
     <div className="hidden md:flex items-center space-x-8">
-      <Link href="/" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/" className="text-[#1D427A] font-medium transition-colors">
         Home
       </Link>
-      <Link href="/projects" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/projects" className="text-[#1D427A] font-medium transition-colors">
         Projects
       </Link>
-      <Link href="/connect" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/connect" className="text-[#1D427A] font-medium transition-colors">
         Connect
       </Link>
-      <Link href="/flats-in-chembur" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/flats-in-chembur" className="text-[#1D427A] font-medium transition-colors">
         Chembur
       </Link>
-      <Link href="/flats-in-bandra" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/flats-in-bandra" className="text-[#1D427A] font-medium transition-colors">
         Bandra
       </Link>
-      <Link href="/blog" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/blog" className="text-[#1D427A] font-medium transition-colors">
         Blog
       </Link>
-      <Link href="/about" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+      <Link href="/about" className="text-[#1D427A] font-medium transition-colors">
         About
       </Link>
       <Link
         href="/contact"
-        className="bg-gray-900 text-white px-6 py-2 rounded-md hover:bg-gray-800 font-medium transition-colors"
+        className="bg-[#1D427A] text-white px-6 py-2 rounded-md hover:bg-[#A6192E] font-medium transition-colors"
       >
         Contact Us
       </Link>
@@ -54,7 +54,7 @@ export default function Header() {
     <div className="md:hidden">
       <button
         type="button"
-        className="text-gray-700 hover:text-gray-900"
+        className="text-[#1D427A]"
         aria-label="Open menu"
       >
         <svg

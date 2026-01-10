@@ -35,10 +35,10 @@ export default function FlatsInChemburPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#1D427A] mb-4 tracking-tight">
               Flats in Chembur - Premium Residential Projects
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl">
+            <p className="text-xl text-slate-600 max-w-3xl">
               Discover affordable luxury apartments in Chembur with world-class amenities,
               excellent connectivity, and prime locations near Sindhi Society.
             </p>
@@ -49,16 +49,16 @@ export default function FlatsInChemburPage() {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="prose max-w-none">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold text-[#1D427A] mb-4 tracking-tight">
                 Why Choose Flats in Chembur?
               </h2>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-slate-700 mb-4">
                 Chembur has emerged as one of Mumbai's most sought-after residential localities,
                 offering the perfect blend of connectivity, infrastructure, and lifestyle amenities.
                 Located in the eastern suburbs of Mumbai, Chembur provides excellent access to major
                 business districts while maintaining a peaceful residential environment.
               </p>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-slate-700 mb-4">
                 Whether you're looking for <strong>2 BHK flats in Chembur</strong>, <strong>3 BHK
                 apartments in Chembur</strong>, or <strong>luxury residential projects</strong>,
                 Sanjay Devnani Projects offers premium options that cater to modern homebuyers.
@@ -70,7 +70,7 @@ export default function FlatsInChemburPage() {
         {/* Projects in Chembur */}
         <section className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-4 tracking-tight">
               Our Projects in Chembur
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -84,13 +84,13 @@ export default function FlatsInChemburPage() {
         {/* Key Highlights */}
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-4 tracking-tight">
               Key Highlights of Chembur
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Excellent Connectivity</h3>
-                <ul className="space-y-2 text-gray-700">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Excellent Connectivity</h3>
+                <ul className="space-y-2 text-slate-700">
                   <li>• Close to Chembur Railway Station (Central and Harbour Line)</li>
                   <li>• Monorail connectivity for easy commuting</li>
                   <li>• Direct access to Eastern Freeway and Sion-Panvel Highway</li>
@@ -99,8 +99,8 @@ export default function FlatsInChemburPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Premium Location</h3>
-                <ul className="space-y-2 text-gray-700">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Premium Location</h3>
+                <ul className="space-y-2 text-slate-700">
                   <li>• Proximity to Sindhi Society - a well-established residential area</li>
                   <li>• Near Diamond Garden and other recreational spaces</li>
                   <li>• Close to reputed schools and educational institutions</li>
@@ -109,8 +109,8 @@ export default function FlatsInChemburPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Growing Infrastructure</h3>
-                <ul className="space-y-2 text-gray-700">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Growing Infrastructure</h3>
+                <ul className="space-y-2 text-slate-700">
                   <li>• Ongoing metro rail development projects</li>
                   <li>• Modern hospitals and healthcare facilities</li>
                   <li>• Banking and financial service centers</li>
@@ -119,8 +119,8 @@ export default function FlatsInChemburPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Lifestyle Amenities</h3>
-                <ul className="space-y-2 text-gray-700">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Lifestyle Amenities</h3>
+                <ul className="space-y-2 text-slate-700">
                   <li>• Multiple shopping complexes and markets</li>
                   <li>• Restaurants and food courts</li>
                   <li>• Gyms, sports clubs, and fitness centers</li>
@@ -134,47 +134,47 @@ export default function FlatsInChemburPage() {
         {/* Types of Flats */}
         <section className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-4 tracking-tight">
               Types of Flats Available in Chembur
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">1 BHK Flats</h3>
-                <p className="text-gray-700 mb-4">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">1 BHK Flats</h3>
+                <p className="text-slate-700 mb-4">
                   Perfect for young professionals and small families looking for affordable
                   housing options in a prime location.
                 </p>
                 <Link
                   href="/projects"
-                  className="text-gray-900 font-medium hover:underline"
+                  className="text-[#1D427A] font-medium hover:underline"
                 >
                   View 1 BHK Projects →
                 </Link>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">2 BHK Apartments</h3>
-                <p className="text-gray-700 mb-4">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">2 BHK Apartments</h3>
+                <p className="text-slate-700 mb-4">
                   Ideal for growing families seeking spacious living spaces with modern
                   amenities and excellent ventilation.
                 </p>
                 <Link
                   href="/2-bhk-in-chembur"
-                  className="text-gray-900 font-medium hover:underline"
+                  className="text-[#1D427A] font-medium hover:underline"
                 >
                   View 2 BHK Projects →
                 </Link>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">3 BHK Luxury Flats</h3>
-                <p className="text-gray-700 mb-4">
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">3 BHK Luxury Flats</h3>
+                <p className="text-slate-700 mb-4">
                   Premium residences with expansive layouts, perfect for families looking
                   for luxury and comfort.
                 </p>
                 <Link
                   href="/projects"
-                  className="text-gray-900 font-medium hover:underline"
+                  className="text-[#1D427A] font-medium hover:underline"
                 >
                   View 3 BHK Projects →
                 </Link>
@@ -186,17 +186,17 @@ export default function FlatsInChemburPage() {
         {/* Investment Potential */}
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-4 tracking-tight">
               Investment Potential in Chembur
             </h2>
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-slate-700 mb-4">
                 Chembur has witnessed significant appreciation in property values over the years,
                 making it an excellent choice for real estate investment. With upcoming
                 infrastructure projects like the metro rail and improved road connectivity,
                 property prices are expected to grow steadily.
               </p>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-slate-700">
                 Whether you're looking to <strong>buy flats in Chembur</strong> for self-use or
                 investment, this locality offers strong rental yields and capital appreciation
                 potential. The presence of established residential communities like Sindhi Society
@@ -207,7 +207,7 @@ export default function FlatsInChemburPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-gray-900 text-white">
+        <section className="py-16 bg-[#1D427A] text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Find Your Perfect Home in Chembur
@@ -218,13 +218,13 @@ export default function FlatsInChemburPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
-                className="inline-block bg-white text-gray-900 px-8 py-3 rounded-md hover:bg-gray-100 transition-colors font-medium text-lg"
+                className="inline-block bg-white text-[#1D427A] px-8 py-3 rounded-md hover:bg-gray-100 transition-colors font-medium text-lg"
               >
                 Contact Us
               </Link>
               <Link
                 href="/projects"
-                className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-gray-900 transition-colors font-medium text-lg"
+                className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-[#1D427A] transition-colors font-medium text-lg"
               >
                 View All Projects
               </Link>

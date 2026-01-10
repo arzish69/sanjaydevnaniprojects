@@ -38,10 +38,10 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#1D427A] mb-4 tracking-tight">
             Contact Us
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-xl text-slate-600 max-w-3xl">
             Get in touch with us to learn more about our projects or schedule a site visit.
           </p>
         </div>
@@ -53,55 +53,55 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+              <h2 className="text-2xl font-bold text-[#1D427A] mb-6 tracking-tight">Send us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Name *
+                  <label htmlFor="name" className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-2">
+                    Name <span className="text-[#A6192E]">*</span>
                   </label>
                   <input
                     type="text"
                     id="name"
                     name="name"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-[#1D427A] focus:border-transparent"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number *
+                  <label htmlFor="phone" className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-2">
+                    Phone Number <span className="text-[#A6192E]">*</span>
                   </label>
                   <input
                     type="tel"
                     id="phone"
                     name="phone"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-[#1D427A] focus:border-transparent"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email (Optional)
+                  <label htmlFor="email" className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-2">
+                    Email <span className="text-slate-300 font-normal lowercase">(optional)</span>
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-[#1D427A] focus:border-transparent"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="project" className="block text-sm font-medium text-gray-700 mb-2">
-                    Interested Project *
+                  <label htmlFor="project" className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-2">
+                    Interested Project <span className="text-[#A6192E]">*</span>
                   </label>
                   <select
                     id="project"
                     name="project"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-[#1D427A] focus:border-transparent"
                   >
                     <option value="">Select a project</option>
                     <option value="Pardis Prosperity">Pardis Prosperity</option>
@@ -111,21 +111,21 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message (Optional)
+                  <label htmlFor="message" className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-2">
+                    Message <span className="text-slate-300 font-normal lowercase">(optional)</span>
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={4}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-[#1D427A] focus:border-transparent"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
                   disabled={formStatus === "submitting"}
-                  className="w-full bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors font-medium disabled:bg-gray-400"
+                  className="w-full bg-[#1D427A] text-white px-6 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-semibold disabled:bg-slate-400"
                 >
                   {formStatus === "submitting" ? "Sending..." : "Send Message"}
                 </button>
@@ -146,12 +146,12 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-[#1D427A] mb-6 tracking-tight">Contact Information</h2>
 
               <div className="space-y-6 mb-8">
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Address</h3>
-                  <p className="text-gray-700">
+                  <h3 className="text-lg font-semibold text-[#1D427A] mb-2 tracking-tight">Office Address</h3>
+                  <p className="text-slate-700">
                     Sindhi Society, Chembur<br />
                     Mumbai, Maharashtra 400071<br />
                     India
@@ -159,18 +159,18 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                  <p className="text-gray-700">+91-XXXXXXXXXX</p>
+                  <h3 className="text-lg font-semibold text-[#1D427A] mb-2 tracking-tight">Phone</h3>
+                  <p className="text-slate-700">+91-XXXXXXXXXX</p>
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                  <p className="text-gray-700">info@sanjaydevnaniprojects.com</p>
+                  <h3 className="text-lg font-semibold text-[#1D427A] mb-2 tracking-tight">Email</h3>
+                  <p className="text-slate-700">info@sanjaydevnaniprojects.com</p>
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Hours</h3>
-                  <p className="text-gray-700">
+                  <h3 className="text-lg font-semibold text-[#1D427A] mb-2 tracking-tight">Office Hours</h3>
+                  <p className="text-slate-700">
                     Monday - Saturday: 10:00 AM - 6:00 PM<br />
                     Sunday: Closed
                   </p>

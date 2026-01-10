@@ -73,7 +73,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <span>Hero Image: {project.featuredImage}</span>
           </div>
           <div className="absolute top-4 right-4">
-            <span className="bg-gray-900 text-white px-4 py-2 rounded-full text-sm font-medium capitalize">
+            <span className="bg-[#1D427A] text-white px-4 py-2 rounded-full text-sm font-medium capitalize">
               {project.status}
             </span>
           </div>
@@ -85,24 +85,24 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
               {/* Main Content */}
               <div className="lg:col-span-2">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                <h1 className="text-4xl md:text-5xl font-bold text-[#1D427A] mb-4 tracking-tight">
                   {project.name}
                 </h1>
-                <p className="text-xl text-gray-600 mb-6">{project.location}</p>
-                <p className="text-2xl font-semibold text-gray-900 mb-8">{project.tagline}</p>
+                <p className="text-xl text-slate-600 mb-6">{project.location}</p>
+                <p className="text-2xl font-semibold text-[#1D427A] mb-8 tracking-tight">{project.tagline}</p>
 
                 <div className="prose max-w-none mb-8">
-                  <p className="text-lg text-gray-700">{project.description}</p>
+                  <p className="text-lg text-slate-700">{project.description}</p>
                 </div>
 
                 {/* Configuration */}
                 <div className="mb-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Configuration</h2>
+                  <h2 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">Configuration</h2>
                   <div className="flex flex-wrap gap-3">
                     {project.bhkTypes.map((type) => (
                       <span
                         key={type}
-                        className="bg-gray-100 text-gray-900 px-4 py-2 rounded-md text-lg font-medium"
+                        className="bg-slate-100 text-[#1D427A] px-4 py-2 rounded-md text-lg font-medium"
                       >
                         {type}
                       </span>
@@ -112,12 +112,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
                 {/* Highlights */}
                 <div className="mb-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Project Highlights</h2>
+                  <h2 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">Project Highlights</h2>
                   <ul className="space-y-2">
                     {project.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start">
-                        <span className="text-gray-900 mr-2">✓</span>
-                        <span className="text-gray-700">{highlight}</span>
+                        <span className="text-[#1D427A] mr-2">✓</span>
+                        <span className="text-slate-700">{highlight}</span>
                       </li>
                     ))}
                   </ul>
@@ -125,12 +125,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
                 {/* Amenities */}
                 <div className="mb-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Amenities</h2>
+                  <h2 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">Amenities</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {project.amenities.map((amenity, index) => (
                       <div key={index} className="flex items-center">
-                        <span className="text-gray-900 mr-2">•</span>
-                        <span className="text-gray-700">{amenity}</span>
+                        <span className="text-[#1D427A] mr-2">•</span>
+                        <span className="text-slate-700">{amenity}</span>
                       </div>
                     ))}
                   </div>
@@ -140,41 +140,41 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 <div className="bg-gray-50 p-6 rounded-lg sticky top-24">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Project Information</h3>
+                  <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Project Information</h3>
 
                   <div className="space-y-4 mb-6">
                     {project.reraNumber && (
                       <div>
-                        <p className="text-sm text-gray-600">RERA Number</p>
-                        <p className="font-semibold text-gray-900">{project.reraNumber}</p>
+                        <p className="text-sm text-slate-600">RERA Number</p>
+                        <p className="font-semibold text-[#1D427A]">{project.reraNumber}</p>
                       </div>
                     )}
 
                     {project.possession && (
                       <div>
-                        <p className="text-sm text-gray-600">Possession</p>
-                        <p className="font-semibold text-gray-900">{project.possession}</p>
+                        <p className="text-sm text-slate-600">Possession</p>
+                        <p className="font-semibold text-[#1D427A]">{project.possession}</p>
                       </div>
                     )}
 
                     {project.price && (
                       <div>
-                        <p className="text-sm text-gray-600">Price</p>
-                        <p className="font-semibold text-gray-900">{project.price}</p>
+                        <p className="text-sm text-slate-600">Price</p>
+                        <p className="font-semibold text-[#1D427A]">{project.price}</p>
                       </div>
                     )}
                   </div>
 
                   <Link
                     href="/contact"
-                    className="block w-full bg-gray-900 text-white text-center px-6 py-3 rounded-md hover:bg-gray-800 transition-colors font-medium mb-3"
+                    className="block w-full bg-[#1D427A] text-white text-center px-6 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-semibold mb-3"
                   >
                     Enquire Now
                   </Link>
 
                   <Link
                     href="/projects"
-                    className="block w-full bg-white text-gray-900 text-center px-6 py-3 rounded-md border-2 border-gray-900 hover:bg-gray-50 transition-colors font-medium"
+                    className="block w-full bg-white text-[#1D427A] text-center px-6 py-3 rounded-md border-2 border-[#1D427A] hover:bg-[#A6192E] hover:text-white hover:border-[#A6192E] transition-colors font-semibold"
                   >
                     View All Projects
                   </Link>

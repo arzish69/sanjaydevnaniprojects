@@ -22,23 +22,23 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           sizes="(max-width: 768px) 100vw, 40vw"
         />
         <div className="absolute top-4 right-4 z-10">
-          <span className="bg-gray-900 text-white px-3 py-1 rounded-full text-sm font-medium capitalize">
+          <span className="bg-[#1D427A] text-white px-3 py-1 rounded-full text-sm font-medium capitalize">
             {project.status}
           </span>
         </div>
       </div>
 
-      {/* Details Section (No changes) */}
+      {/* Details Section */}
       <div className="p-6 flex flex-col flex-grow">
         <div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">{project.name}</h3>
-          <p className="text-gray-600 text-sm mb-3">{project.location}</p>
-          <p className="text-gray-700 mb-4 line-clamp-3">{project.tagline}</p>
+          <h3 className="text-2xl font-bold text-[#1D427A] mb-2 tracking-tight">{project.name}</h3>
+          <p className="text-slate-600 text-sm mb-3">{project.location}</p>
+          <p className="text-slate-700 mb-4 line-clamp-3">{project.tagline}</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {project.bhkTypes.map((type) => (
               <span
                 key={type}
-                className="bg-gray-100 text-gray-700 px-3 py-1 rounded-md text-sm"
+                className="bg-slate-100 text-[#1D427A] px-3 py-1 rounded-md text-sm font-medium"
               >
                 {type}
               </span>
@@ -49,7 +49,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="mt-auto pt-4">
           <Link
             href={`/projects/${project.slug}`}
-            className="inline-block bg-gray-900 text-white px-6 py-2 rounded-md hover:bg-gray-800 transition-colors font-medium text-base"
+            className="inline-block bg-[#1D427A] text-white px-6 py-2 rounded-md hover:bg-[#A6192E] transition-colors font-semibold text-base"
           >
             View Details
           </Link>

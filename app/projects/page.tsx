@@ -29,10 +29,10 @@ export default function ProjectsPage() {
       {/* Header */}
       <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#1D427A] mb-4 tracking-tight">
             Our Projects
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-xl text-slate-600 max-w-3xl">
             Explore our portfolio of premium residential projects across Chembur and Bandra. Each project is designed with modern amenities and quality construction.
           </p>
         </div>
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
       {ongoingProjects.length > 0 && (
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Ongoing Projects</h2>
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-8 tracking-tight">Ongoing Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {ongoingProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
@@ -56,7 +56,7 @@ export default function ProjectsPage() {
       {upcomingProjects.length > 0 && (
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Upcoming Projects</h2>
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-8 tracking-tight">Upcoming Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {upcomingProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
       {completedProjects.length > 0 && (
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Completed Projects</h2>
+            <h2 className="text-3xl font-bold text-[#1D427A] mb-8 tracking-tight">Completed Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {completedProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />

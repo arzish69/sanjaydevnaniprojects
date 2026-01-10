@@ -44,22 +44,7 @@ const PardisForm: React.FC = () => {
   return (
     <div className="min-h-screen bg-white py-12 px-6">
       <div className="max-w-2xl mx-auto">
-        {/* Large Brand Logo & Sub-brand Name */}
-        <header className="mb-14">
-
-          <Link href="/" className="inline-block group mb-4">
-            <h1 className="text-2xl font-bold tracking-tight text-[#1D427A] group-hover:text-[#A6192E] transition-colors">
-              Sanjay Devnani{" "}
-              <span className="font-light uppercase tracking-widest text-sm ml-1 border-l border-slate-300 pl-2">
-                Projects
-              </span>
-            </h1>
-          </Link>
-
-          <p className="text-slate-500 text-xl">
-            Stay connected with our latest updates
-          </p>
-        </header>
+        
 
         <form onSubmit={handleSubmit} className="space-y-12">
           {/* 1. Full Name - Required */}
