@@ -233,32 +233,6 @@ export default function FlatsInBandraPage() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-[#1D427A] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Own Your Dream Home in Bandra
-          </h2>
-          <p className="text-xl text-gray-300 mb-8">
-            Discover exclusive residential projects in Mumbai's most prestigious locality
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="inline-block bg-white text-[#1D427A] px-8 py-3 rounded-md hover:bg-gray-100 transition-colors font-medium text-lg"
-            >
-              Register Interest
-            </Link>
-            <Link
-              href="/projects"
-              className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-[#1D427A] transition-colors font-medium text-lg"
-            >
-              View All Projects
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

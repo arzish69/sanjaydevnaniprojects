@@ -21,25 +21,25 @@ export default function Header() {
 
     {/* Desktop Nav */}
     <div className="hidden md:flex items-center space-x-8">
-      <Link href="/" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         Home
       </Link>
-      <Link href="/projects" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/projects" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         Projects
       </Link>
-      <Link href="/connect" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/connect" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         Connect
       </Link>
-      <Link href="/flats-in-chembur" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/flats-in-chembur" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         Chembur
       </Link>
-      <Link href="/flats-in-bandra" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/flats-in-bandra" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         Bandra
       </Link>
-      <Link href="/blog" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/blog" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         Blog
       </Link>
-      <Link href="/about" className="text-[#1D427A] font-medium transition-colors">
+      <Link href="/about" className="text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors">
         About
       </Link>
       <Link

@@ -21,11 +21,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 40vw"
         />
-        <div className="absolute top-4 right-4 z-10">
-          <span className="bg-[#1D427A] text-white px-3 py-1 rounded-full text-sm font-medium capitalize">
-            {project.status}
-          </span>
-        </div>
+        
       </div>
 
       {/* Details Section */}

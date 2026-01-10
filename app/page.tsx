@@ -78,7 +78,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/contact"
-                className="bg-white text-[#1D427A] px-8 py-3 rounded-md border-2 border-[#1D427A] hover:bg-[#A6192E] hover:text-white hover:border-[#A6192E] transition-colors font-medium text-lg"
+                className="bg-white text-[#1D427A] px-8 py-3 rounded-md border-2 border-[#1D427A] hover:bg-[#1D427A] hover:text-white hover:border-[#1D427A] transition-colors font-medium text-lg"
               >
                 Contact Us
               </Link>
@@ -261,23 +261,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-[#1D427A] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
-            Ready to Find Your Dream Home?
-          </h2>
-          <p className="text-xl text-slate-200 mb-8">
-            Get in touch with us today to schedule a site visit or learn more about our projects
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-[#1D427A] px-8 py-3 rounded-md hover:bg-[#A6192E] hover:text-white transition-colors font-semibold text-lg"
-          >
-            Contact Us Today
-          </Link>
-        </div>
-      </section>
+      
     </>
   );
 }
