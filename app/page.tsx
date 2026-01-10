@@ -5,11 +5,14 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { Project } from "@/types";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   const typedProjects = projects as Project[];
   // Filter for completed projects for the carousel
-  const featuredProjects = typedProjects.filter(p => p.status === "completed");
+  const featuredProjects = typedProjects.filter(
+    (p) => p.status === "completed"
+  );
 
   // --- Carousel State and Logic ---
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,7 +28,8 @@ export default function Home() {
 
   const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => {
-      const nextIndex = prevIndex === featuredProjects.length - 1 ? 0 : prevIndex + 1;
+      const nextIndex =
+        prevIndex === featuredProjects.length - 1 ? 0 : prevIndex + 1;
 
       // If looping back to start, disable transition for instant jump
       if (prevIndex === featuredProjects.length - 1 && nextIndex === 0) {
@@ -41,7 +45,8 @@ export default function Home() {
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) => {
-      const nextIndex = prevIndex === 0 ? featuredProjects.length - 1 : prevIndex - 1;
+      const nextIndex =
+        prevIndex === 0 ? featuredProjects.length - 1 : prevIndex - 1;
 
       // If looping back to end, disable transition for instant jump
       if (prevIndex === 0 && nextIndex === featuredProjects.length - 1) {
@@ -57,8 +62,9 @@ export default function Home() {
 
   const goToSlide = (slideIndex: number) => {
     const distance = Math.abs(slideIndex - currentIndex);
-    const isWrapping = (currentIndex === 0 && slideIndex === featuredProjects.length - 1) ||
-                       (currentIndex === featuredProjects.length - 1 && slideIndex === 0);
+    const isWrapping =
+      (currentIndex === 0 && slideIndex === featuredProjects.length - 1) ||
+      (currentIndex === featuredProjects.length - 1 && slideIndex === 0);
 
     // If jumping more than 1 slide (and not just wrapping around), disable transition for instant jump
     if (distance > 1 || isWrapping) {
@@ -74,7 +80,7 @@ export default function Home() {
       setCurrentIndex(slideIndex);
     }
   };
-  
+
   // Effect for auto-playing the carousel
   useEffect(() => {
     resetTimeout();
@@ -87,7 +93,6 @@ export default function Home() {
       resetTimeout();
     };
   }, [currentIndex, nextSlide]);
-
 
   return (
     <>
@@ -104,7 +109,9 @@ export default function Home() {
               Affordable Luxury in Mumbai's Prime Locations
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              Premium residential projects in Chembur and Bandra. Experience modern living with world-class amenities and trusted construction quality.
+              Premium residential projects in Chembur and Bandra. Experience
+              modern living with world-class amenities and trusted construction
+              quality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -144,7 +151,11 @@ export default function Home() {
             <div className="overflow-hidden rounded-xl shadow-2xl">
               {/* Slider Track: Moves horizontally */}
               <div
-                className={`flex ${isTransitioning ? 'transition-transform ease-out duration-700' : ''}`}
+                className={`flex ${
+                  isTransitioning
+                    ? "transition-transform ease-out duration-700"
+                    : ""
+                }`}
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
               >
                 {/* Each slide takes up 100% of the viewport width */}
@@ -162,8 +173,19 @@ export default function Home() {
               className="absolute top-1/2 -left-6 transform -translate-y-1/2 bg-[#1D427A] hover:bg-[#A6192E] text-white rounded-full p-4 shadow-xl transition-all hover:scale-110 z-10 hidden md:block"
               aria-label="Previous Project"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
               </svg>
             </button>
             <button
@@ -171,8 +193,19 @@ export default function Home() {
               className="absolute top-1/2 -right-6 transform -translate-y-1/2 bg-[#1D427A] hover:bg-[#A6192E] text-white rounded-full p-4 shadow-xl transition-all hover:scale-110 z-10 hidden md:block"
               aria-label="Next Project"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
               </svg>
             </button>
 
@@ -182,8 +215,19 @@ export default function Home() {
               className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-[#1D427A]/90 hover:bg-[#A6192E] text-white rounded-full p-3 shadow-lg transition-all z-10 md:hidden"
               aria-label="Previous Project"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2.5}
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
               </svg>
             </button>
             <button
@@ -191,25 +235,36 @@ export default function Home() {
               className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-[#1D427A]/90 hover:bg-[#A6192E] text-white rounded-full p-3 shadow-lg transition-all z-10 md:hidden"
               aria-label="Next Project"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2.5}
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
               </svg>
             </button>
-            
+
             {/* Dot Indicators - Improved Design */}
             <div className="flex justify-center mt-8 gap-2">
-                {featuredProjects.map((_, index) => (
-                    <button
-                        key={index}
-                        onClick={() => goToSlide(index)}
-                        className={`transition-all duration-300 rounded-full ${
-                            currentIndex === index
-                              ? 'w-12 h-3 bg-[#1D427A]'
-                              : 'w-3 h-3 bg-slate-300 hover:bg-[#A6192E]'
-                        }`}
-                        aria-label={`Go to project ${index + 1}`}
-                    />
-                ))}
+              {featuredProjects.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                  className={`transition-all duration-300 rounded-full ${
+                    currentIndex === index
+                      ? "w-12 h-3 bg-[#1D427A]"
+                      : "w-3 h-3 bg-slate-300 hover:bg-[#A6192E]"
+                  }`}
+                  aria-label={`Go to project ${index + 1}`}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -223,14 +278,18 @@ export default function Home() {
               Prime Locations in Mumbai
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Strategic locations with excellent connectivity and lifestyle amenities
+              Strategic locations with excellent connectivity and lifestyle
+              amenities
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">Chembur</h3>
+              <h3 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                Chembur
+              </h3>
               <p className="text-slate-600 mb-6">
-                Well-connected locality with excellent infrastructure, close to Eastern Freeway, Monorail, and major business districts.
+                Well-connected locality with excellent infrastructure, close to
+                Eastern Freeway, Monorail, and major business districts.
               </p>
               <Link
                 href="/flats-in-chembur"
@@ -240,9 +299,13 @@ export default function Home() {
               </Link>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">Bandra</h3>
+              <h3 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                Bandra
+              </h3>
               <p className="text-slate-600 mb-6">
-                Mumbai's most prestigious suburb offering lifestyle, connectivity, and premium living near BKC and Western Express Highway.
+                Mumbai's most prestigious suburb offering lifestyle,
+                connectivity, and premium living near BKC and Western Express
+                Highway.
               </p>
               <Link
                 href="/flats-in-bandra"
@@ -268,16 +331,21 @@ export default function Home() {
               <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl text-[#1D427A]">✓</span>
               </div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-2 tracking-tight">RERA Approved</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-2 tracking-tight">
+                RERA Approved
+              </h3>
               <p className="text-slate-600">
-                All projects are RERA registered ensuring transparency and timely delivery
+                All projects are RERA registered ensuring transparency and
+                timely delivery
               </p>
             </div>
             <div className="text-center">
               <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl text-[#1D427A]">★</span>
               </div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-2 tracking-tight">Quality Construction</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-2 tracking-tight">
+                Quality Construction
+              </h3>
               <p className="text-slate-600">
                 Premium materials and expert craftsmanship in every project
               </p>
@@ -286,7 +354,9 @@ export default function Home() {
               <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl text-[#1D427A]">◆</span>
               </div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-2 tracking-tight">Affordable Luxury</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-2 tracking-tight">
+                Affordable Luxury
+              </h3>
               <p className="text-slate-600">
                 Premium amenities and modern design at competitive prices
               </p>
@@ -295,7 +365,7 @@ export default function Home() {
         </div>
       </section>
 
-      
+      <ScrollToTop />
     </>
   );
 }
