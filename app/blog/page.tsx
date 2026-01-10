@@ -21,10 +21,10 @@ export default function BlogPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#1D427A] mb-4 tracking-tight">
             Real Estate Blog
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-xl text-slate-600 max-w-3xl">
             Insights, tips, and updates about real estate in Mumbai, property buying guides,
             and market trends in Chembur and Bandra.
           </p>
@@ -36,16 +36,16 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto">
             <div className="bg-gray-50 p-12 rounded-lg">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl font-bold text-[#1D427A] mb-4 tracking-tight">
                 Blog Posts Coming Soon
               </h2>
-              <p className="text-lg text-gray-600 mb-8">
+              <p className="text-lg text-slate-600 mb-8">
                 We're working on bringing you valuable insights about real estate investing,
                 home buying tips, and market updates for Chembur and Bandra.
               </p>
               <Link
                 href="/contact"
-                className="inline-block bg-gray-900 text-white px-8 py-3 rounded-md hover:bg-gray-800 transition-colors font-medium"
+                className="inline-block bg-[#1D427A] text-white px-8 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-semibold"
               >
                 Subscribe for Updates
               </Link>
@@ -57,34 +57,34 @@ export default function BlogPage() {
       {/* Suggested Topics */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-3xl font-bold text-[#1D427A] mb-8 text-center tracking-tight">
             Upcoming Topics
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3 tracking-tight">
                 Property Buying Guide
               </h3>
-              <p className="text-gray-700">
+              <p className="text-slate-700">
                 Complete guide to buying your first home in Mumbai - from documentation
                 to registration.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3 tracking-tight">
                 Why Invest in Chembur
               </h3>
-              <p className="text-gray-700">
+              <p className="text-slate-700">
                 Explore the investment potential and growth prospects of Chembur real estate.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3 tracking-tight">
                 Bandra Lifestyle Guide
               </h3>
-              <p className="text-gray-700">
+              <p className="text-slate-700">
                 Discover what makes Bandra Mumbai's most coveted residential address.
               </p>
             </div>
