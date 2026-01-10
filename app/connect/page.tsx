@@ -46,15 +46,6 @@ const PardisForm: React.FC = () => {
       <div className="max-w-2xl mx-auto">
         {/* Large Brand Logo & Sub-brand Name */}
         <header className="mb-14">
-          <div className="relative w-full max-w-[320px] h-40 mb-6">
-            <Image
-              src={pardisLogo}
-              alt="Pardis Group"
-              fill
-              className="object-contain object-left"
-              priority
-            />
-          </div>
 
           <Link href="/" className="inline-block group mb-4">
             <h1 className="text-2xl font-bold tracking-tight text-[#1D427A] group-hover:text-[#A6192E] transition-colors">
