@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import pardisLogo from "@/public/pardis_logo.jpg";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const PardisForm: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -44,8 +45,6 @@ const PardisForm: React.FC = () => {
   return (
     <div className="min-h-screen bg-white py-12 px-6">
       <div className="max-w-2xl mx-auto">
-        
-
         <form onSubmit={handleSubmit} className="space-y-12">
           {/* Header with Logo */}
           <div className="text-center mb-8">
@@ -118,7 +117,9 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-2">
                 Current City{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <input
                 type="text"
@@ -138,24 +139,32 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 How are you associated with Pardis?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="relative">
-                <select
-                  className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]"
-                >
+                <select className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]">
                   <option value="">Select your association...</option>
-                  <option value="existing-client">Existing Client (Purchased from us)</option>
+                  <option value="existing-client">
+                    Existing Client (Purchased from us)
+                  </option>
                   <option value="enquired-earlier">Enquired Earlier</option>
                   <option value="investor">Investor</option>
-                  <option value="channel-partner">Channel Partner / Broker</option>
+                  <option value="channel-partner">
+                    Channel Partner / Broker
+                  </option>
                   <option value="vendor">Vendor / Consultant</option>
                   <option value="referral">Referred by Client</option>
                   <option value="other">Other</option>
                 </select>
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#1D427A]">
-                  <svg className="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <svg
+                    className="fill-current h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </div>
               </div>
@@ -165,16 +174,24 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 When did you last interact with us?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="space-y-3">
                 {[
                   { value: "within-12-months", label: "Within last 12 months" },
                   { value: "1-3-years", label: "1–3 years ago" },
-                  { value: "more-than-3-years", label: "More than 3 years ago" },
-                  { value: "not-sure", label: "Not sure / First time" }
+                  {
+                    value: "more-than-3-years",
+                    label: "More than 3 years ago",
+                  },
+                  { value: "not-sure", label: "Not sure / First time" },
                 ].map((option) => (
-                  <label key={option.value} className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <label
+                    key={option.value}
+                    className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors"
+                  >
                     <input
                       type="radio"
                       name="last-interaction"
@@ -193,14 +210,22 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Have you purchased a property from us before?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="space-y-3">
                 {[
-                  { value: "yes", label: "Yes, I have purchased from Sanjay Devnani Projects" },
-                  { value: "no", label: "No, but interested" }
+                  {
+                    value: "yes",
+                    label: "Yes, I have purchased from Sanjay Devnani Projects",
+                  },
+                  { value: "no", label: "No, but interested" },
                 ].map((option) => (
-                  <label key={option.value} className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <label
+                    key={option.value}
+                    className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors"
+                  >
                     <input
                       type="radio"
                       name="previous-purchase"
@@ -226,22 +251,32 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 What best describes your current interest?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="relative">
-                <select
-                  className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]"
-                >
+                <select className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]">
                   <option value="">Select your interest level...</option>
-                  <option value="actively-looking">Actively looking to buy</option>
+                  <option value="actively-looking">
+                    Actively looking to buy
+                  </option>
                   <option value="exploring">Exploring options</option>
-                  <option value="long-term">Long-term investment planning</option>
+                  <option value="long-term">
+                    Long-term investment planning
+                  </option>
                   <option value="no-plans">No immediate plans</option>
-                  <option value="staying-informed">Just staying informed</option>
+                  <option value="staying-informed">
+                    Just staying informed
+                  </option>
                 </select>
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#1D427A]">
-                  <svg className="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <svg
+                    className="fill-current h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </div>
               </div>
@@ -251,16 +286,24 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Looking for self-use or investment?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="space-y-3">
                 {[
-                  { value: "self-use", label: "Self-use (Primary/Secondary residence)" },
+                  {
+                    value: "self-use",
+                    label: "Self-use (Primary/Secondary residence)",
+                  },
                   { value: "investment", label: "Investment / Rental income" },
                   { value: "both", label: "Both" },
-                  { value: "not-decided", label: "Not decided yet" }
+                  { value: "not-decided", label: "Not decided yet" },
                 ].map((option) => (
-                  <label key={option.value} className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <label
+                    key={option.value}
+                    className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors"
+                  >
                     <input
                       type="radio"
                       name="property-purpose"
@@ -279,11 +322,23 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Preferred property configuration{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                {["1 BHK", "2 BHK", "3 BHK", "4 BHK", "Penthouse", "Open to all"].map((type) => (
-                  <label key={type} className="flex items-center gap-3 cursor-pointer group p-3 border-2 border-slate-200 rounded-lg hover:border-[#1D427A] hover:bg-slate-50 transition-all">
+                {[
+                  "1 BHK",
+                  "2 BHK",
+                  "3 BHK",
+                  "4 BHK",
+                  "Penthouse",
+                  "Open to all",
+                ].map((type) => (
+                  <label
+                    key={type}
+                    className="flex items-center gap-3 cursor-pointer group p-3 border-2 border-slate-200 rounded-lg hover:border-[#1D427A] hover:bg-slate-50 transition-all"
+                  >
                     <input
                       type="checkbox"
                       name="property-type"
@@ -302,12 +357,12 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Preferred location{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="relative">
-                <select
-                  className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]"
-                >
+                <select className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]">
                   <option value="">Select preferred location...</option>
                   <option value="chembur">Chembur</option>
                   <option value="bandra">Bandra</option>
@@ -316,8 +371,12 @@ const PardisForm: React.FC = () => {
                   <option value="flexible">Flexible / Not specific</option>
                 </select>
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#1D427A]">
-                  <svg className="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <svg
+                    className="fill-current h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </div>
               </div>
@@ -327,12 +386,12 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Budget range (INR){" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="relative">
-                <select
-                  className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]"
-                >
+                <select className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]">
                   <option value="">Select your budget range...</option>
                   <option value="below-50L">Below ₹50 Lakhs</option>
                   <option value="50L-1Cr">₹50 Lakhs - ₹1 Crore</option>
@@ -343,8 +402,12 @@ const PardisForm: React.FC = () => {
                   <option value="flexible">Flexible based on property</option>
                 </select>
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#1D427A]">
-                  <svg className="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <svg
+                    className="fill-current h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </div>
               </div>
@@ -354,14 +417,16 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 When are you planning to buy?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="relative">
-                <select
-                  className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]"
-                >
+                <select className="w-full border-2 border-slate-200 focus:border-[#1D427A] outline-none py-4 px-5 text-lg text-slate-900 bg-white cursor-pointer rounded-lg transition-all appearance-none font-medium hover:border-[#1D427A]">
                   <option value="">Select your timeline...</option>
-                  <option value="immediate">Immediately (within 1 month)</option>
+                  <option value="immediate">
+                    Immediately (within 1 month)
+                  </option>
                   <option value="1-3-months">1-3 months</option>
                   <option value="3-6-months">3-6 months</option>
                   <option value="6-12-months">6-12 months</option>
@@ -369,8 +434,12 @@ const PardisForm: React.FC = () => {
                   <option value="no-timeline">No specific timeline</option>
                 </select>
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#1D427A]">
-                  <svg className="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <svg
+                    className="fill-current h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </div>
               </div>
@@ -387,16 +456,21 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 How would you prefer us to contact you?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {[
                   { value: "whatsapp", label: "WhatsApp" },
                   { value: "call", label: "Phone Call" },
                   { value: "sms", label: "SMS" },
-                  { value: "email", label: "Email" }
+                  { value: "email", label: "Email" },
                 ].map((method) => (
-                  <label key={method.value} className="flex items-center gap-3 cursor-pointer group p-4 border-2 border-slate-200 rounded-lg hover:border-[#1D427A] hover:bg-slate-50 transition-all">
+                  <label
+                    key={method.value}
+                    className="flex items-center gap-3 cursor-pointer group p-4 border-2 border-slate-200 rounded-lg hover:border-[#1D427A] hover:bg-slate-50 transition-all"
+                  >
                     <input
                       type="checkbox"
                       name="contact-method"
@@ -415,7 +489,9 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 I want updates about:{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {[
@@ -424,7 +500,7 @@ const PardisForm: React.FC = () => {
                   "Exclusive preview events",
                   "Special offers & discounts",
                   "Investment opportunities",
-                  "Market insights & trends"
+                  "Market insights & trends",
                 ].map((item) => (
                   <label
                     key={item}
@@ -455,16 +531,24 @@ const PardisForm: React.FC = () => {
             <div className="mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Would you recommend us to friends & family?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <div className="space-y-3">
                 {[
                   { value: "yes", label: "Yes, I would definitely recommend" },
                   { value: "maybe", label: "Maybe, depends on the project" },
-                  { value: "already-have", label: "I've already referred someone!" },
-                  { value: "no", label: "Not at this time" }
+                  {
+                    value: "already-have",
+                    label: "I've already referred someone!",
+                  },
+                  { value: "no", label: "Not at this time" },
                 ].map((option) => (
-                  <label key={option.value} className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <label
+                    key={option.value}
+                    className="flex items-center gap-3 cursor-pointer group p-3 rounded-lg hover:bg-slate-50 transition-colors"
+                  >
                     <input
                       type="radio"
                       name="referral-willingness"
@@ -483,7 +567,9 @@ const PardisForm: React.FC = () => {
             <div className="group mb-8">
               <label className="block text-sm font-bold uppercase tracking-widest text-[#1D427A] mb-4">
                 Any specific requirements or questions?{" "}
-                <span className="text-slate-400 font-normal lowercase">(optional)</span>
+                <span className="text-slate-400 font-normal lowercase">
+                  (optional)
+                </span>
               </label>
               <textarea
                 rows={4}
@@ -502,8 +588,8 @@ const PardisForm: React.FC = () => {
                 className="mt-1 w-6 h-6 accent-[#1D427A] flex-shrink-0"
               />
               <span className="text-sm leading-relaxed group-hover:text-slate-900 transition-colors">
-                I agree to share these details for updates related to projects/enquiry.{" "}
-                <span className="text-[#A6192E]">*</span>
+                I agree to share these details for updates related to
+                projects/enquiry. <span className="text-[#A6192E]">*</span>
               </span>
             </label>
           </div>
@@ -519,6 +605,8 @@ const PardisForm: React.FC = () => {
           </div>
         </form>
       </div>
+
+      <ScrollToTop />
     </div>
   );
 };

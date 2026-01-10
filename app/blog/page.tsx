@@ -1,10 +1,12 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = genMeta({
   title: "Real Estate Blog - Tips, Insights & Market Updates",
-  description: "Stay updated with the latest real estate trends, property buying guides, and market insights for Chembur and Bandra. Expert advice from Sanjay Devnani Projects.",
+  description:
+    "Stay updated with the latest real estate trends, property buying guides, and market insights for Chembur and Bandra. Expert advice from Sanjay Devnani Projects.",
   keywords: [
     "real estate blog mumbai",
     "property buying tips",
@@ -25,8 +27,8 @@ export default function BlogPage() {
             Real Estate Blog
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl">
-            Insights, tips, and updates about real estate in Mumbai, property buying guides,
-            and market trends in Chembur and Bandra.
+            Insights, tips, and updates about real estate in Mumbai, property
+            buying guides, and market trends in Chembur and Bandra.
           </p>
         </div>
       </section>
@@ -40,8 +42,9 @@ export default function BlogPage() {
                 Blog Posts Coming Soon
               </h2>
               <p className="text-lg text-slate-600 mb-8">
-                We're working on bringing you valuable insights about real estate investing,
-                home buying tips, and market updates for Chembur and Bandra.
+                We're working on bringing you valuable insights about real
+                estate investing, home buying tips, and market updates for
+                Chembur and Bandra.
               </p>
               <Link
                 href="/contact"
@@ -66,8 +69,8 @@ export default function BlogPage() {
                 Property Buying Guide
               </h3>
               <p className="text-slate-700">
-                Complete guide to buying your first home in Mumbai - from documentation
-                to registration.
+                Complete guide to buying your first home in Mumbai - from
+                documentation to registration.
               </p>
             </div>
 
@@ -76,7 +79,8 @@ export default function BlogPage() {
                 Why Invest in Chembur
               </h3>
               <p className="text-slate-700">
-                Explore the investment potential and growth prospects of Chembur real estate.
+                Explore the investment potential and growth prospects of Chembur
+                real estate.
               </p>
             </div>
 
@@ -85,12 +89,14 @@ export default function BlogPage() {
                 Bandra Lifestyle Guide
               </h3>
               <p className="text-slate-700">
-                Discover what makes Bandra Mumbai's most coveted residential address.
+                Discover what makes Bandra Mumbai's most coveted residential
+                address.
               </p>
             </div>
           </div>
         </div>
       </section>
+      <ScrollToTop />
     </div>
   );
 }

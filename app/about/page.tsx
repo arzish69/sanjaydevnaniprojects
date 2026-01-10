@@ -1,10 +1,12 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = genMeta({
   title: "About Us - Trusted Real Estate Developers in Mumbai",
-  description: "Learn about Sanjay Devnani Projects - trusted real estate developers in Chembur and Bandra. Committed to delivering quality homes with affordable luxury since years.",
+  description:
+    "Learn about Sanjay Devnani Projects - trusted real estate developers in Chembur and Bandra. Committed to delivering quality homes with affordable luxury since years.",
   keywords: [
     "real estate developer mumbai",
     "builders in chembur",
@@ -25,7 +27,8 @@ export default function AboutPage() {
             About Sanjay Devnani Projects
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl">
-            Building dreams, creating homes, and delivering affordable luxury in Mumbai's prime locations.
+            Building dreams, creating homes, and delivering affordable luxury in
+            Mumbai's prime locations.
           </p>
         </div>
       </section>
@@ -35,21 +38,26 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-[#1D427A] mb-6 tracking-tight">Our Story</h2>
+              <h2 className="text-3xl font-bold text-[#1D427A] mb-6 tracking-tight">
+                Our Story
+              </h2>
               <div className="space-y-4 text-lg text-slate-700">
                 <p>
-                  Sanjay Devnani Projects has been a trusted name in Mumbai's real estate landscape,
-                  specializing in developing premium residential properties in sought-after locations
-                  like Chembur and Bandra.
+                  Sanjay Devnani Projects has been a trusted name in Mumbai's
+                  real estate landscape, specializing in developing premium
+                  residential properties in sought-after locations like Chembur
+                  and Bandra.
                 </p>
                 <p>
-                  Our commitment to quality construction, timely delivery, and customer satisfaction
-                  has made us one of the preferred developers in the region. We believe in creating
-                  homes that offer the perfect blend of luxury and affordability.
+                  Our commitment to quality construction, timely delivery, and
+                  customer satisfaction has made us one of the preferred
+                  developers in the region. We believe in creating homes that
+                  offer the perfect blend of luxury and affordability.
                 </p>
                 <p>
-                  With a focus on modern architecture, world-class amenities, and strategic locations,
-                  we ensure that every project we undertake becomes a landmark in its own right.
+                  With a focus on modern architecture, world-class amenities,
+                  and strategic locations, we ensure that every project we
+                  undertake becomes a landmark in its own right.
                 </p>
               </div>
             </div>
@@ -63,27 +71,38 @@ export default function AboutPage() {
       {/* Our Values */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1D427A] mb-12 text-center tracking-tight">Our Core Values</h2>
+          <h2 className="text-3xl font-bold text-[#1D427A] mb-12 text-center tracking-tight">
+            Our Core Values
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Quality First</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                Quality First
+              </h3>
               <p className="text-slate-700">
-                We never compromise on construction quality. Premium materials and expert craftsmanship
-                are the foundation of every project we deliver.
+                We never compromise on construction quality. Premium materials
+                and expert craftsmanship are the foundation of every project we
+                deliver.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Customer Trust</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                Customer Trust
+              </h3>
               <p className="text-slate-700">
-                Transparency, honesty, and integrity guide every interaction. We build lasting
-                relationships with our customers based on trust and reliability.
+                Transparency, honesty, and integrity guide every interaction. We
+                build lasting relationships with our customers based on trust
+                and reliability.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Innovation</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                Innovation
+              </h3>
               <p className="text-slate-700">
-                We embrace modern design trends and sustainable building practices to create
-                homes that meet contemporary lifestyle needs.
+                We embrace modern design trends and sustainable building
+                practices to create homes that meet contemporary lifestyle
+                needs.
               </p>
             </div>
           </div>
@@ -93,16 +112,21 @@ export default function AboutPage() {
       {/* Why Choose Us */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1D427A] mb-12 text-center tracking-tight">Why Choose Us</h2>
+          <h2 className="text-3xl font-bold text-[#1D427A] mb-12 text-center tracking-tight">
+            Why Choose Us
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start">
               <div className="flex-shrink-0 bg-[#1D427A] text-white w-8 h-8 rounded-full flex items-center justify-center mr-4 mt-1">
                 ✓
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">RERA Certified Projects</h3>
+                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">
+                  RERA Certified Projects
+                </h3>
                 <p className="text-slate-700">
-                  All our projects are RERA registered, ensuring complete transparency and regulatory compliance.
+                  All our projects are RERA registered, ensuring complete
+                  transparency and regulatory compliance.
                 </p>
               </div>
             </div>
@@ -111,9 +135,12 @@ export default function AboutPage() {
                 ✓
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">Prime Locations</h3>
+                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">
+                  Prime Locations
+                </h3>
                 <p className="text-slate-700">
-                  Strategic locations in Chembur and Bandra with excellent connectivity and infrastructure.
+                  Strategic locations in Chembur and Bandra with excellent
+                  connectivity and infrastructure.
                 </p>
               </div>
             </div>
@@ -122,9 +149,12 @@ export default function AboutPage() {
                 ✓
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">Timely Delivery</h3>
+                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">
+                  Timely Delivery
+                </h3>
                 <p className="text-slate-700">
-                  We pride ourselves on completing projects on schedule without compromising quality.
+                  We pride ourselves on completing projects on schedule without
+                  compromising quality.
                 </p>
               </div>
             </div>
@@ -133,14 +163,18 @@ export default function AboutPage() {
                 ✓
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">Affordable Luxury</h3>
+                <h3 className="text-lg font-bold text-[#1D427A] mb-2 tracking-tight">
+                  Affordable Luxury
+                </h3>
                 <p className="text-slate-700">
-                  Premium amenities and modern design at competitive prices that offer true value.
+                  Premium amenities and modern design at competitive prices that
+                  offer true value.
                 </p>
               </div>
             </div>
           </div>
         </div>
+        <ScrollToTop />
       </section>
     </div>
   );

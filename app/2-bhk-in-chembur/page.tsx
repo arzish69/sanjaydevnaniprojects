@@ -4,10 +4,12 @@ import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { Project } from "@/types";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = genMeta({
   title: "2 BHK Flats in Chembur - Spacious Apartments | Affordable Luxury",
-  description: "Find the perfect 2 BHK flats in Chembur with Sanjay Devnani Projects. Spacious 2 bedroom apartments with modern amenities, prime location, and competitive pricing. RERA approved.",
+  description:
+    "Find the perfect 2 BHK flats in Chembur with Sanjay Devnani Projects. Spacious 2 bedroom apartments with modern amenities, prime location, and competitive pricing. RERA approved.",
   keywords: [
     "2 bhk in chembur",
     "2 bhk flats in chembur",
@@ -25,7 +27,7 @@ export const metadata: Metadata = genMeta({
 export default function TwoBhkChemburPage() {
   const typedProjects = projects as Project[];
   const twoBhkProjects = typedProjects.filter(
-    p => p.area === "Chembur" && p.bhkTypes.includes("2 BHK")
+    (p) => p.area === "Chembur" && p.bhkTypes.includes("2 BHK")
   );
 
   return (
@@ -37,8 +39,8 @@ export default function TwoBhkChemburPage() {
             2 BHK Flats in Chembur - Spacious & Modern Living
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl">
-            Explore premium 2 BHK apartments in Chembur offering perfect blend of space,
-            comfort, and affordability with world-class amenities.
+            Explore premium 2 BHK apartments in Chembur offering perfect blend
+            of space, comfort, and affordability with world-class amenities.
           </p>
         </div>
       </section>
@@ -51,16 +53,18 @@ export default function TwoBhkChemburPage() {
               Why Choose 2 BHK Apartments in Chembur?
             </h2>
             <p className="text-lg text-slate-700 mb-4">
-              2 BHK apartments in Chembur are ideal for growing families, young couples, and
-              professionals seeking spacious living spaces without compromising on location and
-              amenities. These well-designed homes offer the perfect balance between affordability
-              and luxury.
+              2 BHK apartments in Chembur are ideal for growing families, young
+              couples, and professionals seeking spacious living spaces without
+              compromising on location and amenities. These well-designed homes
+              offer the perfect balance between affordability and luxury.
             </p>
             <p className="text-lg text-slate-700 mb-4">
-              Chembur's strategic location, excellent connectivity via road and rail networks, and
-              proximity to key areas like BKC, Powai, and South Mumbai make it one of the most
-              preferred localities for homebuyers. Our <strong>2 BHK flats in Chembur</strong> are
-              thoughtfully designed to maximize space utilization while providing modern comforts.
+              Chembur's strategic location, excellent connectivity via road and
+              rail networks, and proximity to key areas like BKC, Powai, and
+              South Mumbai make it one of the most preferred localities for
+              homebuyers. Our <strong>2 BHK flats in Chembur</strong> are
+              thoughtfully designed to maximize space utilization while
+              providing modern comforts.
             </p>
           </div>
         </div>
@@ -94,50 +98,63 @@ export default function TwoBhkChemburPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">Spacious Layouts</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                Spacious Layouts
+              </h3>
               <p className="text-slate-700">
-                Well-planned 2 bedroom configurations with ample space for comfortable living,
-                optimized carpet areas, and efficient floor plans.
+                Well-planned 2 bedroom configurations with ample space for
+                comfortable living, optimized carpet areas, and efficient floor
+                plans.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">Modern Amenities</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                Modern Amenities
+              </h3>
               <p className="text-slate-700">
-                Gym, swimming pool, clubhouse, children's play area, landscaped gardens, and
-                24/7 security for a comfortable lifestyle.
+                Gym, swimming pool, clubhouse, children's play area, landscaped
+                gardens, and 24/7 security for a comfortable lifestyle.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">Prime Location</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                Prime Location
+              </h3>
               <p className="text-slate-700">
-                Located in well-connected areas of Chembur with easy access to schools,
-                hospitals, shopping centers, and public transport.
+                Located in well-connected areas of Chembur with easy access to
+                schools, hospitals, shopping centers, and public transport.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">Vastu Compliant</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                Vastu Compliant
+              </h3>
               <p className="text-slate-700">
-                Designed according to Vastu principles ensuring positive energy flow and
-                harmonious living environment.
+                Designed according to Vastu principles ensuring positive energy
+                flow and harmonious living environment.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">Quality Construction</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                Quality Construction
+              </h3>
               <p className="text-slate-700">
-                Premium materials, earthquake-resistant structure, and superior finishing
-                ensuring durability and aesthetics.
+                Premium materials, earthquake-resistant structure, and superior
+                finishing ensuring durability and aesthetics.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">RERA Approved</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                RERA Approved
+              </h3>
               <p className="text-slate-700">
-                All projects are RERA registered, ensuring transparency, legal compliance,
-                and timely delivery.
+                All projects are RERA registered, ensuring transparency, legal
+                compliance, and timely delivery.
               </p>
             </div>
           </div>
@@ -152,7 +169,9 @@ export default function TwoBhkChemburPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Standard Features</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Standard Features
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• 2 Spacious Bedrooms with attached/common bathrooms</li>
                 <li>• Living & Dining area</li>
@@ -164,7 +183,9 @@ export default function TwoBhkChemburPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Amenities Included</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Amenities Included
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Covered car parking</li>
                 <li>• Power backup for common areas</li>
@@ -186,13 +207,14 @@ export default function TwoBhkChemburPage() {
           </h2>
           <div className="prose max-w-none">
             <p className="text-lg text-slate-700 mb-4">
-              Our 2 BHK apartments in Chembur are competitively priced to offer the best value
-              for your investment. We understand that buying a home is a significant decision,
-              which is why we offer flexible payment plans and easy home loan assistance.
+              Our 2 BHK apartments in Chembur are competitively priced to offer
+              the best value for your investment. We understand that buying a
+              home is a significant decision, which is why we offer flexible
+              payment plans and easy home loan assistance.
             </p>
             <p className="text-lg text-slate-700 mb-6">
-              Contact our sales team to learn about current pricing, special offers, and
-              customized payment options that suit your budget.
+              Contact our sales team to learn about current pricing, special
+              offers, and customized payment options that suit your budget.
             </p>
           </div>
           <Link
@@ -212,7 +234,9 @@ export default function TwoBhkChemburPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Connectivity</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Connectivity
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• 5-10 minutes from Chembur Railway Station</li>
                 <li>• Close to Monorail stations</li>
@@ -223,7 +247,9 @@ export default function TwoBhkChemburPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Nearby Facilities</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Nearby Facilities
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Reputed schools within 1-2 km radius</li>
                 <li>• Multi-specialty hospitals nearby</li>
@@ -243,7 +269,8 @@ export default function TwoBhkChemburPage() {
             Ready to Buy Your 2 BHK in Chembur?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Schedule a site visit or get detailed information about our 2 BHK apartments
+            Schedule a site visit or get detailed information about our 2 BHK
+            apartments
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -261,6 +288,8 @@ export default function TwoBhkChemburPage() {
           </div>
         </div>
       </section>
+
+      <ScrollToTop />
     </div>
   );
 }

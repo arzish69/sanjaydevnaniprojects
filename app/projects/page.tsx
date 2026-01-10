@@ -3,6 +3,7 @@ import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { Project } from "@/types";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = genMeta({
   title: "All Projects - Residential Apartments in Chembur & Bandra",
@@ -79,6 +80,8 @@ export default function ProjectsPage() {
           </div>
         </section>
       )}
+
+      <ScrollToTop />
     </div>
   );
 }

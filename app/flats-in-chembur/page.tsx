@@ -4,10 +4,13 @@ import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { Project } from "@/types";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = genMeta({
-  title: "Flats in Chembur - Premium Residential Projects | 1, 2, 3 BHK Apartments",
-  description: "Discover premium flats in Chembur by Sanjay Devnani Projects. RERA approved residential apartments with modern amenities, prime location near Sindhi Society, Eastern Freeway. Best prices!",
+  title:
+    "Flats in Chembur - Premium Residential Projects | 1, 2, 3 BHK Apartments",
+  description:
+    "Discover premium flats in Chembur by Sanjay Devnani Projects. RERA approved residential apartments with modern amenities, prime location near Sindhi Society, Eastern Freeway. Best prices!",
   keywords: [
     "flats in chembur",
     "apartments in chembur",
@@ -27,7 +30,7 @@ export const metadata: Metadata = genMeta({
 
 export default function FlatsInChemburPage() {
   const typedProjects = projects as Project[];
-  const chemburProjects = typedProjects.filter(p => p.area === "Chembur");
+  const chemburProjects = typedProjects.filter((p) => p.area === "Chembur");
 
   return (
     <>
@@ -39,8 +42,9 @@ export default function FlatsInChemburPage() {
               Flats in Chembur - Premium Residential Projects
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl">
-              Discover affordable luxury apartments in Chembur with world-class amenities,
-              excellent connectivity, and prime locations near Sindhi Society.
+              Discover affordable luxury apartments in Chembur with world-class
+              amenities, excellent connectivity, and prime locations near Sindhi
+              Society.
             </p>
           </div>
         </section>
@@ -53,15 +57,19 @@ export default function FlatsInChemburPage() {
                 Why Choose Flats in Chembur?
               </h2>
               <p className="text-lg text-slate-700 mb-4">
-                Chembur has emerged as one of Mumbai's most sought-after residential localities,
-                offering the perfect blend of connectivity, infrastructure, and lifestyle amenities.
-                Located in the eastern suburbs of Mumbai, Chembur provides excellent access to major
-                business districts while maintaining a peaceful residential environment.
+                Chembur has emerged as one of Mumbai's most sought-after
+                residential localities, offering the perfect blend of
+                connectivity, infrastructure, and lifestyle amenities. Located
+                in the eastern suburbs of Mumbai, Chembur provides excellent
+                access to major business districts while maintaining a peaceful
+                residential environment.
               </p>
               <p className="text-lg text-slate-700 mb-4">
-                Whether you're looking for <strong>2 BHK flats in Chembur</strong>, <strong>3 BHK
-                apartments in Chembur</strong>, or <strong>luxury residential projects</strong>,
-                Sanjay Devnani Projects offers premium options that cater to modern homebuyers.
+                Whether you're looking for{" "}
+                <strong>2 BHK flats in Chembur</strong>,{" "}
+                <strong>3 BHK apartments in Chembur</strong>, or{" "}
+                <strong>luxury residential projects</strong>, Sanjay Devnani
+                Projects offers premium options that cater to modern homebuyers.
               </p>
             </div>
           </div>
@@ -89,27 +97,47 @@ export default function FlatsInChemburPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Excellent Connectivity</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  Excellent Connectivity
+                </h3>
                 <ul className="space-y-2 text-slate-700">
-                  <li>• Close to Chembur Railway Station (Central and Harbour Line)</li>
+                  <li>
+                    • Close to Chembur Railway Station (Central and Harbour
+                    Line)
+                  </li>
                   <li>• Monorail connectivity for easy commuting</li>
-                  <li>• Direct access to Eastern Freeway and Sion-Panvel Highway</li>
-                  <li>• Well-connected to BKC, Fort, and other business districts</li>
+                  <li>
+                    • Direct access to Eastern Freeway and Sion-Panvel Highway
+                  </li>
+                  <li>
+                    • Well-connected to BKC, Fort, and other business districts
+                  </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Premium Location</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  Premium Location
+                </h3>
                 <ul className="space-y-2 text-slate-700">
-                  <li>• Proximity to Sindhi Society - a well-established residential area</li>
+                  <li>
+                    • Proximity to Sindhi Society - a well-established
+                    residential area
+                  </li>
                   <li>• Near Diamond Garden and other recreational spaces</li>
-                  <li>• Close to reputed schools and educational institutions</li>
-                  <li>• Easy access to shopping malls and entertainment centers</li>
+                  <li>
+                    • Close to reputed schools and educational institutions
+                  </li>
+                  <li>
+                    • Easy access to shopping malls and entertainment centers
+                  </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Growing Infrastructure</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  Growing Infrastructure
+                </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Ongoing metro rail development projects</li>
                   <li>• Modern hospitals and healthcare facilities</li>
@@ -119,7 +147,9 @@ export default function FlatsInChemburPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Lifestyle Amenities</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  Lifestyle Amenities
+                </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Multiple shopping complexes and markets</li>
                   <li>• Restaurants and food courts</li>
@@ -139,10 +169,12 @@ export default function FlatsInChemburPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">1 BHK Flats</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  1 BHK Flats
+                </h3>
                 <p className="text-slate-700 mb-4">
-                  Perfect for young professionals and small families looking for affordable
-                  housing options in a prime location.
+                  Perfect for young professionals and small families looking for
+                  affordable housing options in a prime location.
                 </p>
                 <Link
                   href="/projects"
@@ -153,10 +185,12 @@ export default function FlatsInChemburPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">2 BHK Apartments</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  2 BHK Apartments
+                </h3>
                 <p className="text-slate-700 mb-4">
-                  Ideal for growing families seeking spacious living spaces with modern
-                  amenities and excellent ventilation.
+                  Ideal for growing families seeking spacious living spaces with
+                  modern amenities and excellent ventilation.
                 </p>
                 <Link
                   href="/2-bhk-in-chembur"
@@ -167,10 +201,12 @@ export default function FlatsInChemburPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">3 BHK Luxury Flats</h3>
+                <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">
+                  3 BHK Luxury Flats
+                </h3>
                 <p className="text-slate-700 mb-4">
-                  Premium residences with expansive layouts, perfect for families looking
-                  for luxury and comfort.
+                  Premium residences with expansive layouts, perfect for
+                  families looking for luxury and comfort.
                 </p>
                 <Link
                   href="/projects"
@@ -191,21 +227,24 @@ export default function FlatsInChemburPage() {
             </h2>
             <div className="prose max-w-none">
               <p className="text-lg text-slate-700 mb-4">
-                Chembur has witnessed significant appreciation in property values over the years,
-                making it an excellent choice for real estate investment. With upcoming
-                infrastructure projects like the metro rail and improved road connectivity,
-                property prices are expected to grow steadily.
+                Chembur has witnessed significant appreciation in property
+                values over the years, making it an excellent choice for real
+                estate investment. With upcoming infrastructure projects like
+                the metro rail and improved road connectivity, property prices
+                are expected to grow steadily.
               </p>
               <p className="text-lg text-slate-700">
-                Whether you're looking to <strong>buy flats in Chembur</strong> for self-use or
-                investment, this locality offers strong rental yields and capital appreciation
-                potential. The presence of established residential communities like Sindhi Society
-                adds to the area's desirability.
+                Whether you're looking to <strong>buy flats in Chembur</strong>{" "}
+                for self-use or investment, this locality offers strong rental
+                yields and capital appreciation potential. The presence of
+                established residential communities like Sindhi Society adds to
+                the area's desirability.
               </p>
             </div>
           </div>
         </section>
 
+        <ScrollToTop />
       </div>
     </>
   );

@@ -4,10 +4,12 @@ import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { Project } from "@/types";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = genMeta({
   title: "Flats in Bandra - Luxury Residential Projects | Premium Apartments",
-  description: "Discover premium flats in Bandra by Sanjay Devnani Projects. Luxury apartments near BKC, Bandstand, Carter Road. 2 & 3 BHK sea-facing flats with world-class amenities. RERA approved.",
+  description:
+    "Discover premium flats in Bandra by Sanjay Devnani Projects. Luxury apartments near BKC, Bandstand, Carter Road. 2 & 3 BHK sea-facing flats with world-class amenities. RERA approved.",
   keywords: [
     "flats in bandra",
     "apartments in bandra",
@@ -27,7 +29,7 @@ export const metadata: Metadata = genMeta({
 
 export default function FlatsInBandraPage() {
   const typedProjects = projects as Project[];
-  const bandraProjects = typedProjects.filter(p => p.area === "Bandra");
+  const bandraProjects = typedProjects.filter((p) => p.area === "Bandra");
 
   return (
     <div className="bg-white">
@@ -38,8 +40,9 @@ export default function FlatsInBandraPage() {
             Flats in Bandra - Mumbai's Most Prestigious Address
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl">
-            Experience luxury living in Bandra with premium apartments offering world-class
-            amenities, stunning views, and unmatched connectivity to BKC and South Mumbai.
+            Experience luxury living in Bandra with premium apartments offering
+            world-class amenities, stunning views, and unmatched connectivity to
+            BKC and South Mumbai.
           </p>
         </div>
       </section>
@@ -52,15 +55,19 @@ export default function FlatsInBandraPage() {
               Why Invest in Flats in Bandra?
             </h2>
             <p className="text-lg text-slate-700 mb-4">
-              Bandra is synonymous with luxury, lifestyle, and prestige in Mumbai. Known as the
-              "Queen of Suburbs," Bandra offers the perfect combination of cosmopolitan culture,
-              excellent infrastructure, and premium living experiences. From Bandstand to Carter
-              Road, Linking Road to BKC, every corner of Bandra exudes sophistication.
+              Bandra is synonymous with luxury, lifestyle, and prestige in
+              Mumbai. Known as the "Queen of Suburbs," Bandra offers the perfect
+              combination of cosmopolitan culture, excellent infrastructure, and
+              premium living experiences. From Bandstand to Carter Road, Linking
+              Road to BKC, every corner of Bandra exudes sophistication.
             </p>
             <p className="text-lg text-slate-700 mb-4">
-              Whether you're looking for <strong>luxury 3 BHK flats in Bandra</strong>, <strong>
-              sea-facing apartments</strong>, or <strong>premium 2 BHK residences near BKC</strong>,
-              Sanjay Devnani Projects brings you exclusive residential options in this coveted locality.
+              Whether you're looking for{" "}
+              <strong>luxury 3 BHK flats in Bandra</strong>,{" "}
+              <strong>sea-facing apartments</strong>, or{" "}
+              <strong>premium 2 BHK residences near BKC</strong>, Sanjay Devnani
+              Projects brings you exclusive residential options in this coveted
+              locality.
             </p>
           </div>
         </div>
@@ -102,20 +109,30 @@ export default function FlatsInBandraPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Prime Location</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Prime Location
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Adjacent to BKC - Mumbai's premier business district</li>
-                <li>• Close to Bandra-Worli Sea Link for quick South Mumbai access</li>
+                <li>
+                  • Close to Bandra-Worli Sea Link for quick South Mumbai access
+                </li>
                 <li>• Western Express Highway connectivity</li>
                 <li>• Bandra Railway Station on Western Line</li>
-                <li>• Easy access to Mumbai Airport (domestic & international)</li>
+                <li>
+                  • Easy access to Mumbai Airport (domestic & international)
+                </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Lifestyle & Culture</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Lifestyle & Culture
+              </h3>
               <ul className="space-y-2 text-slate-700">
-                <li>• Iconic seafront promenades - Bandstand and Carter Road</li>
+                <li>
+                  • Iconic seafront promenades - Bandstand and Carter Road
+                </li>
                 <li>• Upscale restaurants, cafes, and nightlife</li>
                 <li>• High-street fashion on Linking Road and Hill Road</li>
                 <li>• Celebrity residences and premium neighborhoods</li>
@@ -124,7 +141,9 @@ export default function FlatsInBandraPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Premium Infrastructure</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Premium Infrastructure
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Top-tier schools and educational institutions</li>
                 <li>• World-class hospitals and healthcare facilities</li>
@@ -135,7 +154,9 @@ export default function FlatsInBandraPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#1D427A] mb-4">Investment Value</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-4">
+                Investment Value
+              </h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Consistent property value appreciation</li>
                 <li>• High rental yields and demand</li>
@@ -156,10 +177,12 @@ export default function FlatsInBandraPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">2 BHK Premium Apartments</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                2 BHK Premium Apartments
+              </h3>
               <p className="text-slate-700 mb-4">
-                Compact yet luxurious 2 bedroom residences perfect for young professionals
-                and couples seeking a Bandra address.
+                Compact yet luxurious 2 bedroom residences perfect for young
+                professionals and couples seeking a Bandra address.
               </p>
               <Link
                 href="/contact"
@@ -170,10 +193,12 @@ export default function FlatsInBandraPage() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">3 BHK Luxury Residences</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                3 BHK Luxury Residences
+              </h3>
               <p className="text-slate-700 mb-4">
-                Spacious 3 bedroom homes with premium finishes, ideal for families wanting
-                the best of Bandra living.
+                Spacious 3 bedroom homes with premium finishes, ideal for
+                families wanting the best of Bandra living.
               </p>
               <Link
                 href="/contact"
@@ -184,10 +209,12 @@ export default function FlatsInBandraPage() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-[#1D427A] mb-3">Sea-Facing Penthouses</h3>
+              <h3 className="text-xl font-bold text-[#1D427A] mb-3">
+                Sea-Facing Penthouses
+              </h3>
               <p className="text-slate-700 mb-4">
-                Ultra-luxury sea-facing residences offering breathtaking Arabian Sea views
-                and world-class amenities.
+                Ultra-luxury sea-facing residences offering breathtaking Arabian
+                Sea views and world-class amenities.
               </p>
               <Link
                 href="/contact"
@@ -208,31 +235,40 @@ export default function FlatsInBandraPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-[#1D427A] mb-2">Bandra West</h3>
+              <h3 className="text-lg font-bold text-[#1D427A] mb-2">
+                Bandra West
+              </h3>
               <p className="text-slate-700">
-                The most prestigious part with Bandstand, Carter Road, and Linking Road.
-                Premium sea-facing apartments and luxury residences.
+                The most prestigious part with Bandstand, Carter Road, and
+                Linking Road. Premium sea-facing apartments and luxury
+                residences.
               </p>
             </div>
 
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-[#1D427A] mb-2">Bandra East</h3>
+              <h3 className="text-lg font-bold text-[#1D427A] mb-2">
+                Bandra East
+              </h3>
               <p className="text-slate-700">
-                Close to BKC with excellent connectivity. Ideal for professionals working
-                in Mumbai's business hub.
+                Close to BKC with excellent connectivity. Ideal for
+                professionals working in Mumbai's business hub.
               </p>
             </div>
 
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-[#1D427A] mb-2">Near Linking Road</h3>
+              <h3 className="text-lg font-bold text-[#1D427A] mb-2">
+                Near Linking Road
+              </h3>
               <p className="text-slate-700">
-                Heart of Bandra's shopping and entertainment scene. Perfect blend of
-                residential calm and urban vibrancy.
+                Heart of Bandra's shopping and entertainment scene. Perfect
+                blend of residential calm and urban vibrancy.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <ScrollToTop />
     </div>
   );
 }
