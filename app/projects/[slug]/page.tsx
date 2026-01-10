@@ -72,11 +72,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <div className="absolute inset-0 flex items-center justify-center text-gray-400">
             <span>Hero Image: {project.featuredImage}</span>
           </div>
-          <div className="absolute top-4 right-4">
-            <span className="bg-[#1D427A] text-white px-4 py-2 rounded-full text-sm font-medium capitalize">
-              {project.status}
-            </span>
-          </div>
         </section>
 
         {/* Project Details */}

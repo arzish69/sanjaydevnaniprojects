@@ -13,6 +13,7 @@ export default function Home() {
 
   // --- Carousel State and Logic ---
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(true);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const AUTOPLAY_DELAY = 5000; // 5 seconds
 
@@ -23,19 +24,55 @@ export default function Home() {
   };
 
   const nextSlide = useCallback(() => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === featuredProjects.length - 1 ? 0 : prevIndex + 1
-    );
+    setCurrentIndex((prevIndex) => {
+      const nextIndex = prevIndex === featuredProjects.length - 1 ? 0 : prevIndex + 1;
+
+      // If looping back to start, disable transition for instant jump
+      if (prevIndex === featuredProjects.length - 1 && nextIndex === 0) {
+        setIsTransitioning(false);
+        setTimeout(() => setIsTransitioning(true), 50);
+      } else {
+        setIsTransitioning(true);
+      }
+
+      return nextIndex;
+    });
   }, [featuredProjects.length]);
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? featuredProjects.length - 1 : prevIndex - 1
-    );
+    setCurrentIndex((prevIndex) => {
+      const nextIndex = prevIndex === 0 ? featuredProjects.length - 1 : prevIndex - 1;
+
+      // If looping back to end, disable transition for instant jump
+      if (prevIndex === 0 && nextIndex === featuredProjects.length - 1) {
+        setIsTransitioning(false);
+        setTimeout(() => setIsTransitioning(true), 50);
+      } else {
+        setIsTransitioning(true);
+      }
+
+      return nextIndex;
+    });
   };
 
   const goToSlide = (slideIndex: number) => {
-    setCurrentIndex(slideIndex);
+    const distance = Math.abs(slideIndex - currentIndex);
+    const isWrapping = (currentIndex === 0 && slideIndex === featuredProjects.length - 1) ||
+                       (currentIndex === featuredProjects.length - 1 && slideIndex === 0);
+
+    // If jumping more than 1 slide (and not just wrapping around), disable transition for instant jump
+    if (distance > 1 || isWrapping) {
+      setIsTransitioning(false);
+      setCurrentIndex(slideIndex);
+
+      // Re-enable transition after a brief delay
+      setTimeout(() => {
+        setIsTransitioning(true);
+      }, 50);
+    } else {
+      setIsTransitioning(true);
+      setCurrentIndex(slideIndex);
+    }
   };
   
   // Effect for auto-playing the carousel
@@ -94,9 +131,6 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#1D427A] mb-4 tracking-tight">
               Completed Projects
             </h2>
-            <p className="text-slate-600 text-lg">
-              Explore our portfolio of successfully delivered homes
-            </p>
           </div>
 
           {/* Carousel Container */}
@@ -110,7 +144,7 @@ export default function Home() {
             <div className="overflow-hidden rounded-xl shadow-2xl">
               {/* Slider Track: Moves horizontally */}
               <div
-                className="flex transition-transform ease-out duration-700"
+                className={`flex ${isTransitioning ? 'transition-transform ease-out duration-700' : ''}`}
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
               >
                 {/* Each slide takes up 100% of the viewport width */}
