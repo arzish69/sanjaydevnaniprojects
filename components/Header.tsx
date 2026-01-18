@@ -20,10 +20,10 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ${
+      className={`fixed top-0 w-full z-50 py-4 border-b transition-[background-color,border-color,box-shadow] duration-500 ease-in-out ${
         scrolled
-          ? "bg-white py-3 shadow-md border-b border-gray-100" // Scrolled state: White BG
-          : "bg-transparent py-5" // Top state: Transparent
+          ? "bg-white shadow-md border-gray-100" // Scrolled state: White BG
+          : "bg-transparent border-transparent" // Top state: Transparent
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,7 +57,7 @@ export default function Header() {
                 className={`text-sm lg:text-base font-bold tracking-tight transition-colors duration-300 ${
                   scrolled
                     ? "text-[#1D427A] hover:text-[#A6192E]" // Blue text, Red hover on scroll
-                    : "text-white hover:text-white/70" // White text at top
+                    : "text-white hover:text-[#1D427A]" // White text, Blue hover at top
                 }`}
               >
                 {item.name}
@@ -66,10 +66,10 @@ export default function Header() {
 
             <Link
               href="/contact"
-              className={`px-6 py-2 rounded-md font-bold transition-all duration-300 shadow-sm ${
+              className={`px-6 py-2 rounded-md font-bold border-2 transition-all duration-300 shadow-sm ${
                 scrolled
-                  ? "bg-[#1D427A] text-white hover:bg-[#A6192E]" // Blue button on scroll
-                  : "border-2 border-white text-white hover:bg-white hover:text-[#1D427A]" // Outline at top
+                  ? "bg-[#1D427A] text-white border-[#1D427A] hover:bg-[#A6192E] hover:border-[#A6192E]" // Blue button on scroll
+                  : "border-white text-white hover:bg-white hover:text-[#1D427A]" // Outline at top
               }`}
             >
               Contact Us

@@ -98,7 +98,7 @@ export default function Home() {
     <>
       {/* Hero Section (No changes) */}
       {/* Hero Section */}
-<section className="relative h-[70vh] flex items-center overflow-hidden">
+<section className="relative h-screen flex items-center overflow-hidden">
   {/* The Video Element */}
   <video
     autoPlay
@@ -113,7 +113,7 @@ export default function Home() {
   </video>
 
   {/* Dark Overlay for readability */}
-  <div className="absolute inset-0 bg-black/40" />
+  <div className="absolute inset-0 bg-black/10" />
 
   {/* Content */}
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
