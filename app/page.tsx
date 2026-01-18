@@ -6,6 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { Project } from "@/types";
 import ScrollToTop from "@/components/ScrollToTop";
+import { cinzel } from "@/lib/fonts";
 
 export default function Home() {
   const typedProjects = projects as Project[];
@@ -118,8 +119,8 @@ export default function Home() {
   {/* Content */}
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
     <div className="text-center max-w-3xl mx-auto">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-        Luxury, Perfected.
+      <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 ${cinzel.className}`}>
+        Luxury, <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">Perfected.</span>
       </h1>
       <p className="text-xl text-gray-200 mb-8">
         Experience modern living with world-class amenities and trusted
