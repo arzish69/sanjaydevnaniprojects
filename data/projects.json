@@ -9,8 +9,21 @@
     "tagline": "Luxury Living in the Heart of Chembur",
     "description": "Pardis Prosperity offers premium residential apartments in the prime location of Sindhi Society, Chembur. Experience affordable luxury with world-class amenities and modern architecture.",
     "bhkTypes": ["2 BHK", "3 BHK"],
-    "amenities": ["24/7 Security", "Gym & Fitness Center", "Swimming Pool", "Landscaped Gardens", "Children's Play Area", "Covered Parking"],
-    "highlights": ["Prime location in Sindhi Society", "Near Chembur Railway Station", "Close to Eastern Freeway", "Vastu Compliant", "RERA Approved"],
+    "amenities": [
+      "24/7 Security",
+      "Gym & Fitness Center",
+      "Swimming Pool",
+      "Landscaped Gardens",
+      "Children's Play Area",
+      "Covered Parking"
+    ],
+    "highlights": [
+      "Prime location in Sindhi Society",
+      "Near Chembur Railway Station",
+      "Close to Eastern Freeway",
+      "Vastu Compliant",
+      "RERA Approved"
+    ],
     "images": [],
     "featuredImage": "/pardis-prosperity.webp",
     "reraNumber": "P51800000000",
@@ -29,8 +42,20 @@
     "tagline": "Modern Living Redefined",
     "description": "Kailasa is a landmark residential project in Chembur East offering spacious apartments with contemporary design and premium amenities.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": ["Clubhouse", "Gym", "Children's Play Area", "24/7 Security", "Lift", "Covered Parking"],
-    "highlights": ["Ready for possession", "Near Monorail Station", "Close to Diamond Garden", "Excellent connectivity"],
+    "amenities": [
+      "Clubhouse",
+      "Gym",
+      "Children's Play Area",
+      "24/7 Security",
+      "Lift",
+      "Covered Parking"
+    ],
+    "highlights": [
+      "Ready for possession",
+      "Near Monorail Station",
+      "Close to Diamond Garden",
+      "Excellent connectivity"
+    ],
     "images": [],
     "featuredImage": "/Kailasa.webp",
     "possession": "Ready to move",
@@ -48,13 +73,18 @@
     "tagline": "An Oasis of Calm in Bustling Chembur",
     "description": "Hibiscus is an exclusive residential development located in the well-established Sindhi Society area of Chembur. Designed for families seeking spacious homes, the project offers privacy, low-density living, and excellent access to schools, markets, and key transport routes.",
     "bhkTypes": ["3 BHK", "4 BHK"],
-    "amenities": ["Rooftop Garden", "Yoga Deck", "Concierge Service", "Valet Parking"],
+    "amenities": [
+      "Rooftop Garden",
+      "Yoga Deck",
+      "Concierge Service",
+      "Valet Parking"
+    ],
     "highlights": [
-  "Located in Sindhi Society, Chembur",
-  "Spacious and well-ventilated residences",
-  "Peaceful residential neighborhood",
-  "Limited residences for privacy"
-],
+      "Located in Sindhi Society, Chembur",
+      "Spacious and well-ventilated residences",
+      "Peaceful residential neighborhood",
+      "Limited residences for privacy"
+    ],
     "images": [],
     "featuredImage": "/Hibuscus.jpg",
     "possession": "Ready to move",
@@ -72,8 +102,16 @@
     "tagline": "The New Address of Prestige",
     "description": "5th Avenue brings a touch of global lifestyle to Chembur with its meticulously designed apartments and world-class features.",
     "bhkTypes": ["2 BHK"],
-    "amenities": ["Modern Clubhouse", "Indoor Games Room", "High-speed Elevators"],
-    "highlights": ["Excellent connectivity to BKC", "Proximity to major highways", "Contemporary architecture"],
+    "amenities": [
+      "Modern Clubhouse",
+      "Indoor Games Room",
+      "High-speed Elevators"
+    ],
+    "highlights": [
+      "Excellent connectivity to BKC",
+      "Proximity to major highways",
+      "Contemporary architecture"
+    ],
     "images": [],
     "featuredImage": "/5th avenue.jpg",
     "possession": "Ready to move",
@@ -92,7 +130,11 @@
     "description": "Find your sanctuary at Mangal Murti Sharan, a residential project designed for peaceful and comfortable family living.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": ["Community Hall", "24/7 Water Supply", "Gated Community"],
-    "highlights": ["Vastu-compliant homes", "Close to markets and schools", "Peaceful neighborhood"],
+    "highlights": [
+      "Vastu-compliant homes",
+      "Close to markets and schools",
+      "Peaceful neighborhood"
+    ],
     "images": [],
     "featuredImage": "/Mangal murti sharan.jpg",
     "possession": "Ready to move",
@@ -110,13 +152,18 @@
     "tagline": "Landmark of Modern Housing",
     "description": "LMH is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
     "bhkTypes": ["2 BHK", "3 BHK"],
-    "amenities": ["Infinity Pool", "Sky Lounge", "Fitness Center", "Ample Parking"],
+    "amenities": [
+      "Infinity Pool",
+      "Sky Lounge",
+      "Fitness Center",
+      "Ample Parking"
+    ],
     "highlights": [
-  "Prime residential location in Chembur",
-  "Modern amenities for everyday comfort",
-  "Excellent road and rail connectivity",
-  "Well-planned layouts"
-],
+      "Prime residential location in Chembur",
+      "Modern amenities for everyday comfort",
+      "Excellent road and rail connectivity",
+      "Well-planned layouts"
+    ],
     "images": [],
     "featuredImage": "/LMH.jpg",
     "possession": "Ready to move",
@@ -134,8 +181,16 @@
     "tagline": "A Legacy of Trust and Quality",
     "description": "Laxmi Legacy is a testament to quality construction and thoughtful design, offering comfortable homes in a well-connected locality.",
     "bhkTypes": ["2 BHK"],
-    "amenities": ["Landscaped Garden", "Children's Play Area", "Security Cabin"],
-    "highlights": ["Located in Chembur", "Easy access to Eastern Express Highway", "Quality construction"],
+    "amenities": [
+      "Landscaped Garden",
+      "Children's Play Area",
+      "Security Cabin"
+    ],
+    "highlights": [
+      "Located in Chembur",
+      "Easy access to Eastern Express Highway",
+      "Quality construction"
+    ],
     "images": [],
     "featuredImage": "/z.jpg",
     "possession": "Ready to move",
@@ -155,11 +210,11 @@
     "bhkTypes": ["2 BHK"],
     "amenities": ["Designer Lobby", "Video Door Phone", "Rooftop Terrace"],
     "highlights": [
-  "Located in Collector Colony, Chembur",
-  "Low-density boutique development",
-  "Modern interiors and finishes",
-  "Close to schools, hospitals, and daily conveniences"
-],
+      "Located in Collector Colony, Chembur",
+      "Low-density boutique development",
+      "Modern interiors and finishes",
+      "Close to schools, hospitals, and daily conveniences"
+    ],
     "images": [],
     "featuredImage": "/CVII.jpg",
     "possession": "Ready to move",
@@ -177,8 +232,16 @@
     "tagline": "Faithfully Crafted Homes",
     "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": ["Lift with Power Backup", "Gated Security", "Intercom Facility"],
-    "highlights": ["Green and serene locality", "Proximity to Tata Institute of Social Sciences", "Spacious layouts"],
+    "amenities": [
+      "Lift with Power Backup",
+      "Gated Security",
+      "Intercom Facility"
+    ],
+    "highlights": [
+      "Green and serene locality",
+      "Proximity to Tata Institute of Social Sciences",
+      "Spacious layouts"
+    ],
     "images": [],
     "featuredImage": "/Sai Shraddha.webp",
     "possession": "Ready to move",
@@ -198,16 +261,151 @@
     "bhkTypes": ["4 BHK"],
     "amenities": ["Sea-facing Deck", "Private Gym", "Smart Home Automation"],
     "highlights": [
-  "Premium residential tower in Chembur",
-  "Spacious luxury residences",
-  "High-end specifications and finishes",
-  "Excellent connectivity to BKC and South Mumbai"
-],
+      "Premium residential tower in Chembur",
+      "Spacious luxury residences",
+      "High-end specifications and finishes",
+      "Excellent connectivity to BKC and South Mumbai"
+    ],
     "images": [],
     "featuredImage": "/AVRONV.jpg",
     "possession": "Ready to move",
     "price": "Contact for pricing",
     "metaTitle": "Avron V - Ultra Luxury 4 BHK Apartments in Chembur",
     "metaDescription": "Avron V is a completed luxury residential project in Chembur offering spacious 4 BHK homes with premium specifications and modern amenities."
+  },
+  {
+    "id": "1",
+    "slug": "sai-saburi",
+    "name": "Sai Saburi",
+    "status": "ongoing",
+    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "area": "Chembur",
+    "tagline": "Faithfully Crafted Homes",
+    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Lift with Power Backup",
+      "Gated Security",
+      "Intercom Facility"
+    ],
+    "highlights": [
+      "Green and serene locality",
+      "Proximity to Tata Institute of Social Sciences",
+      "Spacious layouts"
+    ],
+    "images": [],
+    "featuredImage": "/saburi.jpg",
+    "possession": "Ready to move",
+    "price": "Contact for pricing",
+    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
+    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+  },
+  {
+    "id": "2",
+    "slug": "pardis-shingadia",
+    "name": "Pardis Shingadia",
+    "status": "ongoing",
+    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "area": "Chembur",
+    "tagline": "Faithfully Crafted Homes",
+    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Lift with Power Backup",
+      "Gated Security",
+      "Intercom Facility"
+    ],
+    "highlights": [
+      "Green and serene locality",
+      "Proximity to Tata Institute of Social Sciences",
+      "Spacious layouts"
+    ],
+    "images": [],
+    "featuredImage": "/shingadia.jpg",
+    "possession": "Ready to move",
+    "price": "Contact for pricing",
+    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
+    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+  },
+  {
+    "id": "3",
+    "slug": "shangrila",
+    "name": "Shangrila",
+    "status": "ongoing",
+    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "area": "Chembur",
+    "tagline": "Faithfully Crafted Homes",
+    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Lift with Power Backup",
+      "Gated Security",
+      "Intercom Facility"
+    ],
+    "highlights": [
+      "Green and serene locality",
+      "Proximity to Tata Institute of Social Sciences",
+      "Spacious layouts"
+    ],
+    "images": [],
+    "featuredImage": "/shangrila.png",
+    "possession": "Ready to move",
+    "price": "Contact for pricing",
+    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
+    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+  },
+  {
+    "id": "4",
+    "slug": "pardis-chitragandha",
+    "name": "Pardis Chitragandha",
+    "status": "ongoing",
+    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "area": "Chembur",
+    "tagline": "Faithfully Crafted Homes",
+    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Lift with Power Backup",
+      "Gated Security",
+      "Intercom Facility"
+    ],
+    "highlights": [
+      "Green and serene locality",
+      "Proximity to Tata Institute of Social Sciences",
+      "Spacious layouts"
+    ],
+    "images": [],
+    "featuredImage": "/chitragandha.jpg",
+    "possession": "Ready to move",
+    "price": "Contact for pricing",
+    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
+    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+  },
+  {
+    "id": "5",
+    "slug": "pardis-shivansh",
+    "name": "Pardis Shivansh",
+    "status": "ongoing",
+    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "area": "Chembur",
+    "tagline": "Faithfully Crafted Homes",
+    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Lift with Power Backup",
+      "Gated Security",
+      "Intercom Facility"
+    ],
+    "highlights": [
+      "Green and serene locality",
+      "Proximity to Tata Institute of Social Sciences",
+      "Spacious layouts"
+    ],
+    "images": [],
+    "featuredImage": "/shivansh.jpg",
+    "possession": "Ready to move",
+    "price": "Contact for pricing",
+    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
+    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
   }
 ]

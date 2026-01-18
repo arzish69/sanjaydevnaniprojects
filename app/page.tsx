@@ -97,7 +97,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section (No changes) */}
-      <section className="relative py-40">
+      <section className="relative py-70">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/hero.png')" }}
@@ -106,12 +106,11 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Affordable Luxury in Mumbai's Prime Locations
+              Luxury, Perfected.
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              Premium residential projects in Chembur and Bandra. Experience
-              modern living with world-class amenities and trusted construction
-              quality.
+              Experience modern living with world-class amenities and trusted
+              construction quality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
