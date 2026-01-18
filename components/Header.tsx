@@ -3,10 +3,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,10 +21,13 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // On non-home pages, always show the scrolled (white) header style
+  const showScrolledStyle = !isHomePage || scrolled;
+
   return (
     <header
       className={`fixed top-0 w-full z-50 py-4 border-b transition-[background-color,border-color,box-shadow] duration-500 ease-in-out ${
-        scrolled
+        showScrolledStyle
           ? "bg-white shadow-md border-gray-100" // Scrolled state: White BG
           : "bg-transparent border-transparent" // Top state: Transparent
       }`}
@@ -55,7 +61,7 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 className={`text-sm lg:text-base font-bold tracking-tight transition-colors duration-300 ${
-                  scrolled
+                  showScrolledStyle
                     ? "text-[#1D427A] hover:text-[#A6192E]" // Blue text, Red hover on scroll
                     : "text-white hover:text-[#1D427A]" // White text, Blue hover at top
                 }`}
@@ -67,7 +73,7 @@ export default function Header() {
             <Link
               href="/contact"
               className={`px-6 py-2 rounded-md font-bold border-2 transition-all duration-300 shadow-sm ${
-                scrolled
+                showScrolledStyle
                   ? "bg-[#1D427A] text-white border-[#1D427A] hover:bg-[#A6192E] hover:border-[#A6192E]" // Blue button on scroll
                   : "border-white text-white hover:bg-white hover:text-[#1D427A]" // Outline at top
               }`}
@@ -82,7 +88,7 @@ export default function Header() {
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className={`p-2 transition-colors ${
-                scrolled ? "text-[#1D427A]" : "text-white"
+                showScrolledStyle ? "text-[#1D427A]" : "text-white"
               }`}
               aria-label="Toggle menu"
             >

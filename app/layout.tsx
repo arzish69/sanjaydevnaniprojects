@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MainContent from "@/components/MainContent";
 import JsonLd from "@/components/JsonLd";
 import { organizationSchema, localBusinessSchema } from "@/lib/seo";
 
@@ -84,7 +85,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col bg-white">
         <Header />
-        <main className="flex-grow">{children}</main>
+        <MainContent>{children}</MainContent>
         <Footer />
       </body>
     </html>
