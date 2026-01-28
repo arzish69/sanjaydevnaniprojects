@@ -134,46 +134,61 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
               {/* Sidebar */}
               <div className="lg:col-span-1">
-                <div className="bg-gray-50 p-6 rounded-lg sticky top-24">
-                  <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Project Information</h3>
-
-                  <div className="space-y-4 mb-6">
-                    {project.reraNumber && (
-                      <div>
-                        <p className="text-sm text-slate-600">RERA Number</p>
-                        <p className="font-semibold text-[#1D427A]">{project.reraNumber}</p>
-                      </div>
-                    )}
-
-                    {project.possession && (
-                      <div>
-                        <p className="text-sm text-slate-600">Possession</p>
-                        <p className="font-semibold text-[#1D427A]">{project.possession}</p>
-                      </div>
-                    )}
-
-                    {project.price && (
-                      <div>
-                        <p className="text-sm text-slate-600">Price</p>
-                        <p className="font-semibold text-[#1D427A]">{project.price}</p>
-                      </div>
-                    )}
+                {project.status === "completed" ? (
+                  <div className="bg-gray-50 p-6 rounded-lg sticky top-24 text-center">
+                    <div className="bg-[#A6192E] text-white py-4 px-6 rounded-lg mb-4">
+                      <h3 className="text-2xl font-bold tracking-tight">Sold Out</h3>
+                    </div>
+                    <p className="text-slate-600 mb-6">This project has been successfully completed and all units are sold.</p>
+                    <Link
+                      href="/projects"
+                      className="block w-full bg-[#1D427A] text-white text-center px-6 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-semibold"
+                    >
+                      View Other Projects
+                    </Link>
                   </div>
+                ) : (
+                  <div className="bg-gray-50 p-6 rounded-lg sticky top-24">
+                    <h3 className="text-xl font-bold text-[#1D427A] mb-4 tracking-tight">Project Information</h3>
 
-                  <Link
-                    href="/contact"
-                    className="block w-full bg-[#1D427A] text-white text-center px-6 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-semibold mb-3"
-                  >
-                    Enquire Now
-                  </Link>
+                    <div className="space-y-4 mb-6">
+                      {project.reraNumber && (
+                        <div>
+                          <p className="text-sm text-slate-600">RERA Number</p>
+                          <p className="font-semibold text-[#1D427A]">{project.reraNumber}</p>
+                        </div>
+                      )}
 
-                  <Link
-                    href="/projects"
-                    className="block w-full bg-white text-[#1D427A] text-center px-6 py-3 rounded-md border-2 border-[#1D427A] hover:bg-[#A6192E] hover:text-white hover:border-[#A6192E] transition-colors font-semibold"
-                  >
-                    View All Projects
-                  </Link>
-                </div>
+                      {project.possession && (
+                        <div>
+                          <p className="text-sm text-slate-600">Possession</p>
+                          <p className="font-semibold text-[#1D427A]">{project.possession}</p>
+                        </div>
+                      )}
+
+                      {project.price && (
+                        <div>
+                          <p className="text-sm text-slate-600">Price</p>
+                          <p className="font-semibold text-[#1D427A]">{project.price}</p>
+                        </div>
+                      )}
+                    </div>
+
+                    <Link
+                      href="/contact"
+                      className="block w-full bg-[#1D427A] text-white text-center px-6 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-semibold mb-3"
+                    >
+                      Enquire Now
+                    </Link>
+
+                    <Link
+                      href="/projects"
+                      className="block w-full bg-white text-[#1D427A] text-center px-6 py-3 rounded-md border-2 border-[#1D427A] hover:bg-[#A6192E] hover:text-white hover:border-[#A6192E] transition-colors font-semibold"
+                    >
+                      View All Projects
+                    </Link>
+                  </div>
+                )}
               </div>
             </div>
           </div>

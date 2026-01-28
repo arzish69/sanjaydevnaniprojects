@@ -120,26 +120,13 @@ export default function Home() {
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
     <div className="text-center max-w-3xl mx-auto">
       <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 ${cinzel.className}`}>
-        Luxury, <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">Perfected.</span>
+        Luxury, <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">P e r f e c t e d.</span>
       </h1>
       <p className="text-xl text-gray-200 mb-8">
         Experience modern living with world-class amenities and trusted
         construction quality.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Link
-          href="/projects"
-          className="bg-[#1D427A] text-white px-8 py-3 rounded-md hover:bg-[#A6192E] transition-colors font-medium text-lg"
-        >
-          View All Projects
-        </Link>
-        <Link
-          href="/contact"
-          className="bg-white text-[#1D427A] px-8 py-3 rounded-md border-2 border-[#1D427A] hover:bg-[#1D427A] hover:text-white hover:border-[#1D427A] transition-colors font-medium text-lg"
-        >
-          Contact Us
-        </Link>
-      </div>
+      
     </div>
   </div>
 </section>
