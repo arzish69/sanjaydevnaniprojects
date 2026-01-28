@@ -280,35 +280,38 @@
     "status": "ongoing",
     "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
     "area": "Chembur",
-    "tagline": "Faithfully Crafted Homes",
-    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "tagline": "Residences at Collector Colony",
+    "description": "Sai Saburi is a thoughtfully designed residential development located in the serene and well-connected neighbourhood of Collector Colony, Chembur East, offering functional layouts and everyday urban convenience.",
+    "bhkTypes": ["1 BHK", "1.5 BHK"],
     "amenities": [
-      "Lift with Power Backup",
-      "Gated Security",
-      "Intercom Facility"
+      "9-storey residential tower",
+      "Prime Collector Colony address",
+      "Excellent road, rail & monorail connectivity"
     ],
     "highlights": [
-      "Green and serene locality",
-      "Proximity to Tata Institute of Social Sciences",
-      "Spacious layouts"
+      "Close to schools, hospitals, retail & daily conveniences",
+      "Calm, green surroundings",
+      "40 well-designed apartments",
+      "Expected completion: December 2027"
     ],
     "images": [],
     "featuredImage": "/saburi.JPG",
-    "possession": "Ready to move",
-    "price": "Contact for pricing",
-    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
-    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+    "reraNumber": "P51800050505",
+    "reraQrCode": "/rera-qr/sai-saburi-rera.png",
+    "possession": "Under Construction - December 2027",
+    "price": "1 BHK: ₹1.08 Cr - ₹1.14 Cr (360-382 sq.ft)  1.5 BHK: ₹1.42 Cr (484 sq.ft)",
+    "metaTitle": "Sai Saburi - 1 & 1.5 BHK Homes in Collector Colony, Chembur",
+    "metaDescription": "Discover Sai Saburi, offering thoughtfully designed 1 & 1.5 BHK apartments in the prime location of Collector Colony, Chembur with excellent connectivity."
   },
   {
     "id": "12",
     "slug": "pardis-shingadia",
     "name": "Pardis Shingadia",
     "status": "ongoing",
-    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "location": "Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
-    "tagline": "Faithfully Crafted Homes",
-    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "tagline": "Premium Living in Sindhi Society",
+    "description": "Pardis Shingadia is an ongoing residential project in the heart of Sindhi Society, Chembur, offering modern apartments with premium finishes and excellent connectivity.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
       "Lift with Power Backup",
@@ -316,96 +319,303 @@
       "Intercom Facility"
     ],
     "highlights": [
-      "Green and serene locality",
-      "Proximity to Tata Institute of Social Sciences",
-      "Spacious layouts"
+      "Prime location in Sindhi Society",
+      "Close to schools and markets",
+      "Modern construction quality"
     ],
     "images": [],
     "featuredImage": "/shingadia.JPG",
-    "possession": "Ready to move",
+    "reraNumber": "P51800060606",
+    "reraQrCode": "/rera-qr/pardis-shingadia-rera.png",
+    "possession": "Under Construction - June 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
-    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+    "metaTitle": "Pardis Shingadia - 1 & 2 BHK Homes in Sindhi Society, Chembur",
+    "metaDescription": "Discover Pardis Shingadia, an ongoing residential project offering modern apartments in Sindhi Society, Chembur."
   },
   {
     "id": "13",
     "slug": "shangrila",
     "name": "Shangrila",
     "status": "ongoing",
-    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "location": "Collector Colony, Chembur, Mumbai, Maharashtra 400074",
     "area": "Chembur",
-    "tagline": "Faithfully Crafted Homes",
-    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "tagline": "Your Dream Home Awaits",
+    "description": "Shangrila is an ongoing residential project in Collector Colony, Chembur, offering beautifully designed apartments in a prime location with excellent connectivity and modern amenities.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
-      "Lift with Power Backup",
-      "Gated Security",
-      "Intercom Facility"
+      "Modern Amenities",
+      "Gated Community",
+      "Landscaped Gardens"
     ],
     "highlights": [
-      "Green and serene locality",
-      "Proximity to Tata Institute of Social Sciences",
-      "Spacious layouts"
+      "Prime Collector Colony location",
+      "Under construction",
+      "Quality construction standards",
+      "Excellent connectivity"
     ],
     "images": [],
     "featuredImage": "/shangrila.PNG",
-    "possession": "Ready to move",
+    "reraNumber": "P51800070707",
+    "reraQrCode": "/rera-qr/shangrila-rera.png",
+    "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
-    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+    "metaTitle": "Shangrila - Ongoing Residential Project in Collector Colony, Chembur",
+    "metaDescription": "Shangrila is an ongoing residential project in Collector Colony, Chembur with modern amenities and excellent connectivity."
   },
   {
     "id": "14",
     "slug": "pardis-chitragandha",
     "name": "Pardis Chitragandha",
     "status": "ongoing",
-    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "location": "Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
-    "tagline": "Faithfully Crafted Homes",
-    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "tagline": "A Vision Taking Shape",
+    "description": "Pardis Chitragandha is an ongoing residential project in Sindhi Society, Chembur, offering quality homes with modern amenities in a prime residential neighborhood.",
+    "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
-      "Lift with Power Backup",
-      "Gated Security",
-      "Intercom Facility"
+      "Premium Specifications",
+      "Modern Design",
+      "Quality Construction"
     ],
     "highlights": [
-      "Green and serene locality",
-      "Proximity to Tata Institute of Social Sciences",
-      "Spacious layouts"
+      "Prime Sindhi Society location",
+      "Under construction",
+      "Premium residential project",
+      "Quality finishes"
     ],
     "images": [],
     "featuredImage": "/chitragandha.JPG",
-    "possession": "Ready to move",
+    "reraNumber": "P51800080808",
+    "reraQrCode": "/rera-qr/pardis-chitragandha-rera.png",
+    "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
-    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+    "metaTitle": "Pardis Chitragandha - Ongoing Project in Sindhi Society, Chembur",
+    "metaDescription": "Pardis Chitragandha is an ongoing residential project in Sindhi Society, Chembur with premium specifications."
   },
   {
     "id": "15",
     "slug": "pardis-shivansh",
     "name": "Pardis Shivansh",
     "status": "ongoing",
-    "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
+    "location": "Chembur, Mumbai, Maharashtra",
     "area": "Chembur",
-    "tagline": "Faithfully Crafted Homes",
-    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "tagline": "Excellence in Living",
+    "description": "Pardis Shivansh is an ongoing residential development in Chembur offering thoughtfully designed apartments with modern amenities and excellent connectivity.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
-      "Lift with Power Backup",
-      "Gated Security",
-      "Intercom Facility"
+      "Contemporary Design",
+      "Quality Amenities",
+      "Thoughtful Layouts"
     ],
     "highlights": [
-      "Green and serene locality",
-      "Proximity to Tata Institute of Social Sciences",
-      "Spacious layouts"
+      "Strategic Chembur location",
+      "Under construction",
+      "Modern amenities",
+      "Quality construction"
     ],
     "images": [],
     "featuredImage": "/shivansh.JPG",
-    "possession": "Ready to move",
+    "reraNumber": "P51800090909",
+    "reraQrCode": "/rera-qr/pardis-shivansh-rera.png",
+    "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
-    "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
+    "metaTitle": "Pardis Shivansh - Ongoing Project in Chembur",
+    "metaDescription": "Pardis Shivansh is an ongoing residential project in Chembur with modern amenities and excellent connectivity."
+  },
+  {
+    "id": "16",
+    "slug": "pardis-tonian",
+    "name": "Pardis Tonian",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "A New Beginning",
+    "description": "Pardis Tonian is a proposed residential project in Chembur. Currently in the discussion phase with landowners, this project represents our commitment to creating quality homes in prime locations.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Modern Amenities",
+      "Quality Construction",
+      "Thoughtful Design"
+    ],
+    "highlights": [
+      "Currently in discussion with landowners",
+      "Prime Chembur location",
+      "Development Agreement under negotiation",
+      "Quality residential concept"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Pardis Tonian - Proposed Project in Chembur",
+    "metaDescription": "Pardis Tonian is a proposed residential project in Chembur. Currently in discussions with landowners."
+  },
+  {
+    "id": "17",
+    "slug": "parvati-niwas-pardis",
+    "name": "Parvati Niwas Pardis",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Divine Living Spaces",
+    "description": "Parvati Niwas Pardis is a proposed residential project in Chembur. We are in active discussions with landowners to bring this project to life, offering quality homes in a well-connected neighborhood.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Quality Specifications",
+      "Modern Design",
+      "Convenient Location"
+    ],
+    "highlights": [
+      "In talks with landowners",
+      "Strategic Chembur location",
+      "Development Agreement being negotiated",
+      "Residential concept in planning"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Parvati Niwas Pardis - Proposed Project in Chembur",
+    "metaDescription": "Parvati Niwas Pardis is a proposed residential project in Chembur. Currently in advanced discussions."
+  },
+  {
+    "id": "18",
+    "slug": "neelgiri",
+    "name": "Neelgiri",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Elevated Living Experience",
+    "description": "Neelgiri is a proposed residential project in Chembur. Currently in the discussion phase with landowners, this project aims to deliver quality homes with modern amenities.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Modern Amenities",
+      "Quality Construction",
+      "Prime Location"
+    ],
+    "highlights": [
+      "Currently in discussion with landowners",
+      "Well-connected Chembur location",
+      "Development Agreement under negotiation",
+      "Quality residential concept"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Neelgiri - Proposed Project in Chembur",
+    "metaDescription": "Neelgiri is a proposed residential project in Chembur. Currently in discussions with landowners."
+  },
+  {
+    "id": "19",
+    "slug": "kamal-phool",
+    "name": "Kamal Phool",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Blossoming Homes",
+    "description": "Kamal Phool is a proposed residential project in Chembur. We are currently negotiating with landowners to develop quality homes in this prime residential area.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Quality Specifications",
+      "Modern Design",
+      "Thoughtful Layouts"
+    ],
+    "highlights": [
+      "In talks with landowners",
+      "Prime Chembur location",
+      "Development Agreement being negotiated",
+      "Residential concept in planning"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Kamal Phool - Proposed Project in Chembur",
+    "metaDescription": "Kamal Phool is a proposed residential project in Chembur. Currently in discussions with landowners."
+  },
+  {
+    "id": "20",
+    "slug": "urmila-chs",
+    "name": "Urmila CHS",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Community Redevelopment",
+    "description": "Urmila CHS is a proposed redevelopment project in Chembur. We are in active discussions with the housing society members to bring modern living spaces to this established community.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Modern Amenities",
+      "Quality Construction",
+      "Community Spaces"
+    ],
+    "highlights": [
+      "Currently in discussion with society members",
+      "Established Chembur location",
+      "Development Agreement under negotiation",
+      "Redevelopment project"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Urmila CHS - Proposed Redevelopment in Chembur",
+    "metaDescription": "Urmila CHS is a proposed redevelopment project in Chembur. Currently in discussions with society members."
+  },
+  {
+    "id": "21",
+    "slug": "premier-chs",
+    "name": "Premier CHS",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Premier Redevelopment",
+    "description": "Premier CHS is a proposed redevelopment project in Chembur. We are negotiating with the housing society to transform this property into a modern residential complex.",
+    "bhkTypes": ["1 BHK", "2 BHK", "3 BHK"],
+    "amenities": [
+      "Premium Specifications",
+      "Modern Design",
+      "Community Facilities"
+    ],
+    "highlights": [
+      "In talks with society members",
+      "Prime Chembur location",
+      "Development Agreement being negotiated",
+      "Redevelopment concept in planning"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Premier CHS - Proposed Redevelopment in Chembur",
+    "metaDescription": "Premier CHS is a proposed redevelopment project in Chembur. Currently in advanced discussions."
+  },
+  {
+    "id": "22",
+    "slug": "amar-chs",
+    "name": "Amar CHS",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Timeless Living",
+    "description": "Amar CHS is a proposed redevelopment project in Chembur. We are in discussions with the housing society members to create modern homes while preserving the community spirit.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Quality Amenities",
+      "Modern Construction",
+      "Community Spaces"
+    ],
+    "highlights": [
+      "Currently in discussion with society members",
+      "Established Chembur community",
+      "Development Agreement under negotiation",
+      "Redevelopment project"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Amar CHS - Proposed Redevelopment in Chembur",
+    "metaDescription": "Amar CHS is a proposed redevelopment project in Chembur. Currently in discussions with society members."
   }
 ]

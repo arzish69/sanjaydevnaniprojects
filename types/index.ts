@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   slug: string;
   name: string;
-  status: "ongoing" | "upcoming" | "completed";
+  status: "proposed" | "upcoming" | "ongoing" | "completed";
   location: string;
   area: string; // e.g., "Chembur", "Bandra"
   tagline: string;
@@ -13,6 +13,7 @@ export interface Project {
   images: string[];
   featuredImage: string;
   reraNumber?: string;
+  reraQrCode?: string; // QR code image path for RERA verification
   possession?: string;
   price?: string;
   metaTitle: string;
