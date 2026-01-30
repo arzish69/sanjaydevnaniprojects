@@ -593,9 +593,6 @@ export default function AboutPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1D427A] via-transparent to-transparent opacity-80"></div>
 
                   <div className="text-center relative z-10">
-                    <div className="w-24 h-24 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4 border border-white/30">
-                      <span className="text-4xl text-white font-bold">SD</span>
-                    </div>
                     <h3 className="text-2xl font-bold text-white">
                       Sanjay Devnani
                     </h3>

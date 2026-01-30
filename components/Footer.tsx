@@ -98,8 +98,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-slate-200">
               <li>Sindhi Society, Chembur</li>
               <li>Mumbai, Maharashtra 400071</li>
-              <li>Phone: +91-XXXXXXXXXX</li>
-              <li>Email: info@sanjaydevnaniprojects.com</li>
+              <li>Phone: +91 9833555680</li>
+              <li>Email: sales.pardis@gmail.com</li>
             </ul>
           </div>
         </div>
