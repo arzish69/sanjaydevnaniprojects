@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { generateMetadata as genMeta } from "@/lib/seo";
 import ScrollToTop from "@/components/ScrollToTop";
+import { cinzel } from "@/lib/fonts";
 
 export const metadata: Metadata = genMeta({
   title: "About Us - Trusted Real Estate Developers in Mumbai",
@@ -21,21 +22,33 @@ export default function AboutPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#1D427A] via-[#2d5a9e] to-[#1D427A] py-20 md:py-28 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="relative py-20 md:py-28 overflow-hidden min-h-[500px] flex items-center">
+        {/* Background Image Container */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="hero.png"
+            alt="Hero Background"
+            className="w-full h-full object-cover"
+          />
+          {/* Dark Overlay to keep text readable */}
+          <div className="absolute inset-0 bg-slate-900/60 mix-blend-multiply"></div>
+        </div>
+
+        {/* Your existing Grid Pattern */}
+        <div className="absolute inset-0 opacity-10 z-10">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] bg-repeat"></div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight animate-fade-in">
+
+        {/* Content */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+          {/* Added flex, flex-col, and items-center to guarantee centering */}
+          <div className="flex flex-col items-center text-center w-full">
+            <h1 className="w-full text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight animate-fade-in">
               Building Dreams,
               <br />
               Creating Legacies
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-8 opacity-0 animate-[fade-in_0.8s_ease-out_0.2s_forwards]">
-              Your trusted partner in Mumbai real estate for premium living
-              experiences
-            </p>
+
             <div className="flex flex-wrap justify-center gap-8 mt-12 opacity-0 animate-[fade-in_0.8s_ease-out_0.4s_forwards]">
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">
@@ -133,11 +146,16 @@ export default function AboutPage() {
             </div>
             <div className="order-1 lg:order-2">
               <div className="relative">
+                {/* Decorative background shadow/shape */}
                 <div className="absolute -inset-4 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-2xl transform rotate-3"></div>
-                <div className="relative bg-gray-200 h-[500px] rounded-2xl flex items-center justify-center overflow-hidden shadow-2xl">
-                  <span className="text-gray-400 font-medium">
-                    Building Excellence Image
-                  </span>
+
+                {/* Image Container */}
+                <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+                  <img
+                    src="/building.webp"
+                    alt="Building Excellence"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -463,11 +481,16 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <div className="relative">
+                {/* Decorative background shape */}
                 <div className="absolute -inset-4 bg-gradient-to-r from-indigo-100 to-blue-100 rounded-2xl transform -rotate-3"></div>
-                <div className="relative bg-gray-200 h-[500px] rounded-2xl flex items-center justify-center overflow-hidden shadow-2xl">
-                  <span className="text-gray-400 font-medium">
-                    Construction Excellence Image
-                  </span>
+
+                {/* Image Container */}
+                <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+                  <img
+                    src="/achievement.webp"
+                    alt="Construction Excellence"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -558,10 +581,20 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-3">
-                <div className="md:col-span-1 bg-gradient-to-br from-[#1D427A] to-[#2d5a9e] flex items-center justify-center p-8">
-                  <div className="text-center">
-                    <div className="w-40 h-40 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-6xl text-white font-bold">SD</span>
+                {/* Background Image Column */}
+                <div className="md:col-span-1 relative min-h-[400px] flex items-end justify-center p-8 overflow-hidden">
+                  {/* The Image */}
+                  <img
+                    src="/award.webp"
+                    alt="Sanjay Devnani"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                  {/* Gradient Overlay for Text Readability */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1D427A] via-transparent to-transparent opacity-80"></div>
+
+                  <div className="text-center relative z-10">
+                    <div className="w-24 h-24 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4 border border-white/30">
+                      <span className="text-4xl text-white font-bold">SD</span>
                     </div>
                     <h3 className="text-2xl font-bold text-white">
                       Sanjay Devnani
@@ -571,6 +604,7 @@ export default function AboutPage() {
                     </p>
                   </div>
                 </div>
+
                 <div className="md:col-span-2 p-8 md:p-10">
                   <div className="space-y-4 text-slate-700 leading-relaxed">
                     <p>
@@ -617,7 +651,12 @@ export default function AboutPage() {
               Your Trusted Partner
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-[#1D427A] mt-6">
-              Why Choose Sanjay Devnani Projects
+              Why Choose{" "}
+              <span
+                className={`bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent ${cinzel.className}`}
+              >
+                P A R D I S
+              </span>
             </h2>
             <p className="text-xl text-slate-600 mt-4 max-w-2xl mx-auto">
               Experience the difference that comes with working with Mumbai's
