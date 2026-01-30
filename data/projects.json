@@ -6,20 +6,19 @@
     "status": "completed",
     "location": "Plot 209, Lakme Road, Deonar, Chembur, Mumbai, Maharashtra 400043",
     "area": "Chembur",
-    "tagline": "Luxury Living in the Heart of Chembur",
-    "description": "Pardis Prosperity offers premium residential apartments in the prime location of Sindhi Society, Chembur. Experience affordable luxury with world-class amenities and modern architecture.",
-    "bhkTypes": ["2 BHK", "3 BHK"],
+    "tagline": "Super Luxury Serviced Appartments",
+    "description": "Pardis Prosperity offers premium residential apartments in the prime location of Chembur. Experience affordable luxury with world-class amenities and modern architecture.",
+    "bhkTypes": ["Retail", "Studio"],
     "amenities": [
       "24/7 Security",
-      "Gym & Fitness Center",
-      "Swimming Pool",
       "Landscaped Gardens",
-      "Children's Play Area",
-      "Covered Parking"
+      "Covered Parking",
+      "Food Court",
+      "Cafe"
     ],
     "highlights": [
-      "Prime location in Sindhi Society",
-      "Near Chembur Railway Station",
+      "Prime location in Chembur",
+      "Near Govandi Railway Station",
       "Close to Eastern Freeway",
       "Vastu Compliant",
       "RERA Approved"
