@@ -145,12 +145,12 @@
   {
     "id": "6",
     "slug": "lmh",
-    "name": "LMH",
+    "name": "Little Malabar Hill",
     "status": "completed",
     "location": "Chembur, Mumbai, Maharashtra",
     "area": "Chembur",
     "tagline": "Landmark of Modern Housing",
-    "description": "LMH is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
+    "description": "Little Malabar Hill is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
     "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
       "Infinity Pool",
@@ -168,8 +168,8 @@
     "featuredImage": "/LMH.jpg",
     "possession": "Ready to move",
     "price": "Contact for pricing",
-    "metaTitle": "LMH - Luxury Apartments in Chembur",
-    "metaDescription": "LMH is a completed residential project in Chembur offering premium 2 & 3 BHK homes with modern amenities and excellent connectivity."
+    "metaTitle": "Little Malabar Hill - Luxury Apartments in Chembur",
+    "metaDescription": "Little Malabar Hill is a completed residential project in Chembur offering premium 2 & 3 BHK homes with modern amenities and excellent connectivity."
   },
   {
     "id": "7",
@@ -617,5 +617,61 @@
     "price": "To be announced",
     "metaTitle": "Amar CHS - Proposed Redevelopment in Chembur",
     "metaDescription": "Amar CHS is a proposed redevelopment project in Chembur. Currently in discussions with society members."
+  },
+  {
+    "id": "23",
+    "slug": "pardis-71",
+    "name": "Pardis 71",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "The Next Chapter",
+    "description": "Pardis 71 is a proposed residential project in Chembur. Currently in the discussion phase with landowners, this project aims to deliver quality homes with thoughtful design and modern amenities.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Modern Amenities",
+      "Quality Construction",
+      "Thoughtful Design"
+    ],
+    "highlights": [
+      "Currently in discussion with landowners",
+      "Prime Chembur location",
+      "Development Agreement under negotiation",
+      "Quality residential concept"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Pardis 71 - Proposed Project in Chembur",
+    "metaDescription": "Pardis 71 is a proposed residential project in Chembur. Currently in discussions with landowners."
+  },
+  {
+    "id": "24",
+    "slug": "ananta",
+    "name": "Ananta",
+    "status": "proposed",
+    "location": "Chembur, Mumbai, Maharashtra",
+    "area": "Chembur",
+    "tagline": "Infinite Possibilities",
+    "description": "Ananta is a proposed residential project in Chembur. We are in active discussions with landowners to bring this exciting development to life, offering quality homes in a well-connected neighborhood.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Quality Specifications",
+      "Modern Design",
+      "Convenient Location"
+    ],
+    "highlights": [
+      "In talks with landowners",
+      "Strategic Chembur location",
+      "Development Agreement being negotiated",
+      "Residential concept in planning"
+    ],
+    "images": [],
+    "featuredImage": "",
+    "possession": "To be announced",
+    "price": "To be announced",
+    "metaTitle": "Ananta - Proposed Project in Chembur",
+    "metaDescription": "Ananta is a proposed residential project in Chembur. Currently in advanced discussions with landowners."
   }
 ]
