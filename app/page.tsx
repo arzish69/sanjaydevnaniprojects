@@ -322,8 +322,13 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1D427A] mb-4 tracking-tight">
-              Why Choose Pardis
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1D427A] mt-6">
+              Why Choose{" "}
+              <span
+                className={`bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent ${cinzel.className}`}
+              >
+                P A R D I S
+              </span>
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
