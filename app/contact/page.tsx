@@ -129,7 +129,7 @@ export default function ContactPage() {
                       href="tel:+91XXXXXXXXXX"
                       className="hover:text-[#1D427A] transition-colors"
                     >
-                      +91-XXXXXXXXXX
+                      +91 9833555680
                     </a>
                   </p>
                 </div>
@@ -153,10 +153,10 @@ export default function ContactPage() {
                   </h3>
                   <p className="text-slate-700 ml-7">
                     <a
-                      href="mailto:info@sanjaydevnaniprojects.com"
+                      href="mailto:sales.pardis@gmail.com"
                       className="hover:text-[#1D427A] transition-colors"
                     >
-                      info@sanjaydevnaniprojects.com
+                      sales.pardis@gmail.com
                     </a>
                   </p>
                 </div>
