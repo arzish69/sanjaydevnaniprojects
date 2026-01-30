@@ -39,8 +39,8 @@
     "location": "Kailasa building, 87, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "Modern Living Redefined",
-    "description": "Kailasa is a landmark residential project in Chembur East offering spacious apartments with contemporary design and premium amenities.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "description": "Kailasa is a landmark residential project in Chembur East, Sindhi Society, offering spacious apartments with contemporary design and premium amenities.",
+    "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
       "Clubhouse",
       "Gym",
@@ -50,33 +50,35 @@
       "Covered Parking"
     ],
     "highlights": [
-      "Ready for possession",
       "Near Monorail Station",
       "Close to Diamond Garden",
-      "Excellent connectivity"
+      "Excellent connectivity",
+      "Near Schools/Colleges",
+      "Metro Connectivity"
     ],
     "images": [],
     "featuredImage": "/Kailasa.webp",
     "possession": "Ready to move",
     "price": "Contact for pricing",
-    "metaTitle": "Kailasa - Ready Possession 1 & 2 BHK Flats in Chembur East",
-    "metaDescription": "Kailasa offers ready possession 1 BHK & 2 BHK apartments in Chembur East. Modern amenities, prime location near Monorail. Ready to move in!"
+    "metaTitle": "Kailasa - 2 BHK & 3 BHK Flats in Chembur East",
+    "metaDescription": "Kailasa offers 2 BHK & 3 BHK apartments in Chembur East. Modern amenities, prime location near Monorail. Ready to move in!"
   },
   {
     "id": "3",
     "slug": "hibiscus",
     "name": "Hibiscus",
     "status": "completed",
-    "location": "3V2R+P42, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "location": "58, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "An Oasis of Calm in Bustling Chembur",
     "description": "Hibiscus is an exclusive residential development located in the well-established Sindhi Society area of Chembur. Designed for families seeking spacious homes, the project offers privacy, low-density living, and excellent access to schools, markets, and key transport routes.",
-    "bhkTypes": ["3 BHK", "4 BHK"],
+    "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
       "Rooftop Garden",
-      "Yoga Deck",
-      "Concierge Service",
-      "Valet Parking"
+      "Valet Parking",
+      "Clubhouse",
+      "Swimming Pool",
+      "Near Schools/Colleges"
     ],
     "highlights": [
       "Located in Sindhi Society, Chembur",
@@ -100,7 +102,7 @@
     "area": "Chembur",
     "tagline": "The New Address of Prestige",
     "description": "5th Avenue brings a touch of global lifestyle to Chembur with its meticulously designed apartments and world-class features.",
-    "bhkTypes": ["2 BHK"],
+    "bhkTypes": ["3 BHK"],
     "amenities": [
       "Modern Clubhouse",
       "Indoor Games Room",

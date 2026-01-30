@@ -120,7 +120,7 @@ export default function Home() {
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
     <div className="text-center max-w-3xl mx-auto">
       <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 ${cinzel.className}`}>
-        Luxury, <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">Perfected.</span>
+        Luxury, <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">Perfected...</span>
       </h1>
       <p className="text-xl text-gray-200 mb-8">
         Experience modern living with world-class amenities and trusted
@@ -323,7 +323,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1D427A] mb-4 tracking-tight">
-              Why Choose Sanjay Devnani Projects
+              Why Choose Pardis
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
