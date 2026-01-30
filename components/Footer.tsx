@@ -98,8 +98,22 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-slate-200">
               <li>Sindhi Society, Chembur</li>
               <li>Mumbai, Maharashtra 400071</li>
-              <li>Phone: +91 9833555680</li>
-              <li>Email: sales.pardis@gmail.com</li>
+              <li>
+                <a
+                  href="tel:+919833555680"
+                  className="hover:text-white transition-colors duration-200"
+                >
+                  Phone: +91 9833555680
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:sales.pardis@gmail.com"
+                  className="hover:text-white transition-colors duration-200"
+                >
+                  Email: sales.pardis@gmail.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>
