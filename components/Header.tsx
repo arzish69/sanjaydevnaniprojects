@@ -2,12 +2,23 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
+
+const locations = [
+  { name: "Bandra", href: "/flats-in-bandra" },
+  { name: "Khar", href: "/flats-in-khar" },
+  { name: "BKC", href: "/flats-in-bkc" },
+  { name: "Chembur", href: "/flats-in-chembur" },
+  { name: "Kurla", href: "/flats-in-kurla" },
+];
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [locationsOpen, setLocationsOpen] = useState(false);
+  const [mobileLocationsOpen, setMobileLocationsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
   const isHomePage = pathname === "/";
 
@@ -19,6 +30,18 @@ export default function Header() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setLocationsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   // On non-home pages, always show the scrolled (white) header style
@@ -52,8 +75,62 @@ export default function Header() {
               { name: "Home", href: "/" },
               { name: "Projects", href: "/projects" },
               { name: "Connect", href: "/connect" },
-              { name: "Chembur", href: "/flats-in-chembur" },
-              { name: "Bandra", href: "/flats-in-bandra" },
+            ].map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`text-sm lg:text-base font-bold tracking-tight transition-colors duration-300 ${
+                  showScrolledStyle
+                    ? "text-[#1D427A] hover:text-[#A6192E]"
+                    : "text-white hover:text-[#1D427A]"
+                }`}
+              >
+                {item.name}
+              </Link>
+            ))}
+
+            {/* Locations Dropdown */}
+            <div
+              className="relative"
+              ref={dropdownRef}
+              onMouseEnter={() => setLocationsOpen(true)}
+              onMouseLeave={() => setLocationsOpen(false)}
+            >
+              <button
+                className={`text-sm lg:text-base font-bold tracking-tight transition-colors duration-300 flex items-center gap-1 ${
+                  showScrolledStyle
+                    ? "text-[#1D427A] hover:text-[#A6192E]"
+                    : "text-white hover:text-[#1D427A]"
+                }`}
+              >
+                Locations
+                <svg
+                  className={`w-4 h-4 transition-transform duration-200 ${locationsOpen ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {locationsOpen && (
+                <div className="absolute top-full left-0 pt-2 w-48 z-50">
+                  <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2">
+                    {locations.map((loc) => (
+                      <Link
+                        key={loc.name}
+                        href={loc.href}
+                        className="block px-4 py-2 text-[#1D427A] hover:bg-gray-50 hover:text-[#A6192E] font-medium transition-colors"
+                      >
+                        {loc.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {[
               { name: "Blog", href: "/blog" },
               { name: "About", href: "/about" },
             ].map((item) => (
@@ -62,8 +139,8 @@ export default function Header() {
                 href={item.href}
                 className={`text-sm lg:text-base font-bold tracking-tight transition-colors duration-300 ${
                   showScrolledStyle
-                    ? "text-[#1D427A] hover:text-[#A6192E]" // Blue text, Red hover on scroll
-                    : "text-white hover:text-[#1D427A]" // White text, Blue hover at top
+                    ? "text-[#1D427A] hover:text-[#A6192E]"
+                    : "text-white hover:text-[#1D427A]"
                 }`}
               >
                 {item.name}
@@ -121,8 +198,53 @@ export default function Header() {
                 { name: "Home", href: "/" },
                 { name: "Projects", href: "/projects" },
                 { name: "Connect", href: "/connect" },
-                { name: "Chembur", href: "/flats-in-chembur" },
-                { name: "Bandra", href: "/flats-in-bandra" },
+              ].map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block text-xl text-[#1D427A] font-bold hover:text-[#A6192E] transition-colors"
+                >
+                  {item.name}
+                </Link>
+              ))}
+
+              {/* Mobile Locations Dropdown */}
+              <div>
+                <button
+                  onClick={() => setMobileLocationsOpen(!mobileLocationsOpen)}
+                  className="flex items-center justify-between w-full text-xl text-[#1D427A] font-bold hover:text-[#A6192E] transition-colors"
+                >
+                  Locations
+                  <svg
+                    className={`w-5 h-5 transition-transform ${mobileLocationsOpen ? "rotate-180" : ""}`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {mobileLocationsOpen && (
+                  <div className="mt-2 ml-4 space-y-2">
+                    {locations.map((loc) => (
+                      <Link
+                        key={loc.name}
+                        href={loc.href}
+                        onClick={() => {
+                          setMobileMenuOpen(false);
+                          setMobileLocationsOpen(false);
+                        }}
+                        className="block text-lg text-[#1D427A] font-medium hover:text-[#A6192E] transition-colors"
+                      >
+                        {loc.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {[
                 { name: "Blog", href: "/blog" },
                 { name: "About", href: "/about" },
               ].map((item) => (

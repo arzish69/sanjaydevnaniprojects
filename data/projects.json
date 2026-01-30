@@ -130,7 +130,9 @@
     "tagline": "A Blessed and Peaceful Abode",
     "description": "Find your sanctuary at Mangal Murti Sharan, a residential project designed for peaceful and comfortable family living.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": ["Community Hall", "24/7 Water Supply", "Gated Community"],
+    "amenities": ["Clubhouse", "24/7 Water Supply", "Clubhouse",
+      "Swimming Pool",
+      "Near Schools/Colleges" ],
     "highlights": [
       "Vastu-compliant homes",
       "Close to markets and schools",
@@ -154,8 +156,9 @@
     "description": "Little Malabar Hill is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
     "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
-      "Infinity Pool",
-      "Sky Lounge",
+      "Clubhouse", "24/7 Water Supply", "Clubhouse",
+      "Swimming Pool",
+      "Near Schools/Colleges", "Cricket grounds",
       "Fitness Center",
       "Ample Parking"
     ],
@@ -204,11 +207,11 @@
     "slug": "cv-ii",
     "name": "CV II",
     "status": "completed",
-    "location": "2VVR+MCF, Collector Colony, Chembur, Mumbai, Maharashtra 400071",
+    "location": "107, Collector Colony, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "Urban Sophistication",
     "description": "CV II is a boutique residential project located in Collector Colony, Chembur. Designed for urban homeowners, the project offers contemporary homes with modern specifications in a calm yet well-connected neighborhood.",
-    "bhkTypes": ["2 BHK"],
+    "bhkTypes": ["1 BHK","2 BHK"],
     "amenities": ["Designer Lobby", "Video Door Phone", "Rooftop Terrace"],
     "highlights": [
       "Located in Collector Colony, Chembur",
@@ -231,7 +234,7 @@
     "location": "30-B, 29/A, Collector Colony, Chembur, Mumbai, Maharashtra 400074",
     "area": "Chembur",
     "tagline": "Faithfully Crafted Homes",
-    "description": "Sai Shraddha in Deonar offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
+    "description": "Sai Shraddha in collector colony, Chembur offers well-planned apartments that combine practicality with elegance, creating the perfect home for your family.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
       "Lift with Power Backup",
@@ -240,7 +243,7 @@
     ],
     "highlights": [
       "Green and serene locality",
-      "Proximity to Tata Institute of Social Sciences",
+      "Proximity to golf course",
       "Spacious layouts"
     ],
     "images": [],
@@ -257,10 +260,10 @@
     "status": "completed",
     "location": "Chembur, Mumbai, Maharashtra",
     "area": "Chembur",
-    "tagline": "The Pinnacle of Seaside Living",
+    "tagline": "The Pinnacle of Garden Living",
     "description": "Avron V is a premium residential development in Chembur designed for discerning homeowners who value space, privacy, and refined living. The project features large residences with high-end finishes and modern lifestyle amenities.",
     "bhkTypes": ["4 BHK"],
-    "amenities": ["Sea-facing Deck", "Private Gym", "Smart Home Automation"],
+    "amenities": ["Garden-facing Deck", "Smart Home Automation", "Automated Lifts"],
     "highlights": [
       "Premium residential tower in Chembur",
       "Spacious luxury residences",
@@ -300,7 +303,7 @@
     "reraNumber": "P51800050505",
     "reraQrCode": "/rera-qr/sai-saburi-rera.png",
     "possession": "Under Construction - December 2027",
-    "price": "1 BHK: ₹1.08 Cr - ₹1.14 Cr (360-382 sq.ft)  1.5 BHK: ₹1.42 Cr (484 sq.ft)",
+    "price": "Contact for details",
     "metaTitle": "Sai Saburi - 1 & 1.5 BHK Homes in Collector Colony, Chembur",
     "metaDescription": "Discover Sai Saburi, offering thoughtfully designed 1 & 1.5 BHK apartments in the prime location of Collector Colony, Chembur with excellent connectivity."
   },
@@ -427,7 +430,7 @@
     "id": "16",
     "slug": "pardis-tonian",
     "name": "Pardis Tonian",
-    "status": "proposed",
+    "status": "ongoing",
     "location": "Chembur, Mumbai, Maharashtra",
     "area": "Chembur",
     "tagline": "A New Beginning",
@@ -445,7 +448,7 @@
       "Quality residential concept"
     ],
     "images": [],
-    "featuredImage": "",
+    "featuredImage": "Scene_01_Eye Level View.jpg",
     "possession": "To be announced",
     "price": "To be announced",
     "metaTitle": "Pardis Tonian - Proposed Project in Chembur",
@@ -454,12 +457,12 @@
   {
     "id": "17",
     "slug": "parvati-niwas-pardis",
-    "name": "Parvati Niwas Pardis",
+    "name": "Parvati Pardis",
     "status": "proposed",
     "location": "Chembur, Mumbai, Maharashtra",
     "area": "Chembur",
     "tagline": "Divine Living Spaces",
-    "description": "Parvati Niwas Pardis is a proposed residential project in Chembur. We are in active discussions with landowners to bring this project to life, offering quality homes in a well-connected neighborhood.",
+    "description": "Parvati Pardis is a proposed residential project in Chembur. We are in active discussions with landowners to bring this project to life, offering quality homes in a well-connected neighborhood.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
       "Quality Specifications",
