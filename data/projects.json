@@ -135,9 +135,13 @@
     "tagline": "A Blessed and Peaceful Abode",
     "description": "Find your sanctuary at Mangal Murti Sharan, a residential project designed for peaceful and comfortable family living.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": ["Clubhouse", "24/7 Water Supply", "Clubhouse",
+    "amenities": [
+      "Clubhouse",
+      "24/7 Water Supply",
+      "Clubhouse",
       "Swimming Pool",
-      "Near Schools/Colleges" ],
+      "Near Schools/Colleges"
+    ],
     "highlights": [
       "Vastu-compliant homes",
       "Close to markets and schools",
@@ -161,9 +165,12 @@
     "description": "Little Malabar Hill is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
     "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
-      "Clubhouse", "24/7 Water Supply", "Clubhouse",
+      "Clubhouse",
+      "24/7 Water Supply",
+      "Clubhouse",
       "Swimming Pool",
-      "Near Schools/Colleges", "Cricket grounds",
+      "Near Schools/Colleges",
+      "Cricket grounds",
       "Fitness Center",
       "Ample Parking"
     ],
@@ -216,7 +223,7 @@
     "area": "Chembur",
     "tagline": "Urban Sophistication",
     "description": "CV II is a boutique residential project located in Collector Colony, Chembur. Designed for urban homeowners, the project offers contemporary homes with modern specifications in a calm yet well-connected neighborhood.",
-    "bhkTypes": ["1 BHK","2 BHK"],
+    "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": ["Designer Lobby", "Video Door Phone", "Rooftop Terrace"],
     "highlights": [
       "Located in Collector Colony, Chembur",
@@ -268,7 +275,11 @@
     "tagline": "The Pinnacle of Garden Living",
     "description": "Avron V is a premium residential development in Chembur designed for discerning homeowners who value space, privacy, and refined living. The project features large residences with high-end finishes and modern lifestyle amenities.",
     "bhkTypes": ["4 BHK"],
-    "amenities": ["Garden-facing Deck", "Smart Home Automation", "Automated Lifts"],
+    "amenities": [
+      "Garden-facing Deck",
+      "Smart Home Automation",
+      "Automated Lifts"
+    ],
     "highlights": [
       "Premium residential tower in Chembur",
       "Spacious luxury residences",
@@ -335,8 +346,8 @@
     ],
     "images": [],
     "featuredImage": "/shingadia.JPG",
-    "reraNumber": "P51800060606",
-    "reraQrCode": "/rera-qr/pardis-shingadia-rera.png",
+    "reraNumber": "P51800054651",
+    "reraQrCode": "/images/pardisshingadia_qr.png",
     "mahareraPdf": "/pdfs/pardis-shingadia-rera.pdf",
     "possession": "Under Construction - June 2028",
     "price": "Contact for pricing",
@@ -353,11 +364,7 @@
     "tagline": "Your Dream Home Awaits",
     "description": "Shangrila is an ongoing residential project in Collector Colony, Chembur, offering beautifully designed apartments in a prime location with excellent connectivity and modern amenities.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": [
-      "Modern Amenities",
-      "Gated Community",
-      "Landscaped Gardens"
-    ],
+    "amenities": ["Modern Amenities", "Gated Community", "Landscaped Gardens"],
     "highlights": [
       "Prime Collector Colony location",
       "Under construction",
@@ -397,8 +404,8 @@
     ],
     "images": [],
     "featuredImage": "/chitragandha.JPG",
-    "reraNumber": "P51800080808",
-    "reraQrCode": "/rera-qr/pardis-chitragandha-rera.png",
+    "reraNumber": "P51800078846",
+    "reraQrCode": "/images/pardischitragandha_qr.png",
     "mahareraPdf": "/pdfs/pardis-chitragandha-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
@@ -428,8 +435,8 @@
     ],
     "images": [],
     "featuredImage": "/shivansh.JPG",
-    "reraNumber": "P51800090909",
-    "reraQrCode": "/rera-qr/pardis-shivansh-rera.png",
+    "reraNumber": "PR1180002500225",
+    "reraQrCode": "/images/pardisshivansh_qr.png",
     "mahareraPdf": "/pdfs/pardis-shivansh-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
@@ -502,11 +509,7 @@
     "tagline": "Elevated Living Experience",
     "description": "Neelgiri is a proposed residential project in Chembur. Currently in the discussion phase with landowners, this project aims to deliver quality homes with modern amenities.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": [
-      "Modern Amenities",
-      "Quality Construction",
-      "Prime Location"
-    ],
+    "amenities": ["Modern Amenities", "Quality Construction", "Prime Location"],
     "highlights": [
       "Currently in discussion with landowners",
       "Well-connected Chembur location",
