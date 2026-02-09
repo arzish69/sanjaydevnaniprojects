@@ -7,7 +7,7 @@ import projects from "@/data/projects.json";
 import { Project } from "@/types";
 import ScrollToTop from "@/components/ScrollToTop";
 
-type FilterStatus = "all" | "proposed" | "upcoming" | "ongoing" | "completed";
+type FilterStatus = "all" | "proposed" | "ongoing" | "completed";
 
 // Status badge component
 function StatusBadge({ status }: { status: Project["status"] }) {
@@ -199,8 +199,6 @@ export default function ProjectsPage() {
     switch (activeFilter) {
       case "proposed":
         return proposedProjects;
-      case "upcoming":
-        return upcomingProjects;
       case "ongoing":
         return ongoingProjects;
       case "completed":
@@ -217,7 +215,6 @@ export default function ProjectsPage() {
   const filters = [
     { key: "ongoing" as FilterStatus, label: "Ongoing", count: ongoingProjects.length },
     { key: "proposed" as FilterStatus, label: "Proposed", count: proposedProjects.length },
-    { key: "upcoming" as FilterStatus, label: "Upcoming", count: upcomingProjects.length },
     { key: "completed" as FilterStatus, label: "Completed", count: completedProjects.length },
     { key: "all" as FilterStatus, label: "All Projects", count: typedProjects.length },
   ];
@@ -229,11 +226,6 @@ export default function ProjectsPage() {
         return {
           title: "Proposed Projects",
           description: "Projects currently in discussion with landowners. Development Agreement under negotiation.",
-        };
-      case "upcoming":
-        return {
-          title: "Upcoming Projects",
-          description: "Development Agreement signed. Awaiting site vacation for construction to commence.",
         };
       case "ongoing":
         return {
