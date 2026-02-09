@@ -4,7 +4,7 @@
     "slug": "pardis-prosperity",
     "name": "Pardis Prosperity",
     "status": "completed",
-    "location": "Plot 209, Lakme Road, Deonar, Chembur, Mumbai, Maharashtra 400043",
+    "location": "Plot 209, Lakme Road, Deonar, Chembur, Mumbai-400088, Maharashtra",
     "area": "Chembur",
     "tagline": "Super Luxury Serviced Appartments",
     "description": "Pardis Prosperity offers premium residential apartments in the prime location of Chembur. Experience affordable luxury with world-class amenities and modern architecture.",
@@ -14,22 +14,23 @@
       "Landscaped Gardens",
       "Covered Parking",
       "Food Court",
-      "Cafe"
+      "Cafe",
+      "Lounge"
     ],
     "highlights": [
       "Prime location in Chembur",
       "Near Govandi Railway Station",
       "Close to Eastern Freeway",
       "Vastu Compliant",
-      "RERA Approved"
+      "RERA Approved",
+      "Easy access to eastern express highway"
     ],
     "images": [],
     "featuredImage": "/pardis-prosperity.webp",
-    "reraNumber": "P51800000000",
-    "possession": "2026",
-    "price": "Contact for pricing",
-    "metaTitle": "Pardis Prosperity - Luxury 2 & 3 BHK Flats in Sindhi Society Chembur",
-    "metaDescription": "Discover Pardis Prosperity - Premium 2 BHK & 3 BHK apartments in Sindhi Society, Chembur. RERA approved project with world-class amenities."
+    "possession": "2023",
+    "price": "SOLD",
+    "metaTitle": "Pardis Prosperity - Super Luxury Serviced Appartments",
+    "metaDescription": "Pardis Prosperity offers premium residential apartments in the prime location of Chembur. Experience affordable luxury with world-class amenities and modern architecture."
   },
   {
     "id": "2",
@@ -54,12 +55,13 @@
       "Close to Diamond Garden",
       "Excellent connectivity",
       "Near Schools/Colleges",
-      "Metro Connectivity"
+      "Metro Connectivity",
+      "Young Neighbourhood"
     ],
     "images": [],
     "featuredImage": "/Kailasa.webp",
-    "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "possession": "2024",
+    "price": "SOLD",
     "metaTitle": "Kailasa - 2 BHK & 3 BHK Flats in Chembur East",
     "metaDescription": "Kailasa offers 2 BHK & 3 BHK apartments in Chembur East. Modern amenities, prime location near Monorail. Ready to move in!"
   },
@@ -78,19 +80,22 @@
       "Valet Parking",
       "Clubhouse",
       "Swimming Pool",
-      "Near Schools/Colleges"
+      "Near Schools/Colleges",
+      "Gym"
     ],
     "highlights": [
       "Located in Sindhi Society, Chembur",
       "Spacious and well-ventilated residences",
       "Peaceful residential neighborhood",
-      "Limited residences for privacy"
+      "Limited residences for privacy",
+      "Metro Connectivity",
+      "Young Neighbourhood"
     ],
     "images": [],
     "featuredImage": "/Hibuscus.jpg",
-    "possession": "Ready to move",
-    "price": "Contact for pricing",
-    "metaTitle": "Hibiscus - Luxury 3 & 4 BHK Apartments in Chembur",
+    "possession": "2018",
+    "price": "SOLD",
+    "metaTitle": "Hibiscus - Luxury 1 & 2 BHK Apartments in Chembur",
     "metaDescription": "Hibiscus offers ready-to-move premium residences in Sindhi Society, Chembur. Spacious layouts, peaceful surroundings, and excellent city connectivity."
   },
   {
@@ -116,7 +121,7 @@
     "images": [],
     "featuredImage": "/5th avenue.jpg",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "5th Avenue - Premium 2 BHK Homes in Chembur",
     "metaDescription": "5th Avenue, a completed project in Chembur, offers premium 2 BHK apartments with modern amenities."
   },
@@ -141,7 +146,7 @@
     "images": [],
     "featuredImage": "/Mangal murti sharan.jpg",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "Mangal Murti Sharan - 1 & 2 BHK Flats in Chembur Camp",
     "metaDescription": "Completed residential project Mangal Murti Sharan in Chembur offers peaceful 1 and 2 BHK homes."
   },
@@ -171,7 +176,7 @@
     "images": [],
     "featuredImage": "/LMH.jpg",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "Little Malabar Hill - Luxury Apartments in Chembur",
     "metaDescription": "Little Malabar Hill is a completed residential project in Chembur offering premium 2 & 3 BHK homes with modern amenities and excellent connectivity."
   },
@@ -198,7 +203,7 @@
     "images": [],
     "featuredImage": "/z.jpg",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "Laxmi Legacy - 2 BHK Flats in Chembur",
     "metaDescription": "Laxmi Legacy offers ready-to-move 2 BHK homes with excellent connectivity near Chembur."
   },
@@ -222,7 +227,7 @@
     "images": [],
     "featuredImage": "/CVII.jpg",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "CV II - Exclusive 2 BHK Apartments in Chembur",
     "metaDescription": "CV II offers ready-to-move 2 BHK apartments in Collector Colony, Chembur. Boutique living with modern amenities in a prime residential area."
   },
@@ -249,7 +254,7 @@
     "images": [],
     "featuredImage": "/Sai Shraddha.webp",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
     "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
   },
@@ -273,7 +278,7 @@
     "images": [],
     "featuredImage": "/AVRONV.jpg",
     "possession": "Ready to move",
-    "price": "Contact for pricing",
+    "price": "SOLD",
     "metaTitle": "Avron V - Ultra Luxury 4 BHK Apartments in Chembur",
     "metaDescription": "Avron V is a completed luxury residential project in Chembur offering spacious 4 BHK homes with premium specifications and modern amenities."
   },
@@ -300,8 +305,9 @@
     ],
     "images": [],
     "featuredImage": "/saburi.JPG",
-    "reraNumber": "P51800050505",
-    "reraQrCode": "/rera-qr/sai-saburi-rera.png",
+    "reraNumber": "PR1180002500747",
+    "reraQrCode": "/images/saisaburi_qr.png",
+    "mahareraPdf": "/pdfs/sai-saburi-rera.pdf",
     "possession": "Under Construction - December 2027",
     "price": "Contact for details",
     "metaTitle": "Sai Saburi - 1 & 1.5 BHK Homes in Collector Colony, Chembur",
@@ -331,6 +337,7 @@
     "featuredImage": "/shingadia.JPG",
     "reraNumber": "P51800060606",
     "reraQrCode": "/rera-qr/pardis-shingadia-rera.png",
+    "mahareraPdf": "/pdfs/pardis-shingadia-rera.pdf",
     "possession": "Under Construction - June 2028",
     "price": "Contact for pricing",
     "metaTitle": "Pardis Shingadia - 1 & 2 BHK Homes in Sindhi Society, Chembur",
@@ -359,8 +366,9 @@
     ],
     "images": [],
     "featuredImage": "/shangrila.PNG",
-    "reraNumber": "P51800070707",
-    "reraQrCode": "/rera-qr/shangrila-rera.png",
+    "reraNumber": "P51800054003",
+    "reraQrCode": "/images/shangrila_qr.png",
+    "mahareraPdf": "/pdfs/shangrila-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
     "metaTitle": "Shangrila - Ongoing Residential Project in Collector Colony, Chembur",
@@ -391,6 +399,7 @@
     "featuredImage": "/chitragandha.JPG",
     "reraNumber": "P51800080808",
     "reraQrCode": "/rera-qr/pardis-chitragandha-rera.png",
+    "mahareraPdf": "/pdfs/pardis-chitragandha-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
     "metaTitle": "Pardis Chitragandha - Ongoing Project in Sindhi Society, Chembur",
@@ -421,6 +430,7 @@
     "featuredImage": "/shivansh.JPG",
     "reraNumber": "P51800090909",
     "reraQrCode": "/rera-qr/pardis-shivansh-rera.png",
+    "mahareraPdf": "/pdfs/pardis-shivansh-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
     "metaTitle": "Pardis Shivansh - Ongoing Project in Chembur",

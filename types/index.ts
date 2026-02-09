@@ -14,6 +14,7 @@ export interface Project {
   featuredImage: string;
   reraNumber?: string;
   reraQrCode?: string; // QR code image path for RERA verification
+  mahareraPdf?: string; // Path to MahaRERA PDF in public/pdfs folder
   possession?: string;
   price?: string;
   metaTitle: string;

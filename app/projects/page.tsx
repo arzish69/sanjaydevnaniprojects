@@ -168,9 +168,9 @@ function ProjectCard({ project }: { project: Project }) {
           </Link>
 
           {/* MahaRERA Button for Ongoing Projects */}
-          {project.status === "ongoing" && project.reraNumber && (
+          {project.status === "ongoing" && project.mahareraPdf && (
             <a
-              href={`https://maharera.mahaonline.gov.in/SearchList/Search?s=p&q=${project.reraNumber}`}
+              href={project.mahareraPdf}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full bg-blue-50 text-blue-700 py-2 rounded-lg text-sm font-medium hover:bg-blue-100 transition-colors border border-blue-200"
