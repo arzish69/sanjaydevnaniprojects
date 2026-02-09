@@ -83,7 +83,7 @@ function ProjectCard({ project }: { project: Project }) {
           <p className="text-slate-600 text-sm mb-4 line-clamp-2 flex-grow">{project.description}</p>
 
           {/* BHK Types */}
-          <div className="flex flex-wrap gap-1.5 mb-4">
+          <div className="flex flex-wrap gap-1.5">
             {project.bhkTypes.map((type) => (
               <span
                 key={type}
@@ -93,20 +93,13 @@ function ProjectCard({ project }: { project: Project }) {
               </span>
             ))}
           </div>
-
-          {/* Buttons */}
-          <div className="mt-auto">
-            <Link
-              href={`/projects/${project.slug}`}
-              className="block w-full text-center bg-amber-500 text-white py-2.5 rounded-lg font-medium hover:bg-amber-600 transition-colors"
-            >
-              View Details
-            </Link>
-          </div>
         </div>
       </div>
     );
   }
+
+  // Check if View Details button should be hidden
+  const hideViewDetails = project.slug === "pardis-71";
 
   // Regular card for other statuses
   return (
@@ -160,12 +153,14 @@ function ProjectCard({ project }: { project: Project }) {
 
         {/* Buttons */}
         <div className="mt-auto space-y-2">
-          <Link
-            href={`/projects/${project.slug}`}
-            className="block w-full text-center bg-[#1D427A] text-white py-2.5 rounded-lg font-medium hover:bg-[#A6192E] transition-colors"
-          >
-            View Details
-          </Link>
+          {!hideViewDetails && (
+            <Link
+              href={`/projects/${project.slug}`}
+              className="block w-full text-center bg-[#1D427A] text-white py-2.5 rounded-lg font-medium hover:bg-[#A6192E] transition-colors"
+            >
+              View Details
+            </Link>
+          )}
 
           {/* MahaRERA Button for Ongoing Projects */}
           {project.status === "ongoing" && project.mahareraPdf && (

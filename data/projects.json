@@ -28,7 +28,7 @@
     "images": [],
     "featuredImage": "/pardis-prosperity.webp",
     "possession": "2023",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Pardis Prosperity - Super Luxury Serviced Appartments",
     "metaDescription": "Pardis Prosperity offers premium residential apartments in the prime location of Chembur. Experience affordable luxury with world-class amenities and modern architecture."
   },
@@ -37,7 +37,7 @@
     "slug": "kailasa",
     "name": "Kailasa",
     "status": "completed",
-    "location": "Kailasa building, 87, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "location": "Plot no 87, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "Modern Living Redefined",
     "description": "Kailasa is a landmark residential project in Chembur East, Sindhi Society, offering spacious apartments with contemporary design and premium amenities.",
@@ -61,7 +61,7 @@
     "images": [],
     "featuredImage": "/Kailasa.webp",
     "possession": "2024",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Kailasa - 2 BHK & 3 BHK Flats in Chembur East",
     "metaDescription": "Kailasa offers 2 BHK & 3 BHK apartments in Chembur East. Modern amenities, prime location near Monorail. Ready to move in!"
   },
@@ -70,7 +70,7 @@
     "slug": "hibiscus",
     "name": "Hibiscus",
     "status": "completed",
-    "location": "58, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "location": "Plot no 58, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "An Oasis of Calm in Bustling Chembur",
     "description": "Hibiscus is an exclusive residential development located in the well-established Sindhi Society area of Chembur. Designed for families seeking spacious homes, the project offers privacy, low-density living, and excellent access to schools, markets, and key transport routes.",
@@ -94,7 +94,7 @@
     "images": [],
     "featuredImage": "/Hibuscus.jpg",
     "possession": "2018",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Hibiscus - Luxury 1 & 2 BHK Apartments in Chembur",
     "metaDescription": "Hibiscus offers ready-to-move premium residences in Sindhi Society, Chembur. Spacious layouts, peaceful surroundings, and excellent city connectivity."
   },
@@ -103,7 +103,7 @@
     "slug": "5th-avenue",
     "name": "5th Avenue",
     "status": "completed",
-    "location": "59, No 1 Rd, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "location": "Plot no 59, No 1 Rd, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "The New Address of Prestige",
     "description": "5th Avenue brings a touch of global lifestyle to Chembur with its meticulously designed apartments and world-class features.",
@@ -121,7 +121,7 @@
     "images": [],
     "featuredImage": "/5th avenue.jpg",
     "possession": "Ready to move",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "5th Avenue - Premium 2 BHK Homes in Chembur",
     "metaDescription": "5th Avenue, a completed project in Chembur, offers premium 2 BHK apartments with modern amenities."
   },
@@ -154,7 +154,7 @@
     "images": [],
     "featuredImage": "/Mangal murti sharan.jpg",
     "possession": "Ready to move",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Mangal Murti Sharan - 1 & 2 BHK Flats in Chembur Camp",
     "metaDescription": "Completed residential project Mangal Murti Sharan in Chembur offers peaceful 1 and 2 BHK homes."
   },
@@ -163,7 +163,7 @@
     "slug": "lmh",
     "name": "Little Malabar Hill",
     "status": "completed",
-    "location": "Chembur, Mumbai, Maharashtra",
+    "location": "Plot No 97, Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "Landmark of Modern Housing",
     "description": "Little Malabar Hill is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
@@ -187,7 +187,7 @@
     "images": [],
     "featuredImage": "/LMH.jpg",
     "possession": "Ready to move",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Little Malabar Hill - Luxury Apartments in Chembur",
     "metaDescription": "Little Malabar Hill is a completed residential project in Chembur offering premium 2 & 3 BHK homes with modern amenities and excellent connectivity."
   },
@@ -220,7 +220,7 @@
     "images": [],
     "featuredImage": "/z.jpg",
     "possession": "Ready to move",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Laxmi Legacy - 2 BHK Flats in Chembur",
     "metaDescription": "Laxmi Legacy offers ready-to-move 2 BHK homes with excellent connectivity near Chembur."
   },
@@ -248,7 +248,7 @@
     "images": [],
     "featuredImage": "/CVII.jpg",
     "possession": "Ready to move",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "CV II - Exclusive 2 BHK Apartments in Chembur",
     "metaDescription": "CV II offers ready-to-move 2 BHK apartments in Collector Colony, Chembur. Boutique living with modern amenities in a prime residential area."
   },
@@ -275,7 +275,7 @@
     "images": [],
     "featuredImage": "/Sai Shraddha.webp",
     "possession": "Ready to move",
-    "price": "SOLD",
+    "price": "SOLD OUT",
     "metaTitle": "Sai Shraddha - 1 & 2 BHK Homes in Deonar, Chembur",
     "metaDescription": "Find your perfect family home at Sai Shraddha, offering ready 1 & 2 BHK apartments in the peaceful locality of Deonar."
   },
@@ -302,8 +302,8 @@
     ],
     "images": [],
     "featuredImage": "/AVRONV.jpg",
-    "possession": "Ready to move",
-    "price": "SOLD",
+    "possession": "2024",
+    "price": "SOLD OUT",
     "metaTitle": "Avron V - Ultra Luxury 4 BHK Apartments in Chembur",
     "metaDescription": "Avron V is a completed luxury residential project in Chembur offering spacious 4 BHK homes with premium specifications and modern amenities."
   },
@@ -343,11 +343,11 @@
     "slug": "pardis-shingadia",
     "name": "Pardis Shingadia",
     "status": "ongoing",
-    "location": "Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "location": "1st Gaothan Road, Mahadeo Wadi, Chembur Gaothan, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "Premium Living in Sindhi Society",
-    "description": "Pardis Shingadia is an ongoing residential project in the heart of Sindhi Society, Chembur, offering modern apartments with premium finishes and excellent connectivity.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "description": "Pardis Shingadia is an ongoing residential project in the heart of Sandu garden, Chembur, offering modern apartments with premium finishes and excellent connectivity.",
+    "bhkTypes": ["2 BHK"],
     "amenities": [
       "Lift with Power Backup",
       "Gated Security",
@@ -364,26 +364,23 @@
     "reraQrCode": "/images/pardisshingadia_qr.png",
     "mahareraPdf": "/pdfs/pardis-shingadia-rera.pdf",
     "possession": "Under Construction - June 2028",
-    "price": "Contact for pricing",
-    "metaTitle": "Pardis Shingadia - 1 & 2 BHK Homes in Sindhi Society, Chembur",
-    "metaDescription": "Discover Pardis Shingadia, an ongoing residential project offering modern apartments in Sindhi Society, Chembur."
+    "price": "SOLD OUT",
+    "metaTitle": "Pardis Shingadia - 2 BHK Homes in Sandu garden, Chembur",
+    "metaDescription": "Discover Pardis Shingadia, an ongoing residential project offering modern apartments in Sandu garden, Chembur."
   },
   {
     "id": "13",
     "slug": "shangrila",
     "name": "Shangrila",
     "status": "ongoing",
-    "location": "Collector Colony, Chembur, Mumbai, Maharashtra 400074",
-    "area": "Chembur",
+    "location": "Plot no 402, 14th Rd, near Agarwal Nursing Home, Bandra West, Mumbai, Maharashtra 400050",
+    "area": "Bandra",
     "tagline": "Your Dream Home Awaits",
-    "description": "Shangrila is an ongoing residential project in Collector Colony, Chembur, offering beautifully designed apartments in a prime location with excellent connectivity and modern amenities.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": ["Modern Amenities", "Gated Community", "Landscaped Gardens"],
+    "description": "Shangrila is an ongoing residential project in Bandra West, offering beautifully designed apartments in a prime location with excellent connectivity and modern amenities.",
+    "bhkTypes": ["3 BHK", "Duplex"],
+    "amenities": ["Designer Entrance Lobby", "Rooftop Fitness Centre", "Landscaped Rooftop Lounge", "Children’s Play Area", "Rooftop Party Zone", "High-Speed Elevators"],
     "highlights": [
-      "Prime Collector Colony location",
-      "Under construction",
-      "Quality construction standards",
-      "Excellent connectivity"
+      "13-Storey Luxury Tower", "Duplex & Penthouse Homes", "Three-Side Open Homes", "Premium Interior Specifications", "Prime Bandra Location", "Contemporary Architectural Design"
     ],
     "images": [],
     "featuredImage": "/shangrila.PNG",
@@ -392,29 +389,24 @@
     "mahareraPdf": "/pdfs/shangrila-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Shangrila - Ongoing Residential Project in Collector Colony, Chembur",
-    "metaDescription": "Shangrila is an ongoing residential project in Collector Colony, Chembur with modern amenities and excellent connectivity."
+    "metaTitle": "Shangrila - Ongoing Residential Project on 14th Road, Bandra West",
+    "metaDescription": "Shangrila is an ongoing residential project on 14th Road, Bandra West with modern amenities and excellent connectivity."
   },
   {
     "id": "14",
     "slug": "pardis-chitragandha",
     "name": "Pardis Chitragandha",
     "status": "ongoing",
-    "location": "Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "location": "Deepak Kundar marg, Swastik Park, Chembur, Mumbai, Maharashtra 400071",
     "area": "Chembur",
     "tagline": "A Vision Taking Shape",
-    "description": "Pardis Chitragandha is an ongoing residential project in Sindhi Society, Chembur, offering quality homes with modern amenities in a prime residential neighborhood.",
-    "bhkTypes": ["2 BHK", "3 BHK"],
+    "description": "Pardis Chitragandha is an ongoing residential project in Swastik Park, Chembur, offering quality homes with modern amenities in a prime residential neighborhood.",
+    "bhkTypes": ["1 BHK", "2 BHK", "3 BHK"],
     "amenities": [
-      "Premium Specifications",
-      "Modern Design",
-      "Quality Construction"
+      "Elite Swastik Park, Chembur address", "Designer entrance lobby & landscaped stilt areas", "Premium-finished homes with modular kitchens", "Glass yoga room & serene terrace garden", "Earthquake-resistant, high-quality construction", "24×7 CCTV security"
     ],
     "highlights": [
-      "Prime Sindhi Society location",
-      "Under construction",
-      "Premium residential project",
-      "Quality finishes"
+      "Boutique residential tower in a premium neighbourhood", "Low-density living with thoughtfully planned layouts", "Timeless architecture with elegant façade design", "High-quality construction by an experienced developer", "Excellent connectivity to highways, rail & upcoming metro", "MahaRERA registered project ensuring transparency"
     ],
     "images": [],
     "featuredImage": "/chitragandha.JPG",
@@ -423,29 +415,24 @@
     "mahareraPdf": "/pdfs/pardis-chitragandha-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Pardis Chitragandha - Ongoing Project in Sindhi Society, Chembur",
-    "metaDescription": "Pardis Chitragandha is an ongoing residential project in Sindhi Society, Chembur with premium specifications."
+    "metaTitle": "Pardis Chitragandha - Ongoing Project in Swastik Park, Chembur",
+    "metaDescription": "Pardis Chitragandha is an ongoing residential project in Swastik Park, Chembur with premium specifications."
   },
   {
     "id": "15",
     "slug": "pardis-shivansh",
     "name": "Pardis Shivansh",
     "status": "ongoing",
-    "location": "Chembur, Mumbai, Maharashtra",
+    "location": "Kurla East, Shiv Shrushti, Chembur-Kurla zone, Mumbai, Maharashtra",
     "area": "Chembur",
     "tagline": "Excellence in Living",
     "description": "Pardis Shivansh is an ongoing residential development in Chembur offering thoughtfully designed apartments with modern amenities and excellent connectivity.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "bhkTypes": ["2 BHK"],
     "amenities": [
-      "Contemporary Design",
-      "Quality Amenities",
-      "Thoughtful Layouts"
+      "Designer entrance lobby", "Premium façade lighting", "Well-planned compound", "Premium ceramic flooring", "Designer bathroom fittings", "Modular kitchen setup"
     ],
     "highlights": [
-      "Strategic Chembur location",
-      "Under construction",
-      "Modern amenities",
-      "Quality construction"
+      "Affordable luxury homes", "Prime Shiv Shrushti location", "Excellent road & rail connectivity", "Upcoming metro advantage", "All conveniences nearby", "MahaRERA registered project"
     ],
     "images": [],
     "featuredImage": "/shivansh.JPG",
@@ -454,46 +441,49 @@
     "mahareraPdf": "/pdfs/pardis-shivansh-rera.pdf",
     "possession": "Under Construction - 2028",
     "price": "Contact for pricing",
-    "metaTitle": "Pardis Shivansh - Ongoing Project in Chembur",
-    "metaDescription": "Pardis Shivansh is an ongoing residential project in Chembur with modern amenities and excellent connectivity."
+    "metaTitle": "Pardis Shivansh - Ongoing Project in Kurla East",
+    "metaDescription": "Pardis Shivansh is an ongoing residential project in Kurla East with modern amenities and excellent connectivity."
   },
   {
     "id": "16",
     "slug": "pardis-tonian",
     "name": "Pardis Tonian",
     "status": "ongoing",
-    "location": "Chembur, Mumbai, Maharashtra",
-    "area": "Chembur",
+    "location": "355, 21st Rd, Pali Village, Bandra West, Mumbai, Maharashtra 400050",
+    "area": "Bandra",
     "tagline": "A New Beginning",
-    "description": "Pardis Tonian is a proposed residential project in Chembur. Currently in the discussion phase with landowners, this project represents our commitment to creating quality homes in prime locations.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "description": "Pardis Tonian is a proposed residential project in Bandra. Currently in the discussion phase with landowners, this project represents our commitment to creating quality homes in prime locations.",
+    "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
-      "Modern Amenities",
+      "Close to Link Road",
       "Quality Construction",
-      "Thoughtful Design"
+      "Thoughtful Design",
+      "Near 16th Road",
+      "Underground Parking",
+      "Modern Amenities"
     ],
     "highlights": [
       "Currently in discussion with landowners",
       "Prime Chembur location",
-      "Development Agreement under negotiation",
+      "Work in Progress",
       "Quality residential concept"
     ],
     "images": [],
     "featuredImage": "Scene_01_Eye Level View.jpg",
     "possession": "To be announced",
     "price": "To be announced",
-    "metaTitle": "Pardis Tonian - Proposed Project in Chembur",
-    "metaDescription": "Pardis Tonian is a proposed residential project in Chembur. Currently in discussions with landowners."
+    "metaTitle": "Pardis Tonian - Proposed Project in Bandra",
+    "metaDescription": "Pardis Tonian is a proposed residential project in Bandra. Currently in discussions with landowners."
   },
   {
     "id": "17",
     "slug": "parvati-niwas-pardis",
     "name": "Parvati Pardis",
     "status": "proposed",
-    "location": "Chembur, Mumbai, Maharashtra",
-    "area": "Chembur",
+    "location": "Bandra, Mumbai, Maharashtra",
+    "area": "Bandra",
     "tagline": "Divine Living Spaces",
-    "description": "Parvati Pardis is a proposed residential project in Chembur. We are in active discussions with landowners to bring this project to life, offering quality homes in a well-connected neighborhood.",
+    "description": "Parvati Pardis is a proposed residential project in Bandra. We are in active discussions with landowners to bring this project to life, offering quality homes in a well-connected neighborhood.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
       "Quality Specifications",
@@ -502,7 +492,7 @@
     ],
     "highlights": [
       "In talks with landowners",
-      "Strategic Chembur location",
+      "Strategic Bandra location",
       "Development Agreement being negotiated",
       "Residential concept in planning"
     ],
@@ -510,8 +500,8 @@
     "featuredImage": "",
     "possession": "To be announced",
     "price": "To be announced",
-    "metaTitle": "Parvati Niwas Pardis - Proposed Project in Chembur",
-    "metaDescription": "Parvati Niwas Pardis is a proposed residential project in Chembur. Currently in advanced discussions."
+    "metaTitle": "Parvati Niwas Pardis - Proposed Project in Bandra",
+    "metaDescription": "Parvati Niwas Pardis is a proposed residential project in Bandra. Currently in advanced discussions."
   },
   {
     "id": "18",
@@ -653,12 +643,12 @@
     "id": "23",
     "slug": "pardis-71",
     "name": "Pardis 71",
-    "status": "proposed",
+    "status": "ongoing",
     "location": "Chembur, Mumbai, Maharashtra",
     "area": "Chembur",
     "tagline": "The Next Chapter",
     "description": "Pardis 71 is a proposed residential project in Chembur. Currently in the discussion phase with landowners, this project aims to deliver quality homes with thoughtful design and modern amenities.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
+    "bhkTypes": ["Investor Units"],
     "amenities": [
       "Modern Amenities",
       "Quality Construction",
@@ -671,7 +661,7 @@
       "Quality residential concept"
     ],
     "images": [],
-    "featuredImage": "",
+    "featuredImage": "/pardis71.jpeg",
     "possession": "To be announced",
     "price": "To be announced",
     "metaTitle": "Pardis 71 - Proposed Project in Chembur",
@@ -704,5 +694,38 @@
     "price": "To be announced",
     "metaTitle": "Ananta - Proposed Project in Chembur",
     "metaDescription": "Ananta is a proposed residential project in Chembur. Currently in advanced discussions with landowners."
+  },
+  {
+    "id": "25",
+    "slug": "harchand_smruti",
+    "name": "Harchand Smruti",
+    "status": "completed",
+    "location": "Sindhi Society, Chembur, Mumbai, Maharashtra 400071",
+    "area": "Chembur",
+    "tagline": "An Oasis of Calm in Bustling Chembur",
+    "description": "Harchand Smruti is an exclusive residential development located in the well-established Sindhi Society area of Chembur. Designed for families seeking spacious homes, the project offers privacy, low-density living, and excellent access to schools, markets, and key transport routes.",
+    "bhkTypes": ["1 BHK", "2 BHK"],
+    "amenities": [
+      "Rooftop Garden",
+      "Valet Parking",
+      "Clubhouse",
+      "Swimming Pool",
+      "Near Schools/Colleges",
+      "Gym"
+    ],
+    "highlights": [
+      "Located in Sindhi Society, Chembur",
+      "Spacious and well-ventilated residences",
+      "Peaceful residential neighborhood",
+      "Limited residences for privacy",
+      "Metro Connectivity",
+      "Young Neighbourhood"
+    ],
+    "images": [],
+    "featuredImage": "/Hibuscus.jpg",
+    "possession": "2018",
+    "price": "SOLD OUT",
+    "metaTitle": "Harchand Smruti - Luxury 1 & 2 BHK Apartments in Chembur",
+    "metaDescription": "Harchand Smruti offers ready-to-move premium residences in Sindhi Society, Chembur. Spacious layouts, peaceful surroundings, and excellent city connectivity."
   }
 ]
