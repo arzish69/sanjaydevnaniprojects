@@ -99,37 +99,45 @@ export default function Home() {
     <>
       {/* Hero Section (No changes) */}
       {/* Hero Section */}
-<section className="relative h-screen flex items-center overflow-hidden">
-  {/* The Video Element */}
-  <video
-    autoPlay
-    muted
-    loop
-    playsInline
-    className="absolute inset-0 w-full h-full object-cover"
-  >
-    <source src="/hero.MP4" type="video/mp4" />
-    {/* Fallback image if video fails to load */}
-    <img src="/hero-fallback.jpg" alt="Luxury Interior" className="w-full h-full object-cover" />
-  </video>
+      <section className="relative h-screen flex items-center overflow-hidden">
+        {/* The Video Element */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/hero.MP4" type="video/mp4" />
+          {/* Fallback image if video fails to load */}
+          <img
+            src="/hero-fallback.jpg"
+            alt="Luxury Interior"
+            className="w-full h-full object-cover"
+          />
+        </video>
 
-  {/* Dark Overlay for readability */}
-  <div className="absolute inset-0 bg-black/10" />
+        {/* Dark Overlay for readability */}
+        <div className="absolute inset-0 bg-black/10" />
 
-  {/* Content */}
-  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-    <div className="text-center max-w-3xl mx-auto">
-      <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 ${cinzel.className}`}>
-        Luxury, <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">Perfected...</span>
-      </h1>
-      <p className="text-xl text-gray-200 mb-8">
-        Experience modern living with world-class amenities and trusted
-        construction quality.
-      </p>
-      
-    </div>
-  </div>
-</section>
+        {/* Content */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="text-center max-w-3xl mx-auto">
+            <h1
+              className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 ${cinzel.className}`}
+            >
+              Luxury,{" "}
+              <span className="bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent">
+                Perfected...
+              </span>
+            </h1>
+            <p className="text-xl text-gray-200 mb-8">
+              Experience modern living with world-class amenities and trusted
+              construction quality.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* --- MODIFIED: Completed Projects Carousel --- */}
       <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
@@ -322,8 +330,9 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1D427A] mt-6">
-              Why Choose{" "}
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1D427A] mt-6 leading-tight">
+              Why Choose <br className="md:hidden" />{" "}
+              {/* Force break on mobile, hide on desktop */}
               <span
                 className={`bg-gradient-to-r from-[#1D427A] via-[#2E5C9A] to-[#A6192E] bg-clip-text text-transparent ${cinzel.className}`}
               >
