@@ -136,16 +136,20 @@
     "description": "Find your sanctuary at Mangal Murti Sharan, a residential project designed for peaceful and comfortable family living.",
     "bhkTypes": ["1 BHK", "2 BHK"],
     "amenities": [
-      "Clubhouse",
-      "24/7 Water Supply",
+      "Rooftop Garden",
+      "Valet Parking",
       "Clubhouse",
       "Swimming Pool",
-      "Near Schools/Colleges"
+      "Near Schools/Colleges",
+      "Gym"
     ],
     "highlights": [
-      "Vastu-compliant homes",
-      "Close to markets and schools",
-      "Peaceful neighborhood"
+      "Located in Sindhi Society, Chembur",
+      "Spacious and well-ventilated residences",
+      "Peaceful residential neighborhood",
+      "Limited residences for privacy",
+      "Metro Connectivity",
+      "Young Neighbourhood"
     ],
     "images": [],
     "featuredImage": "/Mangal murti sharan.jpg",
@@ -165,20 +169,20 @@
     "description": "Little Malabar Hill is a modern residential project in Chembur offering thoughtfully designed apartments with a focus on comfort, functionality, and urban convenience. The development caters to families seeking premium homes in a well-connected central suburb.",
     "bhkTypes": ["2 BHK", "3 BHK"],
     "amenities": [
-      "Clubhouse",
-      "24/7 Water Supply",
+      "Rooftop Garden",
+      "Valet Parking",
       "Clubhouse",
       "Swimming Pool",
       "Near Schools/Colleges",
-      "Cricket grounds",
-      "Fitness Center",
-      "Ample Parking"
+      "Gym"
     ],
     "highlights": [
-      "Prime residential location in Chembur",
-      "Modern amenities for everyday comfort",
-      "Excellent road and rail connectivity",
-      "Well-planned layouts"
+      "Located in Sindhi Society, Chembur",
+      "Spacious and well-ventilated residences",
+      "Peaceful residential neighborhood",
+      "Limited residences for privacy",
+      "Metro Connectivity",
+      "Young Neighbourhood"
     ],
     "images": [],
     "featuredImage": "/LMH.jpg",
@@ -198,14 +202,20 @@
     "description": "Laxmi Legacy is a testament to quality construction and thoughtful design, offering comfortable homes in a well-connected locality.",
     "bhkTypes": ["2 BHK"],
     "amenities": [
-      "Landscaped Garden",
-      "Children's Play Area",
-      "Security Cabin"
+      "Rooftop Garden",
+      "Valet Parking",
+      "Clubhouse",
+      "Swimming Pool",
+      "Near Schools/Colleges",
+      "Gym"
     ],
     "highlights": [
-      "Located in Chembur",
-      "Easy access to Eastern Express Highway",
-      "Quality construction"
+      "Located in Sindhi Society, Chembur",
+      "Spacious and well-ventilated residences",
+      "Peaceful residential neighborhood",
+      "Limited residences for privacy",
+      "Metro Connectivity",
+      "Young Neighbourhood"
     ],
     "images": [],
     "featuredImage": "/z.jpg",
@@ -224,12 +234,16 @@
     "tagline": "Urban Sophistication",
     "description": "CV II is a boutique residential project located in Collector Colony, Chembur. Designed for urban homeowners, the project offers contemporary homes with modern specifications in a calm yet well-connected neighborhood.",
     "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": ["Designer Lobby", "Video Door Phone", "Rooftop Terrace"],
+    "amenities": [
+      "9-storey residential tower",
+      "Prime Collector Colony address",
+      "Excellent road, rail & monorail connectivity"
+    ],
     "highlights": [
-      "Located in Collector Colony, Chembur",
-      "Low-density boutique development",
-      "Modern interiors and finishes",
-      "Close to schools, hospitals, and daily conveniences"
+      "Close to schools, hospitals, retail & daily conveniences",
+      "Calm, green surroundings",
+      "40 well-designed apartments",
+      "Expected completion: December 2027"
     ],
     "images": [],
     "featuredImage": "/CVII.jpg",
