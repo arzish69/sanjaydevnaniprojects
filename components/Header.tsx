@@ -8,9 +8,8 @@ import { usePathname } from "next/navigation";
 const locations = [
   { name: "Bandra", href: "/flats-in-bandra" },
   { name: "Khar", href: "/flats-in-khar" },
-  { name: "BKC", href: "/flats-in-bkc" },
   { name: "Chembur", href: "/flats-in-chembur" },
-  { name: "Kurla", href: "/flats-in-kurla" },
+  { name: "Shiv Shrushti", href: "/flats-in-kurla" },
 ];
 
 export default function Header() {
