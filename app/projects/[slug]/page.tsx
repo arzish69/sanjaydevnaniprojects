@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 }
 
 // Status badge component
-function StatusBadge({ status }: { status: Project["status"] }) {
+function StatusBadge({ status, isReraRegistered }: { status: Project["status"]; isReraRegistered?: boolean }) {
   const statusConfig = {
     proposed: {
       label: "In Talks",
@@ -57,7 +57,7 @@ function StatusBadge({ status }: { status: Project["status"] }) {
     },
     ongoing: {
       label: "Under Construction",
-      sublabel: "RERA Registered",
+      sublabel: isReraRegistered ? "RERA Registered" : "RERA Pending",
       bgColor: "bg-blue-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -263,51 +263,69 @@ function UpcomingProjectContent({ project }: { project: Project }) {
   );
 }
 
-// Ongoing Project Layout - Show RERA QR code and ID
+// Ongoing Project Layout - Show RERA QR code and ID if registered
 function OngoingProjectContent({ project }: { project: Project }) {
   return (
     <div className="space-y-8">
-      {/* RERA Information - Prominent Display */}
-      <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-8">
-        <div className="flex flex-col md:flex-row gap-8 items-center">
-          {/* RERA QR Code */}
-          {project.reraQrCode && (
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <Image
-                src={project.reraQrCode}
-                alt={`RERA QR Code for ${project.name}`}
-                width={150}
-                height={150}
-                className="rounded"
-              />
-              <p className="text-center text-xs text-slate-500 mt-2">Scan to Verify</p>
-            </div>
-          )}
-
-          {/* RERA Details */}
-          <div className="flex-1 text-center md:text-left">
-            <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
-              <div className="bg-blue-500 text-white p-2 rounded-full">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-blue-800">RERA Registered Project</h3>
-            </div>
-
-            {project.reraNumber && (
-              <div className="mb-4">
-                <p className="text-sm text-blue-600 font-medium">RERA Registration Number</p>
-                <p className="text-2xl font-bold text-[#1D427A] font-mono">{project.reraNumber}</p>
+      {/* RERA Information - Only show if RERA registered */}
+      {project.isReraRegistered ? (
+        <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-8">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+            {/* RERA QR Code */}
+            {project.reraQrCode && (
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <Image
+                  src={project.reraQrCode}
+                  alt={`RERA QR Code for ${project.name}`}
+                  width={150}
+                  height={150}
+                  className="rounded"
+                />
+                <p className="text-center text-xs text-slate-500 mt-2">Scan to Verify</p>
               </div>
             )}
 
-            <p className="text-blue-700">
-              This project is registered under MahaRERA. Scan the QR code or visit the MahaRERA website to verify project details.
-            </p>
+            {/* RERA Details */}
+            <div className="flex-1 text-center md:text-left">
+              <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
+                <div className="bg-blue-500 text-white p-2 rounded-full">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-blue-800">RERA Registered Project</h3>
+              </div>
+
+              {project.reraNumber && (
+                <div className="mb-4">
+                  <p className="text-sm text-blue-600 font-medium">RERA Registration Number</p>
+                  <p className="text-2xl font-bold text-[#1D427A] font-mono">{project.reraNumber}</p>
+                </div>
+              )}
+
+              <p className="text-blue-700">
+                This project is registered under MahaRERA. Scan the QR code or visit the MahaRERA website to verify project details.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-8">
+          <div className="flex items-start gap-4">
+            <div className="bg-amber-500 text-white p-3 rounded-full">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-amber-800 mb-2">RERA Registration Pending</h3>
+              <p className="text-amber-700">
+                This project is currently under construction. RERA registration is in progress and will be updated once approved.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Project Status */}
       <div className="bg-white rounded-xl shadow-md p-8">
@@ -564,7 +582,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
                 {/* Content */}
                 <div className="text-center md:text-left">
-                  <StatusBadge status={project.status} />
+                  <StatusBadge status={project.status} isReraRegistered={project.isReraRegistered} />
                   <h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-2 tracking-tight">
                     {project.name}
                   </h1>
@@ -598,7 +616,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Hero Content */}
             <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
               <div className="max-w-7xl mx-auto">
-                <StatusBadge status={project.status} />
+                <StatusBadge status={project.status} isReraRegistered={project.isReraRegistered} />
                 <h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-2 tracking-tight">
                   {project.name}
                 </h1>
