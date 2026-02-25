@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   // ✅ IMPORTANT: Replace the value below with your real code from Google Search Console
   // Go to Search Console → Settings → Ownership verification → HTML tag → copy the content value
   verification: {
-    google: "PASTE_YOUR_REAL_GOOGLE_VERIFICATION_CODE_HERE",
+    google: "ftUMoRvlYhbP24ou1o3fZvsG3nIK4tMw9fBw3svON9U",
   },
 };
 
