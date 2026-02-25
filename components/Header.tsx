@@ -60,7 +60,7 @@ export default function Header() {
           <Link href="/" className="flex items-center group">
             <Image
               src="/logo.png"
-              alt="Sanjay Devnani Projects"
+              alt="Pardis"
               width={140}
               height={50}
               className="w-[110px] md:w-[150px] h-auto transition-transform group-hover:scale-105"

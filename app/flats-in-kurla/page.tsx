@@ -10,7 +10,7 @@ export const metadata: Metadata = genMeta({
   title:
     "Flats in Kurla - Affordable Premium Apartments | Near BKC & LBS Marg",
   description:
-    "Discover premium flats in Kurla by Sanjay Devnani Projects. Affordable apartments near BKC, LBS Marg, Kurla Station. 1, 2 & 3 BHK with modern amenities. RERA approved.",
+    "Discover premium flats in Kurla by Pardis. Affordable apartments near BKC, LBS Marg, Kurla Station. 1, 2 & 3 BHK with modern amenities. RERA approved.",
   keywords: [
     "flats in kurla",
     "apartments in kurla",
@@ -66,8 +66,8 @@ export default function FlatsInKurlaPage() {
               Whether you're looking for{" "}
               <strong>affordable 1 BHK flats in Kurla</strong>,{" "}
               <strong>spacious 2 BHK apartments near BKC</strong>, or{" "}
-              <strong>family-friendly 3 BHK residences</strong>, Sanjay Devnani
-              Projects offers quality options that match your budget and
+              <strong>family-friendly 3 BHK residences</strong>, Pardis 
+              offers quality options that match your budget and
               lifestyle.
             </p>
           </div>

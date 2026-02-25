@@ -10,7 +10,7 @@ export const metadata: Metadata = genMeta({
   title:
     "Flats in Chembur - Premium Residential Projects | 1, 2, 3 BHK Apartments",
   description:
-    "Discover premium flats in Chembur by Sanjay Devnani Projects. RERA approved residential apartments with modern amenities, prime location near Sindhi Society, Eastern Freeway. Best prices!",
+    "Discover premium flats in Chembur by Pardis. RERA approved residential apartments with modern amenities, prime location near Sindhi Society, Eastern Freeway. Best prices!",
   keywords: [
     "flats in chembur",
     "apartments in chembur",
@@ -68,8 +68,8 @@ export default function FlatsInChemburPage() {
                 Whether you're looking for{" "}
                 <strong>2 BHK flats in Chembur</strong>,{" "}
                 <strong>3 BHK apartments in Chembur</strong>, or{" "}
-                <strong>luxury residential projects</strong>, Sanjay Devnani
-                Projects offers premium options that cater to modern homebuyers.
+                <strong>luxury residential projects</strong>, Pardis
+                 offers premium options that cater to modern homebuyers.
               </p>
             </div>
           </div>

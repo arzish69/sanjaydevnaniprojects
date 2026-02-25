@@ -34,7 +34,7 @@ export default function ContactPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Sanjay Devnani Projects Office Location"
+                  title="Pardis Office Location"
                 ></iframe>
               </div>
               <div className="mt-4">

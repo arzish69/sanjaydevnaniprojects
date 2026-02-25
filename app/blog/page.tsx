@@ -6,7 +6,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 export const metadata: Metadata = genMeta({
   title: "Real Estate Blog - Tips, Insights & Market Updates",
   description:
-    "Stay updated with the latest real estate trends, property buying guides, and market insights for Chembur and Bandra. Expert advice from Sanjay Devnani Projects.",
+    "Stay updated with the latest real estate trends, property buying guides, and market insights for Chembur and Bandra. Expert advice from Pardis.",
   keywords: [
     "real estate blog mumbai",
     "property buying tips",
@@ -14,7 +14,7 @@ export const metadata: Metadata = genMeta({
     "bandra real estate news",
     "home buying guide",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/blog",
+  canonicalUrl: "https://pardis.in/blog",
 });
 
 export default function BlogPage() {

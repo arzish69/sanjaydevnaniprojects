@@ -275,7 +275,7 @@ export default function FifthAvenuePage() {
             </span>
           </h2>
           <p className="text-xl text-white/80 mb-16 font-light max-w-2xl mx-auto leading-relaxed">
-            Explore more premium projects from Sanjay Devnani and find your perfect home in the heart of Mumbai
+            Explore more premium projects from Pardis and find your perfect home in the heart of Mumbai
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-6">

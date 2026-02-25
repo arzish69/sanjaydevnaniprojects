@@ -9,7 +9,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 export const metadata: Metadata = genMeta({
   title: "Flats in BKC - Premium Apartments Near Bandra Kurla Complex",
   description:
-    "Discover premium flats near BKC by Sanjay Devnani Projects. Luxury apartments in Bandra Kurla Complex vicinity. 2 & 3 BHK with world-class amenities. RERA approved. Walk to work lifestyle.",
+    "Discover premium flats near BKC by Pardis. Luxury apartments in Bandra Kurla Complex vicinity. 2 & 3 BHK with world-class amenities. RERA approved. Walk to work lifestyle.",
   keywords: [
     "flats in bkc",
     "apartments in bkc",
@@ -65,7 +65,7 @@ export default function FlatsInBKCPage() {
               <strong>luxury apartments near BKC</strong>,{" "}
               <strong>premium 3 BHK residences</strong>, or{" "}
               <strong>modern 2 BHK flats with corporate connectivity</strong>,
-              Sanjay Devnani Projects offers exceptional options in this prime
+              Pardis offers exceptional options in this prime
               locality.
             </p>
           </div>

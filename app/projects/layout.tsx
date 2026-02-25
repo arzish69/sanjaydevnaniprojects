@@ -3,7 +3,7 @@ import { generateMetadata as genMeta } from "@/lib/seo";
 
 export const metadata: Metadata = genMeta({
   title: "All Projects - Residential Apartments in Chembur & Bandra",
-  description: "Browse all residential projects by Sanjay Devnani Projects. Proposed, upcoming, ongoing, and completed luxury apartments in Chembur and Bandra, Mumbai.",
+  description: "Browse all residential projects by Pardis. Proposed, upcoming, ongoing, and completed luxury apartments in Chembur and Bandra, Mumbai.",
   keywords: [
     "residential projects chembur",
     "apartments chembur",
@@ -12,7 +12,7 @@ export const metadata: Metadata = genMeta({
     "ongoing projects mumbai",
     "rera approved projects",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/projects",
+  canonicalUrl: "https://pardis.in/projects",
 });
 
 export default function ProjectsLayout({

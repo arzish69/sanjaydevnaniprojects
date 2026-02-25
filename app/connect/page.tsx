@@ -218,7 +218,7 @@ const PardisForm: React.FC = () => {
                 {[
                   {
                     value: "yes",
-                    label: "Yes, I have purchased from Sanjay Devnani Projects",
+                    label: "Yes, I have purchased from Pardis",
                   },
                   { value: "no", label: "No, but interested" },
                 ].map((option) => (

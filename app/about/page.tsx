@@ -7,15 +7,15 @@ import { cinzel } from "@/lib/fonts";
 export const metadata: Metadata = genMeta({
   title: "About Us - Trusted Real Estate Developers in Mumbai",
   description:
-    "Learn about Sanjay Devnani Projects - trusted real estate developers in Chembur and Bandra. Committed to delivering quality homes with affordable luxury since years.",
+    "Learn about Pardis - trusted real estate developers in Chembur and Bandra. Committed to delivering quality homes with affordable luxury since years.",
   keywords: [
     "real estate developer mumbai",
     "builders in chembur",
     "trusted builders bandra",
-    "sanjay devnani projects",
+    "Pardis",
     "quality construction mumbai",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/about",
+  canonicalUrl: "https://pardis.in/about",
 });
 
 export default function AboutPage() {
@@ -102,7 +102,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
                 <p>
-                  Since our inception, Sanjay Devnani Projects has been
+                  Since our inception, Pardis has been
                   synonymous with trust, quality, and innovation in Mumbai's
                   real estate sector. We specialize in crafting premium
                   residential properties in the city's most coveted locations –
@@ -264,7 +264,7 @@ export default function AboutPage() {
                       The Foundation
                     </h3>
                     <p className="text-slate-700">
-                      Sanjay Devnani Projects established with a vision to
+                      Pardis established with a vision to
                       transform Mumbai real estate
                     </p>
                   </div>

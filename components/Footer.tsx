@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-4 tracking-tight">
-              Sanjay Devnani Projects
+              Pardis
             </h3>
             <p className="text-slate-200 text-sm">
               Bringing affordable luxury to Mumbai's real estate. Trusted
@@ -128,7 +128,7 @@ export default function Footer() {
 
         <div className="border-t border-[#2d5595] mt-8 pt-8 text-center text-sm text-slate-200">
           <p>
-            &copy; {new Date().getFullYear()} Sanjay Devnani Projects. All
+            &copy; {new Date().getFullYear()} Pardis. All
             rights reserved.
           </p>
         </div>

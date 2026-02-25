@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   return genMeta({
     title: project.metaTitle,
     description: project.metaDescription,
-    canonicalUrl: `https://www.sanjaydevnaniprojects.com/projects/${project.slug}`,
+    canonicalUrl: `https://pardis.in/projects/${project.slug}`,
     ogImage: project.featuredImage,
   });
 }

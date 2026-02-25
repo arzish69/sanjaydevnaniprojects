@@ -9,7 +9,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 export const metadata: Metadata = genMeta({
   title: "Flats in Khar - Premium Residential Projects | Luxury Apartments",
   description:
-    "Discover premium flats in Khar by Sanjay Devnani Projects. Luxury apartments in Khar West near Linking Road, Carter Road. 2 & 3 BHK with world-class amenities. RERA approved.",
+    "Discover premium flats in Khar by Pardis. Luxury apartments in Khar West near Linking Road, Carter Road. 2 & 3 BHK with world-class amenities. RERA approved.",
   keywords: [
     "flats in khar",
     "apartments in khar",
@@ -64,7 +64,7 @@ export default function FlatsInKharPage() {
               Whether you're looking for{" "}
               <strong>luxury 2 BHK flats in Khar West</strong>,{" "}
               <strong>premium 3 BHK apartments</strong>, or{" "}
-              <strong>spacious family residences</strong>, Sanjay Devnani Projects
+              <strong>spacious family residences</strong>, Pardis
               offers exceptional options in this sought-after locality.
             </p>
           </div>
