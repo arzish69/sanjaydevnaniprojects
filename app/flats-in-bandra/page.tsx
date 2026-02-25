@@ -24,7 +24,7 @@ export const metadata: Metadata = genMeta({
     "2 bhk in bandra",
     "3 bhk in bandra",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/flats-in-bandra",
+  canonicalUrl: "https://pardis.in/flats-in-bandra",
 });
 
 export default function FlatsInBandraPage() {

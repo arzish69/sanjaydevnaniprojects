@@ -25,7 +25,7 @@ export const metadata: Metadata = genMeta({
     "flats near chembur station",
     "luxury flats chembur",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/flats-in-chembur",
+  canonicalUrl: "https://pardis.in/flats-in-chembur",
 });
 
 export default function FlatsInChemburPage() {
@@ -177,10 +177,10 @@ export default function FlatsInChemburPage() {
                   affordable housing options in a prime location.
                 </p>
                 <Link
-                  href="/projects"
+                  href="/contact"
                   className="text-[#1D427A] font-medium hover:underline"
                 >
-                  View 1 BHK Projects →
+                  Enquire Now →
                 </Link>
               </div>
 
@@ -193,10 +193,10 @@ export default function FlatsInChemburPage() {
                   modern amenities and excellent ventilation.
                 </p>
                 <Link
-                  href="/2-bhk-in-chembur"
+                  href="/contact"
                   className="text-[#1D427A] font-medium hover:underline"
                 >
-                  View 2 BHK Projects →
+                  Enquire Now →
                 </Link>
               </div>
 
@@ -209,10 +209,10 @@ export default function FlatsInChemburPage() {
                   families looking for luxury and comfort.
                 </p>
                 <Link
-                  href="/projects"
+                  href="/contact"
                   className="text-[#1D427A] font-medium hover:underline"
                 >
-                  View 3 BHK Projects →
+                  Enquire Now →
                 </Link>
               </div>
             </div>

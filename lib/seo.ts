@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 
-const SITE_URL = "https://www.sanjaydevnaniprojects.com";
-const SITE_NAME = "Sanjay Devnani Projects";
-const DEFAULT_DESCRIPTION = "Premium residential projects in Chembur and Bandra, Mumbai. Discover affordable luxury apartments by Sanjay Devnani Projects - trusted builders in Mumbai.";
+const SITE_URL = "https://pardis.in";
+const SITE_NAME = "Pardis";
+const DEFAULT_DESCRIPTION =
+  "Buy premium RERA approved flats in Chembur & Bandra, Mumbai. Pardis offers 1, 2, 3 & 4 BHK apartments with world-class amenities in prime Mumbai locations.";
 
 export function generateMetadata({
   title,
@@ -20,7 +21,7 @@ export function generateMetadata({
   const metaTitle = `${title} | ${SITE_NAME}`;
   const metaDescription = description || DEFAULT_DESCRIPTION;
   const url = canonicalUrl || SITE_URL;
-  const image = ogImage || `${SITE_URL}/images/og-default.jpg`;
+  const image = ogImage || `${SITE_URL}/images/og-image.jpg`;
 
   return {
     title: metaTitle,
@@ -74,28 +75,27 @@ export const organizationSchema = {
   "@type": "RealEstateBusiness",
   name: SITE_NAME,
   url: SITE_URL,
-  logo: `${SITE_URL}/images/logo.png`,
+  logo: `${SITE_URL}/logo.png`,
   description: DEFAULT_DESCRIPTION,
+  telephone: "+91-9833555680",
+  email: "sales.pardis@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Sindhi Society",
     addressLocality: "Chembur",
     addressRegion: "Mumbai, Maharashtra",
+    postalCode: "400071",
     addressCountry: "IN",
   },
   areaServed: [
-    {
-      "@type": "City",
-      name: "Chembur",
-    },
-    {
-      "@type": "City",
-      name: "Bandra",
-    },
+    { "@type": "City", name: "Chembur" },
+    { "@type": "City", name: "Bandra" },
+    { "@type": "City", name: "Kurla" },
   ],
+  // ✅ Add your real social media URLs here
   sameAs: [
-    "https://www.facebook.com/sanjaydevnaniprojects",
-    "https://www.instagram.com/sanjaydevnaniprojects",
+    // "https://www.instagram.com/pardis.in",
+    "https://www.instagram.com/pardis.constructions/",
   ],
 };
 
@@ -103,10 +103,11 @@ export const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: SITE_NAME,
-  image: `${SITE_URL}/images/logo.png`,
+  image: `${SITE_URL}/logo.png`,
   "@id": SITE_URL,
   url: SITE_URL,
-  telephone: "+91-XXXXXXXXXX",
+  telephone: "+91-9833555680",
+  email: "sales.pardis@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Sindhi Society",
@@ -122,8 +123,16 @@ export const localBusinessSchema = {
   },
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    dayOfWeek: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ],
     opens: "10:00",
     closes: "18:00",
   },
+  priceRange: "₹₹₹",
 };

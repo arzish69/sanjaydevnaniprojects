@@ -65,6 +65,14 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
+                  href="/flats-in-bandra"
+                  className="text-slate-200 hover:text-white transition-colors"
+                >
+                  Flats in Bandra
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/flats-in-chembur"
                   className="text-slate-200 hover:text-white transition-colors"
                 >
@@ -73,18 +81,18 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/2-bhk-in-chembur"
+                  href="/flats-in-khar"
                   className="text-slate-200 hover:text-white transition-colors"
                 >
-                  2 BHK in Chembur
+                  Flats in Khar
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/flats-in-bandra"
+                  href="/flats-in-kurla"
                   className="text-slate-200 hover:text-white transition-colors"
                 >
-                  Flats in Bandra
+                  Flats in Kurla
                 </Link>
               </li>
             </ul>

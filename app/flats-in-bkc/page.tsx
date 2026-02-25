@@ -23,7 +23,7 @@ export const metadata: Metadata = genMeta({
     "walk to work bkc",
     "bandra kurla complex flats",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/flats-in-bkc",
+  canonicalUrl: "https://pardis.in/flats-in-bkc",
 });
 
 export default function FlatsInBKCPage() {

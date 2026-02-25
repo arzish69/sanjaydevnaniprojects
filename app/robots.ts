@@ -9,6 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://www.sanjaydevnaniprojects.com/sitemap.xml",
+    // ✅ FIXED: Using the actual live domain pardis.in
+    sitemap: "https://pardis.in/sitemap.xml",
   };
 }

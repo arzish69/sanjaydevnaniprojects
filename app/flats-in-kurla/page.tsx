@@ -25,7 +25,7 @@ export const metadata: Metadata = genMeta({
     "flats near bkc kurla",
     "lbs marg flats",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/flats-in-kurla",
+  canonicalUrl: "https://pardis.in/flats-in-kurla",
 });
 
 export default function FlatsInKurlaPage() {

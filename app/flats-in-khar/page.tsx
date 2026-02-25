@@ -23,7 +23,7 @@ export const metadata: Metadata = genMeta({
     "flats near linking road",
     "khar west flats",
   ],
-  canonicalUrl: "https://www.sanjaydevnaniprojects.com/flats-in-khar",
+  canonicalUrl: "https://pardis.in/flats-in-khar",
 });
 
 export default function FlatsInKharPage() {

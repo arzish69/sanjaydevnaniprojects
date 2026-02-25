@@ -4,9 +4,9 @@ import projects from "@/data/projects.json";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.sanjaydevnaniprojects.com";
+  // ✅ FIXED: Using the actual live domain pardis.in
+  const baseUrl = "https://pardis.in";
 
-  // Static pages
   const staticPages = [
     {
       url: baseUrl,
@@ -22,12 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/flats-in-chembur`,
-      lastModified: new Date(),
-      changeFrequency: "weekly" as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/2-bhk-in-chembur`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.9,
@@ -58,13 +52,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Project pages
-  const projectPages = projects.map((project) => ({
-    url: `${baseUrl}/projects/${project.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }));
+  // ✅ FIXED: Only include completed and ongoing projects in sitemap.
+  // Proposed projects have no real content yet — including them wastes Google's crawl budget
+  // and can hurt your rankings with thin/duplicate content pages.
+  const projectPages = projects
+    .filter((project) =>
+      project.status === "completed" || project.status === "ongoing"
+    )
+    .map((project) => ({
+      url: `${baseUrl}/projects/${project.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      // Give ongoing projects slightly higher priority as they have active inventory
+      priority: project.status === "ongoing" ? 0.9 : 0.8,
+    }));
 
   return [...staticPages, ...projectPages];
 }

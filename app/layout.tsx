@@ -8,47 +8,53 @@ import { organizationSchema, localBusinessSchema } from "@/lib/seo";
 import { inter } from "@/lib/fonts";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.sanjaydevnaniprojects.com"),
+  metadataBase: new URL("https://pardis.in"),
   title: {
-    default: "Sanjay Devnani Projects | Premium Flats in Chembur & Bandra | Affordable Luxury",
+    default: "Flats in Chembur & Bandra Mumbai | Sanjay Devnani Projects | RERA Approved",
     template: "%s | Sanjay Devnani Projects",
   },
-  description: "Discover premium residential projects in Chembur and Bandra, Mumbai. Sanjay Devnani Projects offers affordable luxury apartments with world-class amenities. RERA approved projects.",
+  description:
+    "Buy premium flats in Chembur & Bandra, Mumbai. Sanjay Devnani Projects (Pardis) offers RERA approved 1, 2, 3 BHK apartments in Sindhi Society, Collector Colony & Bandra West.",
   keywords: [
     "flats in chembur",
     "apartments in chembur",
     "flats in bandra",
+    "2 bhk in chembur",
+    "3 bhk in chembur",
+    "1 bhk in chembur",
     "residential projects chembur",
     "luxury flats mumbai",
-    "affordable flats chembur",
-    "2 bhk chembur",
-    "3 bhk chembur",
-    "real estate chembur",
-    "property in chembur",
+    "rera approved flats chembur",
     "sanjay devnani projects",
+    "pardis projects mumbai",
+    "sindhi society chembur flats",
+    "collector colony chembur",
+    "new projects in chembur",
   ],
   authors: [{ name: "Sanjay Devnani Projects" }],
   creator: "Sanjay Devnani Projects",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://www.sanjaydevnaniprojects.com",
+    url: "https://pardis.in",
     siteName: "Sanjay Devnani Projects",
-    title: "Sanjay Devnani Projects | Premium Flats in Chembur & Bandra",
-    description: "Discover premium residential projects in Chembur and Bandra, Mumbai. Affordable luxury apartments with world-class amenities.",
+    title: "Flats in Chembur & Bandra Mumbai | Sanjay Devnani Projects",
+    description:
+      "Buy premium RERA approved flats in Chembur & Bandra, Mumbai. 1, 2, 3 & 4 BHK apartments by trusted builders Sanjay Devnani Projects.",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Sanjay Devnani Projects",
+        alt: "Sanjay Devnani Projects - Premium Flats in Chembur & Bandra Mumbai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sanjay Devnani Projects | Premium Flats in Chembur & Bandra",
-    description: "Discover premium residential projects in Chembur and Bandra, Mumbai. Affordable luxury apartments with world-class amenities.",
+    title: "Flats in Chembur & Bandra Mumbai | Sanjay Devnani Projects",
+    description:
+      "Buy premium RERA approved flats in Chembur & Bandra, Mumbai. 1, 2, 3 & 4 BHK apartments by trusted builders.",
     images: ["/images/og-image.jpg"],
   },
   robots: {
@@ -62,8 +68,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  // ✅ IMPORTANT: Replace the value below with your real code from Google Search Console
+  // Go to Search Console → Settings → Ownership verification → HTML tag → copy the content value
   verification: {
-    google: "your-google-verification-code",
+    google: "PASTE_YOUR_REAL_GOOGLE_VERIFICATION_CODE_HERE",
   },
 };
 
