@@ -563,34 +563,6 @@
   },
   {
     "id": "20",
-    "slug": "urmila-chs",
-    "name": "Urmila CHS",
-    "status": "proposed",
-    "location": "Chembur, Mumbai, Maharashtra",
-    "area": "Khar",
-    "tagline": "Community Redevelopment",
-    "description": "Urmila CHS is a proposed redevelopment project in Chembur. We are in active discussions with the housing society members to bring modern living spaces to this established community.",
-    "bhkTypes": ["1 BHK", "2 BHK"],
-    "amenities": [
-      "Modern Amenities",
-      "Quality Construction",
-      "Community Spaces"
-    ],
-    "highlights": [
-      "Currently in discussion with society members",
-      "Established Chembur location",
-      "Development Agreement under negotiation",
-      "Redevelopment project"
-    ],
-    "images": [],
-    "featuredImage": "",
-    "possession": "To be announced",
-    "price": "To be announced",
-    "metaTitle": "Urmila CHS - Proposed Redevelopment in Chembur",
-    "metaDescription": "Urmila CHS is a proposed redevelopment project in Chembur. Currently in discussions with society members."
-  },
-  {
-    "id": "21",
     "slug": "premier-chs",
     "name": "Premier CHS",
     "status": "proposed",
@@ -618,7 +590,7 @@
     "metaDescription": "Premier CHS is a proposed redevelopment project in Chembur. Currently in advanced discussions."
   },
   {
-    "id": "22",
+    "id": "21",
     "slug": "amar-chs",
     "name": "Amar CHS",
     "status": "proposed",
@@ -646,7 +618,7 @@
     "metaDescription": "Amar CHS is a proposed redevelopment project in Chembur. Currently in discussions with society members."
   },
   {
-    "id": "23",
+    "id": "22",
     "slug": "pardis-71",
     "name": "Pardis 71",
     "status": "ongoing",
@@ -674,10 +646,10 @@
     "metaDescription": "Pardis 71 is a proposed residential project in Chembur. Currently in discussions with landowners."
   },
   {
-    "id": "24",
+    "id": "23",
     "slug": "ananta",
     "name": "Ananta",
-    "status": "proposed",
+    "status": "completed",
     "location": "Chembur, Mumbai, Maharashtra",
     "area": "Bandra",
     "tagline": "Infinite Possibilities",
