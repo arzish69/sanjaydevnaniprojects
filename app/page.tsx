@@ -37,7 +37,7 @@ export default function Home() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/hero.MP4" type="video/mp4" />
+          <source src="/hero_video.MP4" type="video/mp4" />
           <img
             src="/hero-fallback.jpg"
             alt="Luxury residential apartment interior by Pardis"
