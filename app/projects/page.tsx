@@ -110,7 +110,11 @@ function ProjectCard({ project }: { project: Project }) {
           src={project.featuredImage}
           alt={project.name}
           fill
-          className="object-cover"
+          className={
+            ["sai-saburi", "pardis-shingadia", "shangrila"].includes(project.slug)
+              ? "object-contain"
+              : "object-cover"
+          }
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div className="absolute top-3 left-3">
