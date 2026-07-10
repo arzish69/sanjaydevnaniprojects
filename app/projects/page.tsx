@@ -103,15 +103,16 @@ function ProjectCard({ project }: { project: Project }) {
 
   // Regular card for other statuses
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full">
       {/* Image */}
       <div className="relative h-56">
         <Image
           src={project.featuredImage}
           alt={project.name}
           fill
-          className="object-cover"
+          className="object-scale-down"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          style={project.slug === "pardis-chitragandha" ? { borderColor: "rgba(105, 6, 17, 1)" } : undefined}
         />
         <div className="absolute top-3 left-3">
           <StatusBadge status={project.status} />
@@ -253,7 +254,7 @@ export default function ProjectsPage() {
       {/* Page Header with Filter */}
       <section className="bg-gradient-to-br from-[#1D427A] to-[#2d5a9e] py-16 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight" style={{fontFamily: "Cinzel, serif"}}>
             Our Projects
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mb-8">
