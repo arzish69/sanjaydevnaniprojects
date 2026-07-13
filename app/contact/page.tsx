@@ -27,7 +27,7 @@ export default function ContactPage() {
               </h2>
               <div className="w-full h-[500px] rounded-lg overflow-hidden shadow-lg">
                 <iframe
-                  src="https://www.google.com/maps/place/Pavilion+Business+Square+by+KK+Group/@19.0526094,72.8894764,18z/data=!3m1!4b1!4m6!3m5!1s0x3be7c9630a1282ab:0xd3f47a7141850f0a!8m2!3d19.0526094!4d72.8905181!16s%2Fg%2F11py22m0zv?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D"
+                  src="https://www.google.com/maps?q=19.0526094,72.8905181&z=18&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
