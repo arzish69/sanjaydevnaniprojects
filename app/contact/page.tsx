@@ -99,7 +99,9 @@ export default function ContactPage() {
                     Office Address
                   </h3>
                   <p className="text-slate-700 ml-7">
-                    704, KK Pavilion Business Square, B-18, SG Barve Marg, Sindhi Society,
+                    704, KK Pavilion Business Square, B-18,
+                    <br />
+                    SG Barve Marg, Sindhi Society,
                     <br />
                     Chembur, Mumbai, Maharashtra 400071
                     <br />
