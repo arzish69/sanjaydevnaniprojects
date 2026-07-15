@@ -104,8 +104,8 @@ export default function Footer() {
               Contact
             </h3>
             <ul className="space-y-2 text-sm text-slate-200">
-              <li>Sindhi Society, Chembur</li>
-              <li>Mumbai, Maharashtra 400071</li>
+              <li>UNIT NO 704, 7th Floor, Pavilion Business Square</li>
+              <li>Sindhi Society, Above MC Donald, Mumbai-400071</li>
               <li>
                 <a
                   href="tel:+919833555680"
