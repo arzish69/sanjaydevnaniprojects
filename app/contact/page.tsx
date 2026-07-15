@@ -99,13 +99,11 @@ export default function ContactPage() {
                     Office Address
                   </h3>
                   <p className="text-slate-700 ml-7">
-                    704, KK Pavilion Business Square, B-18,
+                    UNIT NO 704, 7th Floor, Pavilion Business Square
                     <br />
-                    SG Barve Marg, Sindhi Society,
+                    Sindhi Society, Above MC Donald,
                     <br />
-                    Chembur, Mumbai, Maharashtra 400071
-                    <br />
-                    India
+                    Sindhi Society, Mumbai-400071
                   </p>
                 </div>
 
