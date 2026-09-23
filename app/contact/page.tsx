@@ -27,7 +27,7 @@ export default function ContactPage() {
               </h2>
               <div className="w-full h-[500px] rounded-lg overflow-hidden shadow-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7267486867374!2d72.89843607516777!3d19.04951048212628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c616c6a87b85%3A0x9c5e6b6b6b6b6b6b!2sSindhi%20Society%2C%20Chembur%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                  src="https://www.google.com/maps?q=19.0526094,72.8905181&z=18&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -39,7 +39,7 @@ export default function ContactPage() {
               </div>
               <div className="mt-4">
                 <a
-                  href="https://maps.app.goo.gl/eWokMdqBDYJPzk6EA"
+                  href="https://maps.app.goo.gl/ZWoaEkDt1fM2LSF56"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-[#1D427A] font-semibold hover:text-[#A6192E] transition-colors"
@@ -99,11 +99,11 @@ export default function ContactPage() {
                     Office Address
                   </h3>
                   <p className="text-slate-700 ml-7">
-                    Sindhi Society, Chembur
+                    UNIT NO 704, 7th Floor, Pavilion Business Square
                     <br />
-                    Mumbai, Maharashtra 400071
+                    Sindhi Society, Above MC Donald,
                     <br />
-                    India
+                    Sindhi Society, Mumbai-400071
                   </p>
                 </div>
 
